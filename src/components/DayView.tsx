@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 import { Day, Event, Month } from '../modules/Month';
 
-export function EventView(props: { data: Event }) {
+export function EventView(props: { data?: Event }) {
   const { data } = props;
 
   return <div className="event-list">
@@ -43,6 +43,53 @@ export function EventView(props: { data: Event }) {
       </div>
     }
     {
+      data?.isCraftItem && <div className="event">
+        {
+          data?.itemCraft && <div className="event-content">
+            {data.itemCraft.join(', ')}
+          </div>
+        }
+      </div>
+    }
+    {
+      data?.isSkillUp && <div className="event">
+        {
+          data?.skills && <div className="event-content">
+            <p>Skill Up: <strong>
+              {
+                data.skills.map(skill => `${skill.name} +${skill.increase}`).join(', ')
+              }
+            </strong>
+            </p>
+          </div>
+        }
+      </div>
+    }
+    {
+      data?.isVisitLibrary && <div className="event">
+        {
+          data.isBorrowBook && <div className="event-content">
+            Borrow {data.bookNames?.join(', ')}
+          </div>
+        }
+      </div>
+    }
+    {
+      data?.isBuyItem && <div className="event">
+        <div className="event-content">Buy <strong>{data?.buyItems?.join(', ')}</strong>
+        </div>
+      </div>
+    }
+    {
+      data?.isVisitPerson && <div className="event">
+        <div className="event-content">
+          {
+            data?.visitedPeople?.map(person => <p>Visit <strong>{person}</strong></p>)
+          }
+        </div>
+      </div>
+    }
+    {
       data?.notes && <div className="event">
         <div className="event-content">
           {
@@ -70,6 +117,6 @@ export function DayView(props: { data: Day, month: Month }) {
     {day.evening && <p className="day-evening">Evening</p>}
     <EventView data={day.evening} />
 
-    {!(day.daytime && day.evening) && <p>Automatic</p>}
+    {!(day.daytime || day.evening) && <p>Automatic</p>}
   </div>;
 }

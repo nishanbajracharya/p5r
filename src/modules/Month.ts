@@ -112,8 +112,8 @@ export type Skill = {
 export type Day = {
   date: number;
   name: DayNames;
-  daytime: Event;
-  evening: Event;
+  daytime?: Event;
+  evening?: Event;
 }
 
 export class Month {
