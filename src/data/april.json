@@ -1,0 +1,56 @@
+{
+  "name": "April",
+  "month": 4,
+  "days": [
+    {
+      "date": 9,
+      "name": "Saturday"
+    },
+    {
+      "date": 10,
+      "name": "Sunday"
+    },
+    {
+      "date": 11,
+      "name": "Monday"
+    },
+    {
+      "date": 12,
+      "name": "Tuesday",
+      "daytime": {
+        "isClass": true,
+        "classAnswers": [
+          "Villains"
+        ],
+        "isSkillUp": true,
+        "skills": [
+          {
+            "name": "Knowledge",
+            "increase": 2,
+            "rank": 1
+          }
+        ],
+        "isPalaceInfiltration": true,
+        "isTrophyEarned": true,
+        "trophies": [
+          "Spirit of Rebellion"
+        ]
+      },
+      "evening": {
+        "isConfidantUp": true,
+        "confidants": [
+          {
+            "name": "Chariot",
+            "increase": 1,
+            "rank": 1
+          },
+          {
+            "name": "Fool",
+            "increase": 1,
+            "rank": 1
+          }
+        ]
+      }
+    }
+  ]
+}
