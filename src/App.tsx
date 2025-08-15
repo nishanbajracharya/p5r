@@ -1,11 +1,12 @@
 import './assets/styles/App.css';
-import logo from './assets/images/p5r-logo.png';
+import April from './data/april.json';
+import { Day, Month } from './modules/Month';
+import { MonthView } from './components/MonthView';
 
 function App() {
   return (
     <>
-      <h1>Vite + React</h1>
-      <img src={logo} />
+      <MonthView data={new Month(April.month, April.name, April.days as Day[])} />
     </>
   );
 }
