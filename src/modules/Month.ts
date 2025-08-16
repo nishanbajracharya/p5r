@@ -35,6 +35,12 @@ export type VisitPerson = {
   location?: string;
 }
 
+export type ConfidantAnswers = {
+  answer?: string;
+  specific?: boolean;
+  isPhone?: boolean;
+}
+
 export type Event = {
   isClass?: boolean;
   classAnswers?: string[];
@@ -56,6 +62,7 @@ export type Event = {
   itemCraft?: Item[];
 
   isVisitPerson?: boolean;
+  isConfidantHangout?: boolean;
   visitedPeople?: VisitPerson[];
 
   isConfidantUp?: boolean;
@@ -105,6 +112,8 @@ export type Event = {
   bossNames?: string[];
 
   isVisitClinic?: boolean;
+
+  confidantAnswers?: ConfidantAnswers[];
 
   notes?: string[];
 }

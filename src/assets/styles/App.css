@@ -72,6 +72,27 @@ header {
   margin-right: 1em;
 }
 
+.day {
+  margin-bottom: 2em;
+}
+
+.day .day-header {
+  font-weight: bold;
+}
+
+.day .day-daytime, .day .day-evening {
+  /* margin-top: 0.5em; */
+  font-weight: bold;
+}
+
+.day .event-list {
+  margin-left: 1em;
+}
+
+.day p {
+  margin: 0;
+}
+
 /* Responsive behavior */
 @media (max-width: 768px) {
   .wrapper {

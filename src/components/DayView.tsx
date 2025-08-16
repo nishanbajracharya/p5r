@@ -10,16 +10,24 @@ export function EventView(props: { data?: Event[] }) {
       <div className="event-list" key={`${event.toString()}-${index}`}>
         {
           event?.isClass && <div className="event">
-            <p className="event-header">Class</p>
             {
               event?.classAnswers && <div className="event-content">
-                <p>Answers: <strong>{event.classAnswers.join(', ')}</strong></p>
+                <p>Class Answers: <strong>{event.classAnswers.join(', ')}</strong></p>
               </div>
             }
           </div>
         }
         {
-          event?.isPalaceInfiltration && <div className="event">Palace Infiltration</div>
+          event?.isCrosswordSolve && <div className="event">
+            {
+              event?.crosswordAnswers && <div className="event-content">
+                <p>Crossword Answers: <strong>{event.crosswordAnswers.join(', ')}</strong></p>
+              </div>
+            }
+          </div>
+        }
+        {
+          event?.isPalaceInfiltration && <div className="event"><div className="event-content"><p>Palace Infiltration</p></div></div>
         }
         {
           event?.isTrophyEarned && <div className="event">
@@ -71,7 +79,7 @@ export function EventView(props: { data?: Event[] }) {
           event?.isVisitLibrary && <div className="event">
             {
               event.isBorrowBook && <div className="event-content">
-                Borrow {event.bookNames?.join(', ')}
+                <p>Borrow {event.bookNames?.join(', ')}</p>
               </div>
             }
           </div>
@@ -79,14 +87,22 @@ export function EventView(props: { data?: Event[] }) {
         {
           event?.isBuyItem && <div className="event">
             <div className="event-content">
-              <p>Buy <strong>{event?.buyItems?.map(item => `${item.name} at ${item.location}`).join(', ')}</strong></p>
+              <p>Buy <strong>{event?.buyItems?.map(item => {
+                if (!item.location) return item.name;
+
+                return `${item.name} at ${item.location}`;
+              }).join(', ')}</strong></p>
             </div>
           </div>
         }
         {
-          event?.isVisitPerson && <div className="event">
+          (event?.isVisitPerson || event?.isConfidantHangout) && <div className="event">
             <div className="event-content">
-              <p>Visit <strong>{event?.visitedPeople?.map(person => `${person.name} at ${person.location}`).join(', ')}</strong></p>
+              <p>{event?.isConfidantHangout ? 'Hangout with' : 'Visit'} <strong>{event?.visitedPeople?.map(person => {
+                if (!person.location) return person.name;
+
+                return `${person.name} at ${person.location}`;
+              }).join(', ')}</strong></p>
             </div>
           </div>
         }
@@ -95,6 +111,19 @@ export function EventView(props: { data?: Event[] }) {
             <div className="event-content">
               {
                 event.notes.map(note => <p key={note}>{note}</p>)
+              }
+            </div>
+          </div>
+        }
+        {
+          event?.confidantAnswers && event.confidantAnswers.length > 0 && <div className="event">
+            <p className="event-headers">Confidant Answers</p>
+            <div className="event-content">
+              {
+                event.confidantAnswers.map(answer => {
+                  if (answer.specific) return <p key={answer.answer}><strong>{answer.answer}</strong></p>;
+                  return <p key={answer.answer}>{answer.answer}</p>;
+                })
               }
             </div>
           </div>

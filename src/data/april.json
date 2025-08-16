@@ -162,7 +162,7 @@
               "location": "Clinic"
             }
           ]
-        }, 
+        },
         {
           "isConfidantUp": true,
           "confidants": [
@@ -183,7 +183,78 @@
         }
       ],
       "evening": [
-        {}
+        {
+          "isCrosswordSolve": true,
+          "crosswordAnswers": [
+            "Semesters"
+          ]
+        },
+        {
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2,
+              "rank": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 19,
+      "name": "Tuesday",
+      "daytime": [
+        {
+          "isClass": true,
+          "classAnswers": [
+            "The're the same."
+          ]
+        },
+        {
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2,
+              "rank": 1
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Ryuji"
+            }
+          ]
+        },
+        {
+          "confidantAnswers": [
+            {
+              "answer": "I'm counting on you.",
+              "specific": true
+            },
+            {
+              "answer": "Either Choice",
+              "specific": false
+            },
+            {
+              "answer": "Do you want to go back?",
+              "specific": true
+            }
+          ]
+        },
+        {
+          "isConfidantUp": true,
+          "confidants": [
+            {
+              "name": "Chariot",
+              "increase": 1,
+              "rank": 2
+            }
+          ]
+        }
       ]
     }
   ]
