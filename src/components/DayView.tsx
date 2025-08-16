@@ -114,7 +114,7 @@ export function DayView(props: { data: Day, month: Month }) {
   if (!day) return;
 
   return <div className="day">
-    <p className="day-header">{props.month.month}/{day.date} {day.name}</p>
+    <p className="day-header" id={`${props.month.month}-${day.date}`}>{props.month.month}/{day.date} {day.name}</p>
     {day.daytime && <p className="day-daytime">Daytime</p>}
     <EventView data={day.daytime} />
     {day.evening && <p className="day-evening">Evening</p>}
