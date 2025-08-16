@@ -16,7 +16,7 @@ export function MonthView(props: { data: Month }) {
 
     <div className="day-list">
       {
-        month.days.map(day => <DayView data={day} month={month} />)
+        month.days.map((day, index) => <DayView key={`${month.name}-${index}`} data={day} month={month} />)
       }
     </div>
   </div>;

@@ -25,6 +25,16 @@ export enum ConfidantNames {
   DEATH = 'Death',
 };
 
+export type Item = {
+  name?: string;
+  location?: string;
+}
+
+export type VisitPerson = {
+  name?: string;
+  location?: string;
+}
+
 export type Event = {
   isClass?: boolean;
   classAnswers?: string[];
@@ -32,8 +42,8 @@ export type Event = {
   isTrophyEarned?: boolean;
   trophies?: string[];
 
-  isBuyItem: boolean;
-  buyItems?: string[];
+  isBuyItem?: boolean;
+  buyItems?: Item[];
 
   isCrosswordSolve?: boolean;
   crosswordAnswers?: string[];
@@ -43,15 +53,15 @@ export type Event = {
   isExamineBedroomPlant?: boolean;
 
   isCraftItem?: boolean;
-  itemCraft?: string[];
+  itemCraft?: Item[];
 
   isVisitPerson?: boolean;
-  visitedPeople?: string[];
+  visitedPeople?: VisitPerson[];
 
   isConfidantUp?: boolean;
   confidants?: Confidant[];
 
-  isSkillUp: boolean;
+  isSkillUp?: boolean;
   skills?: Skill[];
 
   isVisitLibrary?: boolean;
@@ -94,6 +104,8 @@ export type Event = {
   isFinishPalace?: boolean;
   bossNames?: string[];
 
+  isVisitClinic?: boolean;
+
   notes?: string[];
 }
 
@@ -112,8 +124,8 @@ export type Skill = {
 export type Day = {
   date: number;
   name: DayNames;
-  daytime?: Event;
-  evening?: Event;
+  daytime?: Event[];
+  evening?: Event[];
 }
 
 export class Month {

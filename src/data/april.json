@@ -17,40 +17,48 @@
     {
       "date": 12,
       "name": "Tuesday",
-      "daytime": {
-        "isClass": true,
-        "classAnswers": [
-          "Villains"
-        ],
-        "isSkillUp": true,
-        "skills": [
-          {
-            "name": "Knowledge",
-            "increase": 2,
-            "rank": 1
-          }
-        ],
-        "isPalaceInfiltration": true,
-        "isTrophyEarned": true,
-        "trophies": [
-          "Spirit of Rebellion"
-        ]
-      },
-      "evening": {
-        "isConfidantUp": true,
-        "confidants": [
-          {
-            "name": "Chariot",
-            "increase": 1,
-            "rank": 1
-          },
-          {
-            "name": "Fool",
-            "increase": 1,
-            "rank": 1
-          }
-        ]
-      }
+      "daytime": [
+        {
+          "isClass": true,
+          "classAnswers": [
+            "Villains"
+          ]
+        },
+        {
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2,
+              "rank": 1
+            }
+          ]
+        },
+        {
+          "isPalaceInfiltration": true,
+          "isTrophyEarned": true,
+          "trophies": [
+            "Spirit of Rebellion"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantUp": true,
+          "confidants": [
+            {
+              "name": "Chariot",
+              "increase": 1,
+              "rank": 1
+            },
+            {
+              "name": "Fool",
+              "increase": 1,
+              "rank": 1
+            }
+          ]
+        }
+      ]
     },
     {
       "date": 13,
@@ -63,32 +71,38 @@
     {
       "date": 15,
       "name": "Friday",
-      "daytime": {
-        "isPalaceInfiltration": true,
-        "isTrophyEarned": true,
-        "trophies": ["I am Thou..."],
-        "isConfidantUp": true,
-        "confidants": [
-          {
-            "name": "Lovers",
-            "increase": 1,
-            "rank": 1
-          }
-        ],
-        "notes": [
-          "Earn at least ¥4,400 for future purchases."
-        ]
-      },
-      "evening": {
-        "confidants": [
-          {
-            "name": "Magician",
-            "increase": 1,
-            "rank": 1
-          }
-        ],
-        "isConfidantUp": true
-      }
+      "daytime": [
+        {
+          "isPalaceInfiltration": true,
+          "isTrophyEarned": true,
+          "trophies": [
+            "I am Thou..."
+          ],
+          "isConfidantUp": true,
+          "confidants": [
+            {
+              "name": "Lovers",
+              "increase": 1,
+              "rank": 1
+            }
+          ],
+          "notes": [
+            "Earn at least ¥4,400 for future purchases."
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "confidants": [
+            {
+              "name": "Magician",
+              "increase": 1,
+              "rank": 1
+            }
+          ],
+          "isConfidantUp": true
+        }
+      ]
     },
     {
       "date": 16,
@@ -97,18 +111,80 @@
     {
       "date": 17,
       "name": "Sunday",
-      "evening": {
-        "isCraftItem": true,
-        "craftitem": "Automatic",
-        "isSkillUp": true,
-        "skills": [
-          {
-            "name": "Proficency",
-            "increase": 3,
-            "rank": 1
-          }
-        ]
-      }
+      "evening": [
+        {
+          "isCraftItem": true,
+          "craftitem": "Automatic",
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Proficency",
+              "increase": 3,
+              "rank": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 18,
+      "name": "Monday",
+      "daytime": [
+        {
+          "isVisitLibrary": true,
+          "isBorrowBook": true,
+          "bookNames": [
+            "Pirate Legend"
+          ]
+        },
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Bio Nutrients (¥1,200)",
+              "location": "Underground Mall in Shibuya"
+            },
+            {
+              "name": "Silk Yarn (¥1,150)",
+              "location": "Second hand shop in Yongen-Jaya"
+            },
+            {
+              "name": "SP recovery items",
+              "location": "Vending machines"
+            }
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Takemi",
+              "location": "Clinic"
+            }
+          ]
+        }, 
+        {
+          "isConfidantUp": true,
+          "confidants": [
+            {
+              "name": "Death",
+              "increase": 1,
+              "rank": 1
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Guts",
+              "increase": 2,
+              "rank": 1
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {}
+      ]
     }
   ]
 }
