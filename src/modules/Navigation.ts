@@ -43,7 +43,7 @@ export class Navigation {
 
     return days?.map(day => ({
       day,
-      label: `${month.value}/${day.value}`,
+      label: `${month.value}/${day.value} ${day.name}`,
       value: `#${month.value}-${day.value}`
     }));
   }
