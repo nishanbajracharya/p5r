@@ -117,7 +117,7 @@ export function EventView(props: { data?: Event[] }) {
         }
         {
           event?.confidantAnswers && event.confidantAnswers.length > 0 && <div className="event">
-            <p className="event-headers">Confidant Answers</p>
+            <p className="event-header">Confidant Answers</p>
             <div className="event-content">
               {
                 event.confidantAnswers.map(answer => {

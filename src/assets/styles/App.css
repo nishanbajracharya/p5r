@@ -93,6 +93,10 @@ header {
   margin: 0;
 }
 
+.event-header + .event-content {
+  margin-left: 1em;
+}
+
 /* Responsive behavior */
 @media (max-width: 768px) {
   .wrapper {
