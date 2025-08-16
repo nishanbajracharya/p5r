@@ -61,6 +61,9 @@ export type Event = {
   isCraftItem?: boolean;
   itemCraft?: Item[];
 
+  isUseItem?: boolean;
+  useItems?: string[];
+
   isVisitPerson?: boolean;
   isConfidantHangout?: boolean;
   visitedPeople?: VisitPerson[];

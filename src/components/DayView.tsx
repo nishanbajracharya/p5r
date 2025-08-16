@@ -51,10 +51,26 @@ export function EventView(props: { data?: Event[] }) {
           </div>
         }
         {
+          event?.isExamineBedroomPlant && <div className="event">
+            <div className="event-content">
+              <p>Examine your bedroom plant</p>
+            </div>
+          </div>
+        }
+        {
+          event?.isUseItem && <div className="event">
+            {
+              event?.useItems && <div className="event-content">
+                <p>Use <strong>{event.useItems.join(', ')}</strong></p>
+              </div>
+            }
+          </div>
+        }
+        {
           event?.isCraftItem && <div className="event">
             {
               event?.itemCraft && <div className="event-content">
-                {event.itemCraft.join(', ')}
+                <p>Craft <strong>{event.itemCraft.join(', ')}</strong></p>
               </div>
             }
           </div>

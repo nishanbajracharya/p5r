@@ -255,6 +255,41 @@
             }
           ]
         }
+      ],
+      "evening": [
+        {
+          "isExamineBedroomPlant": true,
+          "isUseItem": true,
+          "useItems": [
+            "Bio Nutrients"
+          ]
+        },
+        {
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Kindness",
+              "increase": 3,
+              "rank": 1
+            }
+          ]
+        },
+        {
+          "isCraftItem": true,
+          "itemCraft": [
+            "Lockpicks"
+          ]
+        },
+        {
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Proficency",
+              "increase": 3,
+              "rank": 1
+            }
+          ]
+        }
       ]
     }
   ]
