@@ -72,21 +72,27 @@ header {
   margin-right: 1em;
 }
 
+.month-name {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
 .day {
   margin-bottom: 2em;
 }
 
 .day .day-header {
   font-weight: bold;
+  font-size: x-large;
+  color: var(--pico-accordion-open-summary-color);
 }
 
 .day .day-daytime, .day .day-evening {
-  /* margin-top: 0.5em; */
   font-weight: bold;
 }
 
 .day .event-list {
-  margin-left: 1em;
+  margin-left: 2em;
 }
 
 .day p {
@@ -94,7 +100,7 @@ header {
 }
 
 .event-header + .event-content {
-  margin-left: 1em;
+  margin-left: 2em;
 }
 
 /* Responsive behavior */
@@ -120,6 +126,7 @@ header {
 
   .main-content {
     padding: 0;
+    padding-top: 110px;
     border-left: none;
   }
 
