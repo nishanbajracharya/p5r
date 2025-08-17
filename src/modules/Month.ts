@@ -28,6 +28,10 @@ export enum ConfidantNames {
   SUN = 'Sun',
   FAITH = 'Faith',
   COUNCILLOR = 'Councillor',
+  EMPEROR = 'Emperor',
+  JUSTICE = 'Justice',
+  STRENGTH = 'Strength',
+  DEVIL = 'Devil'
 };
 
 export type Item = {
@@ -94,6 +98,11 @@ export type CallPerson = {
   requirement?: string;
   isPersonaEquipped?: boolean;
   equippedPersonas?: string[];
+}
+
+export type SellItem = {
+  name?: string;
+  location?: string;
 }
 
 export type Event = {
@@ -213,6 +222,9 @@ export type Event = {
   dartsAndBilliardsParticipants?: string[];
 
   isVisitBattingCenter?: boolean;
+
+  isSellItems?: boolean;
+  sellItems?: SellItem[];
 }
 
 export type Stats = {

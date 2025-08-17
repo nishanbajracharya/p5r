@@ -200,6 +200,18 @@ export function EventView(props: { data?: Event[] }) {
           </div>
         }
         {
+          event?.isSellItems && <div className="event">
+            <p className="event-header">Sell Items:</p>
+            {
+              event?.sellItems && <ul className="event-content">
+                {
+                  event.sellItems.map((item, index) => <li key={`${item.name}-${index}`}><strong>{`${item.name} to ${item.location}`}</strong></li>)
+                }
+              </ul>
+            }
+          </div>
+        }
+        {
           event?.isHomeShopping && <div className="event">
             <p className="event-header">Home Shopping:</p>
             {

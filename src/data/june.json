@@ -1771,16 +1771,588 @@
           ]
         }
       ]
+    },
+    {
+      "date": 24,
+      "name": "Friday",
+      "daytime": [
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Yakisoba Pan (¥150)",
+              "location": "Bread store, Shujin Academy 1F"
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Pick up your Persona from Lockdown in Velvet Room if needed.",
+            "Fuse Phoenix with Counter (Yaksini + Genbu), then speak to twins to register Phoenix."
+          ]
+        },
+        {
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Strength",
+              "increase": 1,
+              "rank": 4
+            }
+          ],
+          "notes": [
+            "Next request: Setanta with Rakukaja. Make sure to register your Personas before itemizing or fusing, and re-summon any needed for Confidant rank ups."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Ann",
+              "location": "Underground Mall",
+              "personaEquipped": "Lovers"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "It seems that way.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Comfort her.",
+              "specific": true
+            },
+            {
+              "answer": "I'll cheer you on.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Lovers",
+              "increase": 1,
+              "rank": 6
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isCallPerson": true,
+          "callPerson": {
+            "person": "Kawakami",
+            "location": "Payphone in Leblanc",
+            "isPersonaEquipped": true,
+            "equippedPersonas": [
+              "Temperance"
+            ]
+          },
+          "confidantAnswers": [
+            {
+              "answer": "Want to rest a bit?",
+              "specific": true
+            },
+            {
+              "answer": "Are you all right?",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "How are you feeling, though?",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Temperance",
+              "increase": 1,
+              "rank": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 25,
+      "name": "Saturday",
+      "daytime": [
+        {
+          "isReadBook": true,
+          "readBooks": [
+            {
+              "name": "Zorro, the Outlaw",
+              "location": "Class"
+            }
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Takemi",
+              "personaEquipped": "Death"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Just rest for today.",
+              "specific": true
+            },
+            {
+              "answer": "We all do sometimes.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Death",
+              "increase": 1,
+              "rank": 7
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Guts",
+              "increase": 2
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isCallPerson": true,
+          "callPerson": {
+            "person": "Kawakami",
+            "location": "Payphone in Leblanc",
+            "isPersonaEquipped": true,
+            "equippedPersonas": [
+              "Temperance"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "date": 26,
+      "name": "Sunday",
+      "daytime": [
+        {
+          "isHomeShopping": true,
+          "homeShoppingPurchases": [
+            "(Optional) Dark Power Set (¥1,980)"
+          ]
+        },
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Nasty Aojiru (¥5,000)",
+              "location": "Drink stand in Underground Walkway in Shibuya"
+            },
+            {
+              "name": "(Optional) SP recovery items",
+              "location": "Vending machines near Bathhouse"
+            },
+            {
+              "name": "(Optional) Medicine or equipment"
+            },
+            {
+              "name": "(Recommended) SP Adhesive 3 (¥50,000)",
+              "location": "Takemi"
+            }
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Trader Sakai",
+              "location": "Western alley, Kichijoji"
+            }
+          ],
+          "notes": [
+            "Trade Yakisoba Pan for Black Robe."
+          ]
+        },
+        {
+          "isPalaceInfiltration": true,
+          "bossName": [
+            "Kaneshiro"
+          ],
+          "isSecureInfiltrationRoute": true,
+          "notes": [
+            "Unlock Showtime Attacks.",
+            "Unlock Fusion Alarms.",
+            "Leave palace with at least ¥100,000 (recommended ¥150,000)."
+          ]
+        },
+        {
+          "isTrophyEarned": true,
+          "trophies": [
+            {
+              "name": "It's Showtime!",
+              "unlockMode": "Automatic"
+            },
+            {
+              "name": "Accident-Prone",
+              "unlockMode": "Fuse personas during Fusion Alarm"
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isCraftItem": true,
+          "itemCraft": [
+            "Infiltration tools"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Proficiency",
+              "increase": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 27,
+      "name": "Monday",
+      "daytime": [
+        {
+          "isClass": true,
+          "classAnswers": [
+            "Dogs."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "(Optional) Materials for infiltration tools"
+            }
+          ]
+        },
+        {
+          "goToHideout": true,
+          "isSendCallingCard": true
+        }
+      ],
+      "evening": [
+        {
+          "isCraftItem": true,
+          "itemCraft": [
+            "Infiltration tools"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Proficiency",
+              "increase": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 28,
+      "name": "Tuesday",
+      "daytime": [
+        {
+          "isPalaceInfiltration": true,
+          "bossName": "Kaneshiro",
+          "isFinishPalace": true,
+          "isFindWillSeeds": true
+        }
+      ],
+      "evening": [
+        {
+          "isWatchDVD": true,
+          "watchDVDs": [
+            "ICU"
+          ],
+          "location": "Bedroom",
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Kindness",
+              "increase": 5
+            }
+          ]
+        },
+        {
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Magician",
+              "increase": 1,
+              "rank": 5
+            },
+            {
+              "name": "Fool",
+              "increase": 1,
+              "rank": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 29,
+      "name": "Wednesday",
+      "daytime": [
+        {
+          "isClass": true,
+          "classAnswers": [
+            "Gold."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isSellItems": true,
+          "sellItems": [
+            {
+              "name": "All Treasure",
+              "location": "Iwai at Airsoft Shop, Shibuya"
+            },
+            {
+              "name": "Sooty Armor",
+              "location": "Secondhand Clothes Shop at Kichijoji"
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Kasumi",
+              "location": "Kichijoji",
+              "personaEquipped": "Faith"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Making bento?",
+              "specific": true
+            },
+            {
+              "answer": "I'm touched!",
+              "specific": true
+            },
+            {
+              "answer": "Is that all for you?",
+              "specific": true
+            },
+            {
+              "answer": "It's definitely unique.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Faith",
+              "increase": 1,
+              "rank": 3
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Kanda unlocked."
+          ]
+        },
+        {
+          "isCallPerson": true,
+          "callPerson": {
+            "person": "Kawakami",
+            "location": "Payphone in Leblanc",
+            "isPersonaEquipped": true,
+            "equippedPersonas": [
+              "Temperance"
+            ]
+          },
+          "confidantAnswers": [
+            {
+              "answer": "Don't pay them.",
+              "specific": true
+            },
+            {
+              "answer": "Think this through more.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Temperance",
+              "increase": 1,
+              "rank": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 30,
+      "name": "Thursday",
+      "daytime": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Yusuke",
+              "location": "Underground Walkway, Shibuya",
+              "personaEquipped": "Emperor"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Don't let it bother you.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "This isn't like you.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "That's the spirit.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Emperor",
+              "increase": 1,
+              "rank": 3
+            }
+          ],
+          "notes": [
+            "This unlocks Ueno."
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isCrosswordSolve": true,
+          "crosswordAnswers": [
+            "Front"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Chihaya",
+              "location": "Fortune Teller, Shinjuku"
+            }
+          ],
+          "notes": [
+            "Important prerequisite event for unlocking the Fortune confidant."
+          ]
+        }
+      ]
     }
   ],
   "stats": {
     "confidants": [
       {
         "name": "Fool",
-        "rank": 4
+        "rank": 6
       },
       {
         "name": "Magician",
+        "rank": 5
+      },
+      {
+        "name": "Emperor",
         "rank": 3
       },
       {
@@ -1789,45 +2361,53 @@
       },
       {
         "name": "Lovers",
-        "rank": 4
+        "rank": 6
       },
       {
         "name": "Chariot",
-        "rank": 5
+        "rank": 7
+      },
+      {
+        "name": "Justice",
+        "rank": 2
       },
       {
         "name": "Strength",
-        "rank": 1
+        "rank": 4
       },
       {
         "name": "Death",
-        "rank": 5
+        "rank": 7
       },
       {
         "name": "Temperance",
+        "rank": 7
+      },
+      {
+        "name": "Devil",
         "rank": 1
       },
       {
         "name": "Moon",
-        "rank": 2
+        "rank": 4
       },
       {
         "name": "Sun",
-        "rank": 1
+        "rank": 3
       },
       {
         "name": "Faith",
-        "rank": 1
+        "rank": 3
       },
       {
         "name": "Councillor",
-        "rank": 2
+        "rank": 5
       }
     ],
     "skills": [
       {
         "name": "Knowledge",
-        "rank": 3
+        "rank": 4
       },
       {
         "name": "Guts",
@@ -1839,11 +2419,11 @@
       },
       {
         "name": "Kindness",
-        "rank": 2
+        "rank": 3
       },
       {
         "name": "Charm",
-        "rank": 2
+        "rank": 3
       }
     ]
   }
