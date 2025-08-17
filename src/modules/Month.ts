@@ -48,15 +48,17 @@ export type ReadBook = {
 
 
 export type ConfidantRank = {
-  name: ConfidantNames;
-  rank: number;
-  increase: number;
+  name?: ConfidantNames;
+  rank?: number;
+  increase?: number;
+  rankUp?: boolean;
 }
 
 export type Skill = {
-  name: SkillNames;
-  increase: number;
-  rank: number;
+  name?: SkillNames;
+  increase?: number;
+  rank?: number;
+  rankUp?: boolean;
 };
 
 export type Day = {
@@ -74,6 +76,11 @@ export type Persona = {
 export type Trophy = {
   name?: string;
   unlockMode?: string;
+}
+
+export type Job = {
+  name?: string;
+  location?: string;
 }
 
 export type Event = {
@@ -116,12 +123,14 @@ export type Event = {
   readBooks?: ReadBook[];
   borrowBooks?: string[];
   returnBooks?: string[];
+  isStudyInLeblanc?: boolean;
+  isStudyInLibrary?: boolean;
 
   isVisitBathhouse?: boolean;
 
   isApplyJob?: boolean;
   isWorkJob?: boolean;
-  jobNames?: string[];
+  jobs?: Job[];
   jobAnswers?: string[];
 
   isPersonaEquipped?: boolean;

@@ -27,6 +27,41 @@ export function EventView(props: { data?: Event[] }) {
           </div>
         }
         {
+          event?.isStudyInLeblanc && <div className="event"><div className="event-content"><p>Study in <strong>Leblanc</strong></p></div></div>
+        }
+        {
+          event?.isStudyInLibrary && <div className="event"><div className="event-content"><p>Study in <strong>Library</strong></p></div></div>
+        }
+        {
+          event?.isMakeCoffee && <div className="event"><div className="event-content"><p>Make Coffee in <strong>Coffee Siphon in Leblanc</strong></p></div></div>
+        }
+        {
+          event?.isVisitBathhouse && <div className="event"><div className="event-content"><p>Visit Bathhouse in <strong>Yongen-Jaya</strong></p></div></div>
+        }
+        {
+          event.isApplyJob && <div className="event">
+            <p className="event-header">Apply for a job</p>
+            <ul className="event-content">
+              {
+                event.jobs?.map(job => <li key={job.name}><strong>{job.name} ({job.location})</strong></li>)
+              }
+            </ul>
+          </div>
+        }
+        {
+          event.isWorkJob && <div className="event">
+            <p className="event-header">Work at job</p>
+            <ul className="event-content">
+              {
+                event.jobs?.map(job => <li key={job.name}><strong>{job.name} ({job.location})</strong></li>)
+              }
+              {
+                event.jobAnswers && event.jobAnswers.length > 0 && <li>Answers: <strong>{event.jobAnswers.join(', ')}</strong></li>
+              }
+            </ul>
+          </div>
+        }
+        {
           event?.isPalaceInfiltration && <div className="event"><div className="event-content"><p>Palace Infiltration</p></div></div>
         }
         {
@@ -61,6 +96,18 @@ export function EventView(props: { data?: Event[] }) {
               event?.trophies && <ul className="event-content">
                 {
                   event.trophies.map(trophy => <li><strong>{`${trophy.name} (${trophy.unlockMode})`}</strong></li>)
+                }
+              </ul>
+            }
+          </div>
+        }
+        {
+          event?.isHomeShopping && <div className="event">
+            <p className="event-header">Home Shopping:</p>
+            {
+              event?.homeShoppingPurchases && <ul className="event-content">
+                {
+                  event.homeShoppingPurchases.map(item => <li><strong>{item}</strong></li>)
                 }
               </ul>
             }
@@ -109,7 +156,7 @@ export function EventView(props: { data?: Event[] }) {
             {
               event?.skills && <ul className="event-content">
                 {
-                  event.skills.map(skill => <li><strong>{`${skill.name} +${skill.increase}`}</strong></li>)
+                  event.skills.map(skill => <li><strong>{`${skill.name} +${skill.increase}`} {skill.rankUp ? `(${skill.name} Rank ${skill.rank})` : ''}</strong></li>)
                 }
               </ul>
             }
@@ -162,8 +209,9 @@ export function EventView(props: { data?: Event[] }) {
             <ul className="event-content">
               {
                 event.confidantAnswers.map(answer => {
-                  if (answer.specific) return <li key={answer.answer}><strong>{answer.answer}</strong></li>;
-                  return <li key={answer.answer}>{answer.answer}</li>;
+                  const prefix = answer.isPhone ? '(Later in Phone) ' : '';
+                  if (answer.specific) return <li key={answer.answer}><strong>{prefix}{answer.answer}</strong></li>;
+                  return <li key={answer.answer}>{prefix}{answer.answer}</li>;
                 })
               }
             </ul>

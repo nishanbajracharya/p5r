@@ -330,15 +330,313 @@
             {
               "name": "Pixie",
               "confidant": "Lovers"
-            },{
+            },
+            {
               "name": "Berith",
               "confidant": "Hierophant"
-            },{
+            },
+            {
               "name": "Agathion",
               "confidant": "Chariot"
-            },{
+            },
+            {
               "name": "Mandrake",
               "confidant": "Death"
+            }
+          ]
+        },
+        {
+          "isTrophyEarned": true,
+          "trophies": [
+            {
+              "name": "Tactical Teamwork",
+              "unlockMode": "Automatic"
+            },
+            {
+              "name": "You Better Hang On!",
+              "unlockMode": "Automatic"
+            },
+            {
+              "name": "Let's Blow It Up",
+              "unlockMode": "Unlocked by killing shadows by causing a Disaster Shadow to explode"
+            },
+            {
+              "name": "A Deadly Debut",
+              "unlockMode": "Unlocked by performing a guillotine fusion in the velvet room. Can be done later."
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isStudyInLeblanc": true,
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 21,
+      "name": "Thursday",
+      "daytime": [
+        {
+          "isStudyInLibrary": true,
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 5
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "confidantAnswers": [
+            {
+              "answer": "I'm not.",
+              "specific": true
+            },
+            {
+              "answer": "Agree to help out",
+              "specific": false
+            },
+            {
+              "answer": "Sounds interesting",
+              "specific": true
+            },
+            {
+              "answer": "Got it",
+              "specific": true
+            }
+          ]
+        },
+        {
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Hierophant",
+              "rank": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 22,
+      "name": "Friday",
+      "daytime": [
+        {
+          "isApplyJob": true,
+          "jobs": [
+            {
+              "name": "Triple Seven convenience store",
+              "location": "Underground Walkway in Shibuya"
+            }
+          ]
+        },
+        {
+          "isWorkJob": true,
+          "jobs": [
+            {
+              "name": "Triple Seven convenience store",
+              "location": "Central Street"
+            }
+          ],
+          "jobAnswers": [
+            "Near the company logo."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 3,
+              "rank": 1
+            }
+          ],
+          "isTrophyEarned": true,
+          "trophies": [
+            {
+              "name": "Punch That Clock!",
+              "unlockMode": "Automatic"
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Sojiro"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Making coffee.",
+              "specific": true
+            },
+            {
+              "answer": "That guy seemed suspicious.",
+              "specific": true
+            },
+            {
+              "answer": "I want the ladies to love me.",
+              "specific": true
+            },
+            {
+              "answer": "Got it.",
+              "specific": true,
+              "isPhone": true
+            }
+          ]
+        },
+        {
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Hierophant",
+              "increase": 1,
+              "rank": 2
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Kindness",
+              "increase": 3,
+              "rank": 1
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Yongen-Jaya at night is now unlocked."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 23,
+      "name": "Saturday",
+      "daytime": [
+        {
+          "isClass": true,
+          "classAnswers": ["All of them."]
+        },
+        {
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2,
+              "rank": 1
+            }
+          ]
+        },
+        {
+          "isStudyInLibrary": true,
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Guts",
+              "increase": 2,
+              "rank": 1
+            },
+            {
+              "name": "Knowledge",
+              "increase": 2,
+              "rank": 1
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isMakeCoffee": true,
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 2,
+              "rank": 1
+            }
+          ]
+        }
+      ]
+    },
+    
+    {
+      "date": 24,
+      "name": "Sunday",
+      "daytime": [
+        {
+          "isHomeShopping": true,
+          "homeShoppingPurchases": ["(Optional) Share of Spring Set (¥5,980)"]
+        },
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Beauty Aojiru (¥5,000)",
+              "location": "Drink stand in Underground Walkway in Shibuya"
+            }
+          ]
+        },
+        {
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 2,
+              "rank": 2,
+              "rankUp": true
+            }
+          ]
+        },
+        {
+          "isApplyJob": true,
+          "jobs": [
+            {
+              "name": "Rafflesia flower shop",
+              "location": "Underground Walkway in Shibuya"
+            }
+          ]
+        },
+        {
+          "isWorkJob": true,
+          "jobs": [
+            {
+              "name": "Rafflesia flower shop",
+              "location": "Underground Mall"
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Kindness",
+              "increase": 3,
+              "rank": 1
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isVisitBathhouse": true,
+          "location": "Yongen-Jaya",
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 5,
+              "rank": 2
             }
           ]
         }
