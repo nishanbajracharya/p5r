@@ -10,7 +10,7 @@ function NavigationBar(props: {open: boolean, setOpen: (value: boolean) => void}
       <div className={`side-bar ${props.open ? 'open' : ''}`}>
         <h4>Navigation</h4>
         {
-          links.map(link => <details name={link.month.name} key={link.month.name} open>
+          links.map(link => <details name={link.month.name} key={link.month.name}>
             <summary>{link.month.name}</summary>
             <ul>
               {
