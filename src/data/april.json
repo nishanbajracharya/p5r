@@ -303,6 +303,7 @@
       "name": "Wednesday",
       "daytime": [
         {
+          "isReadBook": true,
           "readBooks": [
             {
               "name": "Pirate Legend",
@@ -571,7 +572,6 @@
         }
       ]
     },
-    
     {
       "date": 24,
       "name": "Sunday",
@@ -636,6 +636,345 @@
             {
               "name": "Charm",
               "increase": 5,
+              "rank": 2
+            }
+          ]
+        }
+      ]
+    },
+    
+    {
+      "date": 25,
+      "name": "Monday",
+      "daytime": [
+        {
+          "isReadBook": true,
+          "readBooks": [
+            {
+              "name": "Pirate Legend",
+              "location": "Train"
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Guts",
+              "increase": 5,
+              "rank": 2
+            }
+          ]
+        },
+        {
+          "isClass": true,
+          "classAnswers": [
+            "You unquestionably support it.",
+            "You have a duty to correct it."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 2,
+              "rank": 2
+            }
+          ]
+        },
+        {
+          "isVisitLibrary": true,
+          "isReturnBook": true,
+          "returnBooks": ["Pirate Legend"],
+          "isBorrowBook": true,
+          "borrowBooks": ["The Alluring Dancer"]
+        },
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "DVD Player (¥2,800)",
+              "location": "Yongen-Jaya secondhand shop"
+            }
+          ]
+        },
+        {
+          "isVisitDVDRental": true,
+          "isSignUpDVDMembership": true,
+          "isBorrowDVD": true,
+          "borrowDVDs": ["The X Folders"]
+        },
+        {
+          "isWorkJob": true,
+          "jobNames": ["Rafflesia flower shop"],
+          "location": "Underground Mall",
+          "jobAnswers": [
+            "Venerable Chrysanthemum",
+            "Gold Gerbera",
+            "Scarlet Rose"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Kindness",
+              "increase": 3,
+              "rank": 2,
+              "rankUp": true
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Sojiro",
+              "personaEquipped": "Berith"
+            }
+          ],
+          "confidantAnswers": [
+            {"answer": "Medium-fine.", "specific": true},
+            {"answer": "Is it trouble?", "specific": true},
+            {"answer": "Thank you in advance.", "specific": true, "isPhone": true}
+          ]
+        },
+        {
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Hierophant",
+              "increase": 1,
+              "rank": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 26,
+      "name": "Tuesday",
+      "daytime": [
+        {
+          "isStudyInLibrary": true,
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Guts",
+              "increase": 2,
+              "rank": 2,
+              "rankUp": true
+            },
+            {
+              "name": "Knowledge",
+              "increase": 2,
+              "rank": 1
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isWatchDVD": true,
+          "watchDVDs": ["The X Folders"],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Guts",
+              "increase": 3,
+              "rank": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 27,
+      "name": "Wednesday",
+      "daytime": [
+        {
+          "isClass": true,
+          "classAnswers": ["Four color theorem."],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2,
+              "rank": 1
+            }
+          ]
+        },
+        {
+          "isStockUpSupplies": true,
+          "stockedSupplies": ["Upgrade gear from Airsoft Shop"]
+        },
+        {
+          "goToHideout": true,
+          "hideoutLocation": "Rooftop",
+          "isSendCallingCard": true
+        }
+      ],
+      "evening": [
+        {
+          "isCrosswordSolve": true,
+          "crosswordAnswers": ["Blossom"],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2,
+              "rank": 1
+            }
+          ]
+        },
+        {
+          "isCraftItem": true,
+          "itemCraft": ["Infiltration tools"],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Proficiency",
+              "increase": 3,
+              "rank": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 28,
+      "name": "Thursday",
+      "daytime": [
+        {
+          "isPalaceInfiltration": true,
+          "bossName": "Kamoshida",
+          "isFindWillSeeds": true,
+          "isFinishPalace": true
+        }
+      ],
+      "evening": [
+        {
+          "isWatchDVD": true,
+          "watchDVDs": ["The X Folders"],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Guts",
+              "increase": 3,
+              "rank": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 29,
+      "name": "Friday",
+      "daytime": [
+        {
+          "isVisitDVDRental": true,
+          "isReturnDVD": true,
+          "returnDVDs": ["The X Folders"],
+          "isBorrowDVD": true,
+          "borrowDVDs": ["Wraith"]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Ryuji",
+              "personaEquipped": "Agathion"
+            }
+          ],
+          "confidantAnswers": [
+            {"answer": "Let's not fight.", "specific": true},
+            {"answer": "Calm down, Ryuji.", "specific": true},
+            {"answer": "I can't exactly blame you.", "specific": true, "isPhone": true}
+          ]
+        },
+        {
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Chariot",
+              "increase": 1,
+              "rank": 3
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isStudyInLeblanc": true,
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 3,
+              "rank": 1
+            }
+          ]
+        }
+      ]
+    },
+    
+    {
+      "date": 30,
+      "name": "Saturday",
+      "daytime": [
+        {
+          "isReadBook": true,
+          "readBooks": [
+            {
+              "name": "The Alluring Dancer",
+              "location": "Train"
+            }
+          ]
+        },
+        {
+          "isClass": true,
+          "classAnswers": [
+            "Wonder.",
+            "Child.",
+            "A prodigy."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2,
+              "rank": 1
+            }
+          ]
+        },
+        {
+          "isWatchInTheater": true,
+          "movieNames": ["Tanktop Millionaire"],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Guts",
+              "increase": 5,
+              "rank": 2
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Materials for infiltration tools",
+              "location": "Any"
+            }
+          ]
+        },
+        {
+          "isCraftItem": true,
+          "itemCraft": ["Infiltration tools"],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Proficiency",
+              "increase": 3,
               "rank": 2
             }
           ]

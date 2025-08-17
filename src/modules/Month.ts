@@ -33,6 +33,7 @@ export type Item = {
 export type VisitPerson = {
   name?: string;
   location?: string;
+  personaEquipped?: string;
 }
 
 export type ConfidantAnswers = {
@@ -141,13 +142,16 @@ export type Event = {
   isHomeShopping?: boolean;
   homeShoppingPurchases?: string[];
 
-  isVisitDVDRenter?: boolean;
+  isVisitDVDRental?: boolean;
   isBorrowDVD?: boolean;
   isWatchDVD?: boolean;
   isReturnDVD?: boolean;
   isWatchInTheater?: boolean;
-  dvdNames?: string[];
+  borrowDVDs?: string[];
+  returnDVDs?: string[];
+  watchDVDs?: string[];
   movieNames?: string[];
+  isSignUpDVDMembership?: boolean;
 
   isStockUpSupplies?: boolean;
   stockedSupplies?: string[];
@@ -156,15 +160,15 @@ export type Event = {
   isSendCallingCard?: boolean;
   isFindWillSeeds?: boolean;
   isFinishPalace?: boolean;
-  bossName?: string[];
+  bossName?: string;
+  goToHideout?: false;
+  hideoutLocation?: string;
+  isSecureInfiltrationRoute?: boolean;
 
   isVisitClinic?: boolean;
 
   confidantAnswers?: ConfidantAnswers[];
 
-  goToHideout?: false;
-  hideoutLocation?: string;
-  isSecureInfiltrationRoute?: boolean;
 
   isLeavePalaceWithPersonas?: boolean;
   personas?: Persona[];
