@@ -32,14 +32,25 @@ h1 {
   position: sticky;
   top: 110px;
   align-self: start;
+  max-height: calc(100vh - 110px);
+  overflow-y: auto; 
+  transition: .25s;
 }
 
 header {
   position: fixed;
   top: 0;
-  width: 100%;
   padding: 1em 0;
+  z-index: 1;
   background-color: var(--pico-background-color);
+  line-height: 42px;
+  height: 74px;
+  width: calc(100vw - 2em);
+}
+
+header button {
+  background: none;
+  border: none;
 }
 
 .side-bar ul {
@@ -115,6 +126,7 @@ header {
     top: 72px;
     left: 0;
     height: 100%;
+    max-height: none;
     width: 100%;
     padding: 1em;
     background-color: var(--pico-background-color);
@@ -137,5 +149,9 @@ header {
 
   #root {
     padding: 0 1rem;
+  }
+
+  header h1 {
+    display: flex;
   }
 }
