@@ -767,6 +767,788 @@
           ]
         }
       ]
+    },
+    {
+      "date": 11,
+      "name": "Thursday",
+      "daytime": [
+        {
+          "isBigBangChallenge": true,
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Guts",
+              "increase": 5
+            },
+            {
+              "name": "Knowledge",
+              "increase": 5
+            },
+            {
+              "name": "Charm",
+              "increase": 5
+            },
+            {
+              "name": "Proficiency",
+              "increase": 5
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Mega Fertilizer (¥3,000)",
+              "location": "Shinjuku (Optional)"
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Make sure you have a Hierophant persona equipped before visiting Chihaya.",
+            "Get an Affinity Fortune Reading (¥5,000) from Chihaya in Shinjuku and choose 'Sojiro' with a Hierophant persona equipped.",
+            "Also, get a Luck Fortune Reading (¥5,000) from Chihaya in Shinjuku and choose 'Kindness'."
+          ]
+        },
+        {
+          "isExamineBedroomPlant": true,
+          "isUseItem": true,
+          "useItems": [
+            "Mega Fertilizer"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Kindness",
+              "increase": 7
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Yoshida",
+              "location": "Shibuya Station Square"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "I don't really care.",
+              "specific": true
+            },
+            {
+              "answer": "I'd decline.",
+              "specific": true
+            },
+            {
+              "answer": "I'll keep that in mind.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 4
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Sun",
+              "increase": 1,
+              "rank": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 12,
+      "name": "Friday",
+      "daytime": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Yusuke",
+              "location": "Underground Walkway, Shibuya",
+              "personaEquipped": "Emperor"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Try calling him.",
+              "specific": true
+            },
+            {
+              "answer": "What do you mean?",
+              "specific": true
+            },
+            {
+              "answer": "The truth is within you.",
+              "specific": true
+            },
+            {
+              "answer": "Calm down.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Emperor",
+              "increase": 1,
+              "rank": 7
+            }
+          ],
+          "notes": [
+            "Rank 7 unlocks card copying/creating on the spot."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 13,
+      "name": "Saturday",
+      "daytime": [
+        {
+          "notes": [
+            "Do not leave Leblanc, if you do, you will be unable to return and hang out with Ryuji."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Ryuji",
+              "location": "Leblanc",
+              "personaEquipped": "Chariot"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "I've got other plans.",
+              "specific": true
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Guts",
+              "increase": 5
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Save your game."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Akechi",
+              "location": "Kichijoji",
+              "personaEquipped": "Justice"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Are you used to gunplay?",
+              "specific": true
+            },
+            {
+              "answer": "You wanted to be a hero?",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Justice",
+              "increase": 1,
+              "rank": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 14,
+      "name": "Sunday",
+      "daytime": [
+        {
+          "isHomeShopping": true,
+          "homeShoppingPurchases": [
+            "Drink Set (¥2,980) (Optional)"
+          ]
+        },
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Any items",
+              "location": "Priest in Kanda (Optional)"
+            },
+            {
+              "name": "SP recovery items",
+              "location": "Vending machines near Bathhouse (Optional)"
+            },
+            {
+              "name": "Nasty Aojiru (¥5,000)",
+              "location": "Drink stand in Underground Walkway in Shibuya"
+            }
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Chihaya",
+              "location": "Shinjuku"
+            }
+          ],
+          "notes": [
+            "Luck Fortune Reading (¥5,000), choose Guts."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Ann",
+              "location": "Underground Mall",
+              "personaEquipped": "Lovers"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "I believe in you, Ann.",
+              "specific": true
+            },
+            {
+              "answer": "You have me.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "I'm yours forever. or Of course.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Lovers",
+              "increase": 1,
+              "rank": 9
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "If Charm isn't maxed, get Luck Fortune Reading (¥5,000) from Chihaya for Charm."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Yoshida",
+              "location": "Shibuya Station Square"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "You should decline.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Choose 'Respond later' to the DM at night."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 15,
+      "name": "Monday",
+      "daytime": [
+        {
+          "notes": [
+            "Freebie day for stat increases or Ann rank up.",
+            "Go to Jinbocho with Makoto if desired. Ensure High Priestess and Star persona equipped."
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Let's get cracking.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 16,
+      "name": "Tuesday",
+      "daytime": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Makoto",
+              "location": "School gates",
+              "personaEquipped": "High Priestess"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Love comes in many forms.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Tell him you're on a date.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "High Priestess",
+              "increase": 1,
+              "rank": 6
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Chihaya",
+              "location": "Shinjuku",
+              "personaEquipped": "Fortune"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "You're just Chihaya to me.",
+              "specific": true
+            },
+            {
+              "answer": "Be honest with yourself.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Fortune",
+              "increase": 1,
+              "rank": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 17,
+      "name": "Wednesday",
+      "daytime": [
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Chihaya",
+              "location": "Shinjuku"
+            }
+          ],
+          "notes": [
+            "Luck Fortune Reading (¥5,000), choose Kindness.",
+            "Affinity Fortune Reading (¥5,000), choose Chihaya with Fortune persona equipped."
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Flower Shop",
+              "location": "Shibuya"
+            }
+          ],
+          "notes": [
+            "Work to discover target's name. Write down barcode answers."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Kindness",
+              "increase": 7
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isCrosswordSolve": true,
+          "crosswordAnswers": [
+            "Sunburn"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Mishima",
+              "location": "Shinjuku"
+            }
+          ],
+          "notes": [
+            "Answers do not matter."
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Moon",
+              "increase": 1,
+              "rank": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 18,
+      "name": "Thursday",
+      "daytime": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Makoto",
+              "location": "School gates",
+              "personaEquipped": "High Priestess"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "He was a noble man.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "I'm game if you are.",
+              "specific": true
+            },
+            {
+              "answer": "Of course..",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "High Priestess",
+              "increase": 1,
+              "rank": 7
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Justine and Caroline",
+              "location": "Near Velvet Room door, Central Street"
+            }
+          ],
+          "notes": [
+            "Take the twins to the Skytree in Asakusa."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 19,
+      "name": "Friday",
+      "daytime": [
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Chihaya",
+              "location": "Shinjuku"
+            }
+          ],
+          "notes": [
+            "Luck Fortune Reading (¥5,000), choose Guts."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Ann",
+              "location": "Underground Mall",
+              "personaEquipped": "Lovers"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "You really gave it your all.",
+              "specific": true
+            },
+            {
+              "answer": "You can do it, Ann.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Lovers",
+              "increase": 1,
+              "rank": 10
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isBigBangChallenge": true,
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Guts",
+              "increase": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 20,
+      "name": "Saturday",
+      "daytime": [
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Ryuji",
+              "location": "Shibuya Arcades",
+              "personaEquipped": "Chariot"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Chariot",
+              "increase": 1,
+              "rank": 10
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Chihaya",
+              "location": "Shinjuku"
+            }
+          ],
+          "notes": [
+            "Luck Fortune Reading (¥5,000), choose Proficiency."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Iwai",
+              "location": "Airsoft Shop, Shibuya",
+              "personaEquipped": "Hanged Man"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "I want to work.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "I always knew you were a thug.",
+              "specific": true
+            },
+            {
+              "answer": "We made a deal, didn't we?",
+              "specific": true
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Proficiency",
+              "increase": 4
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Hanged Man",
+              "increase": 1,
+              "rank": 3
+            }
+          ]
+        }
+      ]
     }
   ],
   "stats": {
