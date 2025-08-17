@@ -41,12 +41,47 @@ export type ConfidantAnswers = {
   isPhone?: boolean;
 }
 
+export type ReadBook = {
+  name?: string;
+  location?: string;
+}
+
+
+export type ConfidantRank = {
+  name: ConfidantNames;
+  rank: number;
+  increase: number;
+}
+
+export type Skill = {
+  name: SkillNames;
+  increase: number;
+  rank: number;
+};
+
+export type Day = {
+  date: number;
+  name: DayNames;
+  daytime?: Event[];
+  evening?: Event[];
+}
+
+export type Persona = {
+  name?: string;
+  confidant?: ConfidantNames;
+}
+
+export type Trophy = {
+  name?: string;
+  unlockMode?: string;
+}
+
 export type Event = {
   isClass?: boolean;
   classAnswers?: string[];
 
   isTrophyEarned?: boolean;
-  trophies?: string[];
+  trophies?: Trophy[];
 
   isBuyItem?: boolean;
   buyItems?: Item[];
@@ -69,7 +104,7 @@ export type Event = {
   visitedPeople?: VisitPerson[];
 
   isConfidantUp?: boolean;
-  confidants?: Confidant[];
+  confidantRanks?: ConfidantRank[];
 
   isSkillUp?: boolean;
   skills?: Skill[];
@@ -78,9 +113,9 @@ export type Event = {
   isBorrowBook?: boolean;
   isReadBook?: boolean;
   isReturnBook?: boolean;
-  isStudyInLibrary?: boolean;
-  isStudyInLeblanc?: boolean;
-  bookNames?: string[];
+  readBooks?: ReadBook[];
+  borrowBooks?: string[];
+  returnBooks?: string[];
 
   isVisitBathhouse?: boolean;
 
@@ -112,32 +147,20 @@ export type Event = {
   isSendCallingCard?: boolean;
   isFindWillSeeds?: boolean;
   isFinishPalace?: boolean;
-  bossNames?: string[];
+  bossName?: string[];
 
   isVisitClinic?: boolean;
 
   confidantAnswers?: ConfidantAnswers[];
 
+  goToHideout?: false;
+  hideoutLocation?: string;
+  isSecureInfiltrationRoute?: boolean;
+
+  isLeavePalaceWithPersonas?: boolean;
+  personas?: Persona[];
+
   notes?: string[];
-}
-
-export type Confidant = {
-  name: ConfidantNames;
-  rank: number;
-  increase: number;
-}
-
-export type Skill = {
-  name: SkillNames;
-  increase: number;
-  rank: number;
-};
-
-export type Day = {
-  date: number;
-  name: DayNames;
-  daytime?: Event[];
-  evening?: Event[];
 }
 
 export class Month {

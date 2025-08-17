@@ -38,14 +38,17 @@
           "isPalaceInfiltration": true,
           "isTrophyEarned": true,
           "trophies": [
-            "Spirit of Rebellion"
+            {
+              "name": "Spirit of Rebellion",
+              "unlockMode": "Automatic"
+            }
           ]
         }
       ],
       "evening": [
         {
           "isConfidantUp": true,
-          "confidants": [
+          "confidantRanks": [
             {
               "name": "Chariot",
               "increase": 1,
@@ -76,10 +79,13 @@
           "isPalaceInfiltration": true,
           "isTrophyEarned": true,
           "trophies": [
-            "I am Thou..."
+            {
+              "name": "I am Thou...",
+              "unlockMode": "Automatic"
+            }
           ],
           "isConfidantUp": true,
-          "confidants": [
+          "confidantRanks": [
             {
               "name": "Lovers",
               "increase": 1,
@@ -93,7 +99,7 @@
       ],
       "evening": [
         {
-          "confidants": [
+          "confidantRanks": [
             {
               "name": "Magician",
               "increase": 1,
@@ -133,7 +139,7 @@
         {
           "isVisitLibrary": true,
           "isBorrowBook": true,
-          "bookNames": [
+          "borrowBooks": [
             "Pirate Legend"
           ]
         },
@@ -165,7 +171,7 @@
         },
         {
           "isConfidantUp": true,
-          "confidants": [
+          "confidantRanks": [
             {
               "name": "Death",
               "increase": 1,
@@ -247,7 +253,7 @@
         },
         {
           "isConfidantUp": true,
-          "confidants": [
+          "confidantRanks": [
             {
               "name": "Chariot",
               "increase": 1,
@@ -287,6 +293,52 @@
               "name": "Proficency",
               "increase": 3,
               "rank": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 20,
+      "name": "Wednesday",
+      "daytime": [
+        {
+          "readBooks": [
+            {
+              "name": "Pirate Legend",
+              "location": "Train"
+            }
+          ]
+        },
+        {
+          "goToHideout": true,
+          "hideoutLocation": "Rooftop",
+          "isSecureInfiltrationRoute": true,
+          "bossName": "Kamoshida",
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Fool",
+              "increase": 1,
+              "rank": 2
+            }
+          ]
+        },
+        {
+          "isLeavePalaceWithPersonas": true,
+          "personas": [
+            {
+              "name": "Pixie",
+              "confidant": "Lovers"
+            },{
+              "name": "Berith",
+              "confidant": "Hierophant"
+            },{
+              "name": "Agathion",
+              "confidant": "Chariot"
+            },{
+              "name": "Mandrake",
+              "confidant": "Death"
             }
           ]
         }
