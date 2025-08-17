@@ -1549,6 +1549,546 @@
           ]
         }
       ]
+    },
+    {
+      "date": 21,
+      "name": "Sunday",
+      "evening": [
+        {
+          "isWatchDVD": true,
+          "watchDVDs": [
+            "31"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Guts",
+              "increase": 5
+            }
+          ]
+        },
+        {
+          "isCraftItem": true,
+          "itemCraft": [
+            "Infiltration tools"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Proficiency",
+              "increase": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 22,
+      "name": "Monday",
+      "notes": [
+        "Pyramid of Wrath Plundered",
+        "Trader Sakai: can be bought from the bakery at the Ginza Line Gate"
+      ],
+      "evening": [
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Lotto R Mammoth Lottery ticket",
+              "location": "Station Square (Optional)"
+            },
+            {
+              "name": "Melon Pan (¥1,000)",
+              "location": "Bakery, Ginza Line Gate, Shibuya"
+            }
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Trader Sakai",
+              "location": "Western alley, Kichijoji"
+            }
+          ],
+          "notes": [
+            "Trade Melon Pan for Old Man's Fist."
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Chihaya",
+              "location": "Shinjuku"
+            }
+          ],
+          "notes": [
+            "Luck Fortune Reading (¥5,000), choose Knowledge."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Hifumi",
+              "location": "Kanda",
+              "personaEquipped": "Star"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Is that frustrating?",
+              "specific": true
+            },
+            {
+              "answer": "Do what you love.",
+              "specific": true
+            },
+            {
+              "answer": "You're imagining things.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 4
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Star",
+              "increase": 1,
+              "rank": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 23,
+      "name": "Tuesday",
+      "evening": [
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Chihaya",
+              "location": "Shinjuku"
+            }
+          ],
+          "notes": [
+            "Luck Fortune Reading (¥5,000), choose Proficiency."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Iwai",
+              "location": "Airsoft Shop, Shibuya",
+              "personaEquipped": "Hanged Man"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "I want to work.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Where's my reward?",
+              "specific": true
+            },
+            {
+              "answer": "I agree.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Proficiency",
+              "increase": 4
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Hanged Man",
+              "increase": 1,
+              "rank": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 24,
+      "name": "Wednesday",
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Hifumi",
+              "location": "Kanda church",
+              "personaEquipped": "Star"
+            }
+          ],
+          "notes": [
+            "Hang out in Inokashira Park."
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 25,
+      "name": "Thursday",
+      "evening": [
+        {
+          "isCrosswordSolve": true,
+          "crosswordAnswers": [
+            "Sweltering"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Chihaya",
+              "location": "Shinjuku"
+            }
+          ],
+          "notes": [
+            "Luck Fortune Reading (¥5,000), choose Kindness."
+          ]
+        },
+        {
+          "isFortuneReading": true,
+          "fortuneReadings": [
+            {
+              "type": "Affinity",
+              "target": "Iwai",
+              "personaEquipped": "Hanged Man"
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Sojiro",
+              "location": "Cafe Leblanc",
+              "personaEquipped": "Hierophant"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Tell me more.",
+              "specific": true
+            },
+            {
+              "answer": "Call Sojiro's phone.",
+              "specific": true
+            },
+            {
+              "answer": "Understood.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Kindness",
+              "increase": 4
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Hierophant",
+              "increase": 1,
+              "rank": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 26,
+      "name": "Friday",
+      "evening": [
+        {
+          "isWorkJob": true,
+          "jobs": [
+            {
+              "name": "Crossroads Bar",
+              "location": "Shinjuku"
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Kindness",
+              "increase": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 27,
+      "name": "Saturday",
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Hifumi",
+              "location": "Kanda",
+              "personaEquipped": "Star"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "It may come down to luck",
+              "specific": true
+            },
+            {
+              "answer": "I believe in you.",
+              "specific": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Star",
+              "increase": 1,
+              "rank": 7
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 28,
+      "name": "Sunday",
+      "evening": [
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Any items",
+              "location": "Priest in Kanda (Optional)"
+            },
+            {
+              "name": "SP recovery items",
+              "location": "Vending machines near Bathhouse (Optional)"
+            },
+            {
+              "name": "Mega Fertilizer (¥3,000)",
+              "location": "Shinjuku (Optional)"
+            },
+            {
+              "name": "Onsen Aojiru (¥5,000)",
+              "location": "Drink stand in Underground Walkway in Shibuya"
+            }
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Chihaya",
+              "location": "Shinjuku"
+            }
+          ],
+          "notes": [
+            "Luck Fortune Reading (¥5,000), choose Kindness."
+          ]
+        },
+        {
+          "isExamineBedroomPlant": true,
+          "isUseItem": true,
+          "useItems": [
+            "Mega Fertilizer"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Kindness",
+              "increase": 7
+            }
+          ]
+        },
+        {
+          "isWorkJob": true,
+          "jobs": [
+            {
+              "name": "Crossroads Bar",
+              "location": "Shinjuku"
+            }
+          ],
+          "notes": [
+            "Speak to Short-haired Office Worker."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Proficiency",
+              "increase": 2
+            },
+            {
+              "name": "Kindness",
+              "increase": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 29,
+      "name": "Monday",
+      "evening": [
+        {
+          "confidantAnswers": [
+            {
+              "answer": "Leave it to me.",
+              "specific": true,
+              "isPhone": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 30,
+      "name": "Tuesday",
+      "evening": [
+        {
+          "notes": [
+            "(Optional): Go and check your lottery ticket if you purchased one before."
+          ]
+        },
+        {
+          "isCrosswordSolve": true,
+          "crosswordAnswers": [
+            "Hacking"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isVisitDVDRental": true,
+          "isReturnDVD": true,
+          "returnDVDs": [
+            "31"
+          ],
+          "isBorrowDVD": true,
+          "borrowDVDs": [
+            "Jail Break"
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Chihaya",
+              "location": "Shinjuku",
+              "personaEquipped": "Fortune"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "I don't think so.",
+              "specific": true
+            },
+            {
+              "answer": "Are you gonna be ok?",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Fortune",
+              "increase": 1,
+              "rank": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 31,
+      "name": "Wednesday",
+      "daytime": [
+        {
+          "notes": [
+            "Automatic story events. (Akhihabara unlocked.)"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isWatchDVD": true,
+          "watchDVDs": [
+            "Jail Break"
+          ],
+          "location": "Bedroom",
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Proficiency",
+              "increase": 5
+            }
+          ]
+        }
+      ]
     }
   ],
   "stats": {
