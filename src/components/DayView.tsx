@@ -19,6 +19,16 @@ export function EventView(props: { data?: Event[] }) {
           </div>
         }
         {
+          event?.isExamDay && <div className="event">
+            <p className="event-header">Exam Answers</p>
+            {
+              event?.examAnswers && <ul className="event-content">
+                {event.examAnswers.map((answer, index) => <li key={`${answer}-${index}`}><strong>{answer}</strong></li>)}
+              </ul>
+            }
+          </div>
+        }
+        {
           event?.isCrosswordSolve && <div className="event">
             {
               event?.crosswordAnswers && <div className="event-content">
@@ -63,6 +73,13 @@ export function EventView(props: { data?: Event[] }) {
               {
                 event.readBooks?.map((book, index) => <p key={`${book.name}-${index}`}>Read <strong>{book.name} in {book.location}</strong></p>)
               }
+            </div>
+          </div>
+        }
+        {
+          event.isBigBangChallenge && <div className="event">
+            <div className="event-content">
+              <p>Visit <strong>Big Bang Burger in Shibuya</strong> and complete the <strong>Big Bang Challenge</strong></p>
             </div>
           </div>
         }
@@ -126,6 +143,26 @@ export function EventView(props: { data?: Event[] }) {
           </div>
         }
         {
+          event.isStudyInDiner && <div className="event">
+            <p className="event-header">Study at Diner in Central Steet:</p>
+            <ul className="event-content">
+              {
+                event.dinerOrders?.map((order, index) => <li key={`${order}-${index}`}>Order <strong>{order}</strong></li>)
+              }
+            </ul>
+          </div>
+        }
+        {
+          event.isExamineTV && <div className="event">
+            <p className="event-header">Examine the TV in Leblanc:</p>
+            <ul className="event-content">
+              {
+                event.tvAnswers?.map((answer, index) => <li key={`${answer}-${index}`}><strong>{answer}</strong></li>)
+              }
+            </ul>
+          </div>
+        }
+        {
           event.isWatchDVD && <div className="event">
             <p className="event-header">Watch DVDs in your room:</p>
             <ul className="event-content">
@@ -133,6 +170,18 @@ export function EventView(props: { data?: Event[] }) {
                 event.watchDVDs?.map((dvd, index) => <li key={`${dvd}-${index}`}><strong>{dvd}</strong></li>)
               }
             </ul>
+          </div>
+        }
+        {
+          event?.isVisitMementos && <div className="event">
+            <p className="event-header">Go to Mementos {event.mementosActions ? 'and clear requests:' : ''}</p>
+            {
+              event?.mementosActions && <ul className="event-content">
+                {
+                  event.mementosActions.map((action, index) => <li key={`${action}-${index}`}><strong>{action}</strong></li>)
+                }
+              </ul>
+            }
           </div>
         }
         {
@@ -160,18 +209,6 @@ export function EventView(props: { data?: Event[] }) {
           </div>
         }
         {
-          event?.isConfidantUp && <div className="event">
-            <p className="event-header">Confidant Rank Up:</p>
-            {
-              event?.confidantRanks && <ul className="event-content">
-                {
-                  event.confidantRanks.map((confidant, index) => <li key={`${confidant.name}-${index}`}><strong>{`${confidant.name} Rank ${confidant.rank}`}</strong></li>)
-                }
-              </ul>
-            }
-          </div>
-        }
-        {
           event?.isExamineBedroomPlant && <div className="event">
             <div className="event-content">
               <p>Examine your bedroom plant</p>
@@ -193,18 +230,6 @@ export function EventView(props: { data?: Event[] }) {
               event?.itemCraft && <div className="event-content">
                 <p>Craft <strong>{event.itemCraft.join(', ')}</strong></p>
               </div>
-            }
-          </div>
-        }
-        {
-          event?.isSkillUp && <div className="event">
-            <p className="event-header">Skill Up:</p>
-            {
-              event?.skills && <ul className="event-content">
-                {
-                  event.skills.map((skill, index) => <li key={`${skill.name}-${index}`}><strong>{`${skill.name} +${skill.increase}`} {skill.rankUp ? `(${skill.name} Rank ${skill.rank})` : ''}</strong></li>)
-                }
-              </ul>
             }
           </div>
         }
@@ -247,8 +272,22 @@ export function EventView(props: { data?: Event[] }) {
           event?.notes && <div className="event">
             <div className="event-content">
               {
-                event.notes.map((note, index) => <p key={`${note}-${index}`}>{note}</p>)
+                event.notes.map((note, index) => <p key={`${note}-${index}`}><strong>{note}</strong></p>)
               }
+            </div>
+          </div>
+        }
+        {
+          event.isCallPerson && <div className="event">
+            <div className="event-content">
+              <p>Call <strong>{event.callPerson?.person}</strong> at <strong>{event.callPerson?.location}</strong> (Requirement: <strong>{event.callPerson?.requirement}</strong>)</p>
+            </div>
+          </div>
+        }
+        {
+          event?.isHangoutEvent && <div className="event">
+            <div className="event-content">
+              <p>Hang out with <strong>{event.hangoutParticipants?.join(', ')}</strong> at <strong>{event.hangoutLocation}</strong></p>
             </div>
           </div>
         }
@@ -264,6 +303,30 @@ export function EventView(props: { data?: Event[] }) {
                 })
               }
             </ul>
+          </div>
+        }
+        {
+          event?.isConfidantUp && <div className="event">
+            <p className="event-header">Confidant Rank Up:</p>
+            {
+              event?.confidantRanks && <ul className="event-content">
+                {
+                  event.confidantRanks.map((confidant, index) => <li key={`${confidant.name}-${index}`}><strong>{`${confidant.name} Rank ${confidant.rank}`}</strong></li>)
+                }
+              </ul>
+            }
+          </div>
+        }
+        {
+          event?.isSkillUp && <div className="event">
+            <p className="event-header">Skill Up:</p>
+            {
+              event?.skills && <ul className="event-content">
+                {
+                  event.skills.map((skill, index) => <li key={`${skill.name}-${index}`}><strong>{`${skill.name} +${skill.increase}`} {skill.rankUp ? `(${skill.name} Rank ${skill.rank})` : ''}</strong></li>)
+                }
+              </ul>
+            }
           </div>
         }
       </div>

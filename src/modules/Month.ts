@@ -23,6 +23,11 @@ export enum ConfidantNames {
   LOVERS = 'Lovers',
   CHARIOT = 'Chariot',
   DEATH = 'Death',
+  TEMPERANCE = 'Temperance',
+  MOON = 'Moon',
+  SUN = 'Sun',
+  FAITH = 'Faith',
+  COUNCILLOR = 'Councillor',
 };
 
 export type Item = {
@@ -46,7 +51,6 @@ export type ReadBook = {
   name?: string;
   location?: string;
 }
-
 
 export type ConfidantRank = {
   name?: ConfidantNames;
@@ -82,6 +86,12 @@ export type Trophy = {
 export type Job = {
   name?: string;
   location?: string;
+}
+
+export type CallPerson = {
+  person?: string;
+  location?: string;
+  requirement?: string;
 }
 
 export type Event = {
@@ -174,16 +184,50 @@ export type Event = {
   personas?: Persona[];
 
   notes?: string[];
+
+  isExamDay: true;
+  examAnswers: string[];
+
+  isStudyInDiner?: boolean;
+  dinerOrders?: string[];
+
+  isExamineTV?: boolean;
+  tvAnswers?: string[];
+
+  isBigBangChallenge?: boolean;
+
+  isHangoutEvent?: boolean;
+  hangoutParticipants?: string[];
+  hangoutLocation?: string;
+
+  isCallPerson?: boolean;
+  callPerson?: CallPerson;
+
+  isVisitMementos?: boolean;
+  mementosActions?: string[];
+}
+
+export type Stats = {
+  confidants: {
+    name: string;
+    rank: number;
+  }[];
+  skills: {
+    name: string;
+    rank: number;
+  }[];
 }
 
 export class Month {
   month: number;
   name: string;
   days: Day[];
+  stats: Stats;
 
-  constructor(month: number, name: string, days: Day[]) {
+  constructor(month: number, name: string, days: Day[], stats: Stats) {
     this.month = month;
     this.name = name;
     this.days = days;
+    this.stats = stats;
   }
 }

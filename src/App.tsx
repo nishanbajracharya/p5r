@@ -17,7 +17,7 @@ function App() {
         <NavigationBar open={open} setOpen={() => setOpen(false)} />
         <div className="main-content">
           {
-            months.map(month => <MonthView key={month.name} data={new Month(month.month, month.name, month.days as Day[])} />)
+            months.map(month => <MonthView key={month.name} data={new Month(month.month, month.name, month.days as Day[], month.stats)} />)
           }
         </div>
       </main>

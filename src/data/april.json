@@ -529,7 +529,9 @@
       "daytime": [
         {
           "isClass": true,
-          "classAnswers": ["All of them."]
+          "classAnswers": [
+            "All of them."
+          ]
         },
         {
           "isSkillUp": true,
@@ -578,7 +580,9 @@
       "daytime": [
         {
           "isHomeShopping": true,
-          "homeShoppingPurchases": ["(Optional) Share of Spring Set (¥5,980)"]
+          "homeShoppingPurchases": [
+            "(Optional) Share of Spring Set (¥5,980)"
+          ]
         },
         {
           "isBuyItem": true,
@@ -642,7 +646,6 @@
         }
       ]
     },
-    
     {
       "date": 25,
       "name": "Monday",
@@ -682,9 +685,13 @@
         {
           "isVisitLibrary": true,
           "isReturnBook": true,
-          "returnBooks": ["Pirate Legend"],
+          "returnBooks": [
+            "Pirate Legend"
+          ],
           "isBorrowBook": true,
-          "borrowBooks": ["The Alluring Dancer"]
+          "borrowBooks": [
+            "The Alluring Dancer"
+          ]
         },
         {
           "isBuyItem": true,
@@ -699,11 +706,15 @@
           "isVisitDVDRental": true,
           "isSignUpDVDMembership": true,
           "isBorrowDVD": true,
-          "borrowDVDs": ["The X Folders"]
+          "borrowDVDs": [
+            "The X Folders"
+          ]
         },
         {
           "isWorkJob": true,
-          "jobNames": ["Rafflesia flower shop"],
+          "jobNames": [
+            "Rafflesia flower shop"
+          ],
           "location": "Underground Mall",
           "jobAnswers": [
             "Venerable Chrysanthemum",
@@ -731,9 +742,19 @@
             }
           ],
           "confidantAnswers": [
-            {"answer": "Medium-fine.", "specific": true},
-            {"answer": "Is it trouble?", "specific": true},
-            {"answer": "Thank you in advance.", "specific": true, "isPhone": true}
+            {
+              "answer": "Medium-fine.",
+              "specific": true
+            },
+            {
+              "answer": "Is it trouble?",
+              "specific": true
+            },
+            {
+              "answer": "Thank you in advance.",
+              "specific": true,
+              "isPhone": true
+            }
           ]
         },
         {
@@ -773,7 +794,9 @@
       "evening": [
         {
           "isWatchDVD": true,
-          "watchDVDs": ["The X Folders"],
+          "watchDVDs": [
+            "The X Folders"
+          ],
           "isSkillUp": true,
           "skills": [
             {
@@ -791,7 +814,9 @@
       "daytime": [
         {
           "isClass": true,
-          "classAnswers": ["Four color theorem."],
+          "classAnswers": [
+            "Four color theorem."
+          ],
           "isSkillUp": true,
           "skills": [
             {
@@ -802,8 +827,9 @@
           ]
         },
         {
-          "isStockUpSupplies": true,
-          "stockedSupplies": ["Upgrade gear from Airsoft Shop"]
+          "notes": [
+            "Stock up on supplies and upgrade gear from the Airsoft Shop"
+          ]
         },
         {
           "goToHideout": true,
@@ -814,7 +840,9 @@
       "evening": [
         {
           "isCrosswordSolve": true,
-          "crosswordAnswers": ["Blossom"],
+          "crosswordAnswers": [
+            "Blossom"
+          ],
           "isSkillUp": true,
           "skills": [
             {
@@ -826,7 +854,9 @@
         },
         {
           "isCraftItem": true,
-          "itemCraft": ["Infiltration tools"],
+          "itemCraft": [
+            "Infiltration tools"
+          ],
           "isSkillUp": true,
           "skills": [
             {
@@ -852,7 +882,9 @@
       "evening": [
         {
           "isWatchDVD": true,
-          "watchDVDs": ["The X Folders"],
+          "watchDVDs": [
+            "The X Folders"
+          ],
           "isSkillUp": true,
           "skills": [
             {
@@ -871,9 +903,13 @@
         {
           "isVisitDVDRental": true,
           "isReturnDVD": true,
-          "returnDVDs": ["The X Folders"],
+          "returnDVDs": [
+            "The X Folders"
+          ],
           "isBorrowDVD": true,
-          "borrowDVDs": ["Wraith"]
+          "borrowDVDs": [
+            "Wraith"
+          ]
         },
         {
           "isConfidantHangout": true,
@@ -884,9 +920,19 @@
             }
           ],
           "confidantAnswers": [
-            {"answer": "Let's not fight.", "specific": true},
-            {"answer": "Calm down, Ryuji.", "specific": true},
-            {"answer": "I can't exactly blame you.", "specific": true, "isPhone": true}
+            {
+              "answer": "Let's not fight.",
+              "specific": true
+            },
+            {
+              "answer": "Calm down, Ryuji.",
+              "specific": true
+            },
+            {
+              "answer": "I can't exactly blame you.",
+              "specific": true,
+              "isPhone": true
+            }
           ]
         },
         {
@@ -914,7 +960,6 @@
         }
       ]
     },
-    
     {
       "date": 30,
       "name": "Saturday",
@@ -946,7 +991,9 @@
         },
         {
           "isWatchInTheater": true,
-          "movieNames": ["Tanktop Millionaire"],
+          "movieNames": [
+            "Tanktop Millionaire"
+          ],
           "isSkillUp": true,
           "skills": [
             {
@@ -969,17 +1016,70 @@
         },
         {
           "isCraftItem": true,
-          "itemCraft": ["Infiltration tools"],
+          "itemCraft": [
+            "Infiltration tools"
+          ],
           "isSkillUp": true,
           "skills": [
             {
               "name": "Proficiency",
               "increase": 3,
-              "rank": 2
+              "rank": 2,
+              "rankUp": true
             }
           ]
         }
       ]
     }
-  ]
+  ],
+  "stats": {
+    "confidants": [
+      {
+        "name": "Fool",
+        "rank": 2
+      },
+      {
+        "name": "Magician",
+        "rank": 2
+      },
+      {
+        "name": "Hierophant",
+        "rank": 3
+      },
+      {
+        "name": "Lovers",
+        "rank": 1
+      },
+      {
+        "name": "Chariot",
+        "rank": 3
+      },
+      {
+        "name": "Death",
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "name": "Knowledge",
+        "rank": 1
+      },
+      {
+        "name": "Guts",
+        "rank": 2
+      },
+      {
+        "name": "Proficiency",
+        "rank": 2
+      },
+      {
+        "name": "Kindness",
+        "rank": 2
+      },
+      {
+        "name": "Charm",
+        "rank": 2
+      }
+    ]
+  }
 }
