@@ -1,0 +1,874 @@
+{
+  "name": "August",
+  "month": 8,
+  "days": [
+    {
+      "date": 1,
+      "name": "Monday",
+      "daytime": [
+        {
+          "notes": [
+            "Do not leave Leblanc, if you do, you will be unable to return and hang out with Yusuke."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Yusuke",
+              "location": "Leblanc",
+              "personaEquipped": "Emperor"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Just go to the library.",
+              "specific": true
+            },
+            {
+              "answer": "I've got other plans.",
+              "specific": true
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 5
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Hifumi",
+              "location": "Kanda",
+              "personaEquipped": "Star"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Describes you perfectly.",
+              "specific": true
+            },
+            {
+              "answer": "Having a difficult time?",
+              "specific": true
+            },
+            {
+              "answer": "Knowledge +2",
+              "specific": true
+            },
+            {
+              "answer": "Bring it on.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Star",
+              "increase": 1,
+              "rank": 3
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 2,
+      "name": "Tuesday",
+      "daytime": [
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "(Optional) SP Recovery Item",
+              "location": "Vending Machine, Near Bathhouse"
+            }
+          ]
+        },
+        {
+          "goToHideout": true,
+          "isSendCallingCard": true
+        },
+        {
+          "isPalaceInfiltration": true,
+          "isFinishPalace": true,
+          "bossName": "Futaba"
+        }
+      ],
+      "evening": [
+        {
+          "isCallPerson": true,
+          "callPerson": {
+            "person": "Kawakami",
+            "location": "Leblanc",
+            "action": "Ask for a massage."
+          }
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Chihaya",
+              "location": "Shinjuku",
+              "personaEquipped": "Fortune"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "You're such a hard worker.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Fortune",
+              "increase": 1,
+              "rank": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 3,
+      "name": "Wednesday",
+      "daytime": [
+        {
+          "notes": [
+            "'We Aren't Just Your Slaves' Mementos Mission automatically obtained."
+          ],
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Imported Protein (¥8,000)",
+              "location": "Sports Shop, Underground Mall, Shibuya"
+            }
+          ],
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Makoto",
+              "location": "School gates",
+              "personaEquipped": "High Priestess"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "He sounds suspicious.",
+              "specific": true
+            },
+            {
+              "answer": "I got this.",
+              "specific": true
+            },
+            {
+              "answer": "Try to reach out to her.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "High Priestess",
+              "increase": 1,
+              "rank": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 4,
+      "name": "Thursday",
+      "daytime": [
+        {
+          "notes": [
+            "Do not leave Leblanc, if you do, you will be unable to return and hang out with Yusuke.",
+            "'Who's Been Assaulting People' Mementos Mission automatically obtained."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Yusuke",
+              "location": "Leblanc",
+              "personaEquipped": "Emperor"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Let's go.",
+              "specific": true
+            },
+            {
+              "answer": "I've got other plans.",
+              "specific": true
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 5
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isExamineTV": true,
+          "tvAnswers": [
+            "Joyride, but return the car."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Justine and Caroline",
+              "location": "Near Velvet Room door, Central Street"
+            }
+          ],
+          "notes": [
+            "Take the twins to the Kanda church."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 5,
+      "name": "Friday",
+      "daytime": [
+        {
+          "notes": [
+            "'Calling for Justice for Cats' Mementos Mission automatically obtained."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Ryuji",
+              "personaEquipped": "Chariot"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Are you satisfied now?",
+              "specific": true
+            },
+            {
+              "answer": "Don't do it.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "I agree.",
+              "specific": true
+            },
+            {
+              "answer": "Congratulations.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Chariot",
+              "increase": 1,
+              "rank": 9
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Chihaya",
+              "location": "Shinjuku"
+            }
+          ],
+          "notes": [
+            "Luck Fortune Reading (¥5,000), choose Kindness."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Yusuke",
+              "location": "Movies",
+              "personaEquipped": "Emperor"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "I don't mind.",
+              "specific": true
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Kindness",
+              "increase": 10
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Commit to Ann's DM invitation. (Meji Shrine unlocks.)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": 6,
+      "name": "Saturday",
+      "daytime": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Ann"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "You're amazing, doc.",
+              "specific": true
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Hifumi",
+              "location": "Kanda",
+              "personaEquipped": "Star"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "I didn't mind.",
+              "specific": true
+            },
+            {
+              "answer": "They're cool.",
+              "specific": true
+            },
+            {
+              "answer": "I'd love to.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Star",
+              "increase": 1,
+              "rank": 4
+            }
+          ],
+          "notes": [
+            "Unlocks Jinbocho."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 7,
+      "name": "Sunday",
+      "daytime": [
+        {
+          "isHomeShopping": true,
+          "homeShoppingPurchases": [
+            "Optional"
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Chihaya",
+              "location": "Shinjuku"
+            }
+          ],
+          "notes": [
+            "Luck Fortune Reading (¥5,000), choose Charm."
+          ]
+        },
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Vitality Aojiru (¥5,000)",
+              "location": "Drink stand in Underground Walkway in Shibuya"
+            },
+            {
+              "name": "Exorcism Water (¥2,000)",
+              "location": "Kanda"
+            },
+            {
+              "name": "Master Swordsman (¥8,000)",
+              "location": "Jinbocho"
+            }
+          ]
+        },
+        {
+          "isVisitDVDRental": true,
+          "isReturnDVD": true,
+          "returnDVDs": [
+            "The Running Dead"
+          ],
+          "isBorrowDVD": true,
+          "borrowDVDs": [
+            "31"
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Convenience Store",
+              "location": "Shibuya"
+            }
+          ],
+          "notes": [
+            "Work to discover memento's target's name.",
+            "Write down the barcode answers. You need to be successful to get the full rank up"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 7
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Yoshida",
+              "location": "Station Square",
+              "personaEquipped": "Emperor"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "The media doesn't matter.",
+              "specific": true
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 4
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Sun",
+              "increase": 1,
+              "rank": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 8,
+      "name": "Monday",
+      "daytime": [
+        {
+          "notes": [
+            "Do not leave Leblanc, if you do, you will be unable to return and hang out with Yusuke."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Yusuke",
+              "location": "Leblanc",
+              "personaEquipped": "Emperor"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "If I can find a good deal.",
+              "specific": true
+            },
+            {
+              "answer": "I've got other plans.",
+              "specific": true
+            },
+            {
+              "answer": "You've got a lot to deal with...",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 5
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Emperor",
+              "increase": 1,
+              "rank": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 9,
+      "name": "Tuesday",
+      "daytime": [
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Trader Sakai",
+              "location": "Western alley, Kichijoji"
+            }
+          ],
+          "notes": [
+            "Trade Exorcism Water for Model Gun."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Yusuke",
+              "location": "Underground Walkway, Shibuya",
+              "personaEquipped": "Emperor"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "It feels nostalgic.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Maybe he was sympathetic.",
+              "specific": true
+            },
+            {
+              "answer": "He had a certain dignity.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Emperor",
+              "increase": 1,
+              "rank": 6
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Akechi",
+              "location": "Kichijoji",
+              "personaEquipped": "Justice"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Now this is my kind of club.",
+              "specific": true
+            },
+            {
+              "answer": "Any recommendations?",
+              "specific": true
+            },
+            {
+              "answer": "It's a great place.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Pretty frequently.",
+              "specific": true
+            },
+            {
+              "answer": "I kinda get it.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Justice",
+              "increase": 1,
+              "rank": 4
+            }
+          ],
+          "notes": [
+            "Unlocks the Jazz Club."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 10,
+      "name": "Wednesday",
+      "daytime": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Kasumi",
+              "location": "Kichijoji",
+              "personaEquipped": "Faith"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "It's a surprise, yeah.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Go ahead. I'll watch.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Congratulations.",
+              "specific": true
+            },
+            {
+              "answer": "That's important.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Gymnastics.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Faith",
+              "increase": 1,
+              "rank": 5
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Justine and Caroline",
+              "location": "Near Velvet Room door, Central Street"
+            }
+          ],
+          "notes": [
+            "Take the twins to the aquarium."
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "confidants": [
+      {
+        "name": "Fool",
+        "rank": 6
+      },
+      {
+        "name": "Magician",
+        "rank": 6
+      },
+      {
+        "name": "Emperor",
+        "rank": 4
+      },
+      {
+        "name": "Hierophant",
+        "rank": 3
+      },
+      {
+        "name": "Lovers",
+        "rank": 8
+      },
+      {
+        "name": "Chariot",
+        "rank": 8
+      },
+      {
+        "name": "Justice",
+        "rank": 3
+      },
+      {
+        "name": "Strength",
+        "rank": 6
+      },
+      {
+        "name": "Death",
+        "rank": 7
+      },
+      {
+        "name": "Temperance",
+        "rank": 10
+      },
+      {
+        "name": "Devil",
+        "rank": 1
+      },
+      {
+        "name": "Moon",
+        "rank": 4
+      },
+      {
+        "name": "Sun",
+        "rank": 4
+      },
+      {
+        "name": "Faith",
+        "rank": 4
+      },
+      {
+        "name": "Councillor",
+        "rank": 5
+      },
+      {
+        "name": "Fortune",
+        "rank": 4
+      },
+      {
+        "name": "Hanged Man",
+        "rank": 1
+      },
+      {
+        "name": "Star",
+        "rank": 2
+      },
+      {
+        "name": "Judgement",
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "name": "Knowledge",
+        "rank": 4
+      },
+      {
+        "name": "Guts",
+        "rank": 4
+      },
+      {
+        "name": "Proficiency",
+        "rank": 4
+      },
+      {
+        "name": "Kindness",
+        "rank": 3
+      },
+      {
+        "name": "Charm",
+        "rank": 4
+      }
+    ]
+  }
+}
