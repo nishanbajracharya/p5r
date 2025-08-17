@@ -1,0 +1,1850 @@
+{
+  "name": "June",
+  "month": 6,
+  "days": [
+    {
+      "date": 1,
+      "name": "Wednesday",
+      "daytime": [
+        {
+          "notes": [
+            "You'll need Councillor, Temperance, Faith, and Justice Arcana Personas for this month.",
+            "Recommended fusions: Councillor: Hua Po + Pixie = Kushi Mitama (Lv 12), Temperance: Mandrake + Pixie = Genbu (Lv 7), Faith: Kodama + Pixie = Phoenix (Lv 21), Justice: Succubus + Arsene = Angel (Lv 9).",
+            "Keep Chariot, Lovers, Hierophant, Death, Faith, Councillor, Temperance, and Justice Arcana on hand at all times."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Ryuji",
+              "personaEquipped": "Chariot"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "The mini-Kamoshida?",
+              "specific": true
+            },
+            {
+              "answer": "We can train at my place.",
+              "specific": true
+            },
+            {
+              "answer": "You guys should trust Nakaoka.",
+              "specific": true
+            },
+            {
+              "answer": "Absolutely.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "So he should've punched back?",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Chariot",
+              "increase": 1,
+              "rank": 6
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "All books (3)",
+              "location": "Shibuya bookstore"
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Mishima",
+              "location": "Central Street"
+            }
+          ],
+          "notes": [
+            "Agree to hang out with Mishima. Answers do not matter."
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Moon",
+              "increase": 1,
+              "rank": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 2,
+      "name": "Thursday",
+      "daytime": [
+        {
+          "notes": [
+            "New mementos mission acquired: Speak to the boys talking in the street by the School Gate to confirm the target name."
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Takemi",
+              "personaEquipped": "Death"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "It suits you.",
+              "specific": true
+            },
+            {
+              "answer": "You can count on me.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Death",
+              "increase": 1,
+              "rank": 6
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Guts",
+              "increase": 2,
+              "rank": 3
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isExamineTV": true,
+          "tvAnswers": [
+            "Probation officers are unpaid."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2,
+              "rank": 3
+            }
+          ]
+        },
+        {
+          "isBigBangChallenge": true,
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 3,
+              "rank": 3
+            },
+            {
+              "name": "Guts",
+              "increase": 3,
+              "rank": 3
+            },
+            {
+              "name": "Proficiency",
+              "increase": 3,
+              "rank": 3
+            },
+            {
+              "name": "Charm",
+              "increase": 3,
+              "rank": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 3,
+      "name": "Friday",
+      "daytime": [
+        {
+          "isReadBook": true,
+          "readBooks": [
+            {
+              "name": "Buchiko's Story",
+              "location": "Train",
+              "isSkillUp": true,
+              "skills": [
+                {
+                  "name": "Kindness",
+                  "increase": 5,
+                  "rank": 2
+                }
+              ]
+            },
+            {
+              "name": "Gallant Rogue",
+              "location": "Class"
+            }
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Maruki",
+              "location": "Practice Building",
+              "personaEquipped": "Councillor"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "So they have, huh?",
+              "specific": true
+            },
+            {
+              "answer": "Of course.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "It's a seed for new loves.",
+              "specific": true
+            },
+            {
+              "answer": "Don't worry about it.",
+              "specific": true
+            },
+            {
+              "answer": "Good work over there.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Councillor",
+              "increase": 1,
+              "rank": 3
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isCrosswordSolve": true,
+          "crosswordAnswers": [
+            "Master"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2,
+              "rank": 3
+            }
+          ]
+        },
+        {
+          "isCallPerson": true,
+          "callPerson": {
+            "person": "Kawakami",
+            "location": "Payphone in Leblanc",
+            "isPersonaEquipped": true,
+            "equippedPersonas": [
+              "Temperance"
+            ]
+          },
+          "confidantAnswers": [
+            {
+              "answer": "It does.",
+              "specific": true
+            },
+            {
+              "answer": "Absolutely not!",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Uh, what the hell?",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Temperance",
+              "increase": 1,
+              "rank": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 4,
+      "name": "Saturday",
+      "daytime": [
+        {
+          "isClass": true,
+          "classAnswers": [
+            "The halo effect."
+          ],
+          "isStudyInDiner": true,
+          "dinerOrders": [
+            "Surprise Sando"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 3
+            },
+            {
+              "name": "Guts",
+              "increase": 2
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isCallPerson": true,
+          "callPerson": {
+            "person": "Kawakami",
+            "location": "Payphone in Leblanc",
+            "isPersonaEquipped": true,
+            "equippedPersonas": [
+              "Temperance"
+            ]
+          },
+          "confidantAnswers": [
+            {
+              "answer": "Yeah, they do.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "I'll request you more often.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Thanks.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Temperance",
+              "increase": 1,
+              "rank": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 5,
+      "name": "Sunday",
+      "daytime": [
+        {
+          "isTrophyEarned": true,
+          "trophies": [
+            {
+              "name": "Museum of Vanity: Repossessed",
+              "unlockMode": "Automatic"
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Ryuji"
+            }
+          ],
+          "notes": [
+            "This unlocks Kichijoji."
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Info clerk",
+              "location": "Kichijoji"
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Visit Furniture Store and Sit on the Fancy Couch",
+            "Choose 'Just a little bit longer...' twice when Morgana speaks."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Guts",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "(Optional) Gifts for confidants",
+              "location": "Stationery store"
+            }
+          ]
+        },
+        {
+          "isTrophyEarned": true,
+          "trophies": [
+            {
+              "name": "Trash into Treasure",
+              "unlockMode": "Sell at least one piece of Sooty Armor at the Secondhand Clothes Shop"
+            }
+          ]
+        },
+        {
+          "isVisitDartsAndBilliards": true,
+          "dartsAndBilliardsParticipants": [
+            "Ryuji"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Receive Mementos mission. (Automatic)"
+          ]
+        },
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Beauty Aojiru (¥5,000)",
+              "location": "Drink stand in Underground Walkway in Shibuya"
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "notes": [
+            "IMPORTANT: Save your game."
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Yoshida",
+              "location": "Station Square"
+            }
+          ],
+          "notes": [
+            "Answers do not matter."
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Sun",
+              "increase": 1,
+              "rank": 2
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 3,
+              "rank": 3,
+              "rankUp": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 6,
+      "name": "Monday",
+      "daytime": [
+        {
+          "notes": [
+            "The teacher will throw a chalk at you and you have a 33% chance of successfully dodging it. If you do not dodge it, reload your save file. Make sure to dodge."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 3
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Receive Mementos mission. (Automatic)"
+          ]
+        },
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Bio Nutrients (¥1,200)",
+              "location": "Underground Mall at Shibuya"
+            }
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Maruki",
+              "location": "Practice Building",
+              "personaEquipped": "Councillor"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "I know, right...?",
+              "specific": true
+            },
+            {
+              "answer": "Is that what you're researching?",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "You're so kind.",
+              "specific": true
+            },
+            {
+              "answer": "That sounds fun.",
+              "specific": true
+            },
+            {
+              "answer": "I feel completely fine.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Councillor",
+              "increase": 1,
+              "rank": 4
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isExamineBedroomPlant": true,
+          "isUseItem": true,
+          "useItems": [
+            "Bio Nutrients"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Kindness",
+              "increase": 3
+            }
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Justine and Caroline",
+              "location": "Near Velvet Room door, Central Street"
+            }
+          ],
+          "notes": [
+            "Take the twins to Big Bang Burger."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 7,
+      "name": "Tuesday",
+      "daytime": [
+        {
+          "isClass": true,
+          "classAnswers": [
+            "The number of legs."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isStudyInDiner": true,
+          "dinerOrders": [
+            "Surprise Sando"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Guts",
+              "increase": 2
+            },
+            {
+              "name": "Knowledge",
+              "increase": 3
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isCrosswordSolve": true,
+          "crosswordAnswers": [
+            "Conference"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Justine and Caroline",
+              "location": "Near Velvet Room door, Central Street"
+            }
+          ],
+          "notes": [
+            "Take the twins to the Movie Theater."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 8,
+      "name": "Wednesday",
+      "daytime": [
+        {
+          "isClass": true,
+          "classAnswers": [
+            "Controlling public thought."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Kasumi"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "We're just getting started.",
+              "specific": true
+            },
+            {
+              "answer": "Next time, then.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Impressive.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Faith",
+              "increase": 1,
+              "rank": 2
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Mishima",
+              "location": "Central Street"
+            }
+          ],
+          "notes": [
+            " Answers do not matter."
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Moon",
+              "increase": 1,
+              "rank": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 9,
+      "name": "Thursday",
+      "daytime": [
+        {
+          "notes": [
+            "Automatic (This unlocks Suidobashi)"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Lotto R ticket (¥3,200)",
+              "location": "Station Square"
+            }
+          ]
+        },
+        {
+          "isVisitBattingCenter": true,
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Proficiency",
+              "increase": 2
+            }
+          ],
+          "isTrophyEarned": true,
+          "trophies": [
+            {
+              "name": "Batter Up!",
+              "unlockMode": "Hit the ball for the first time"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 10,
+      "name": "Friday",
+      "daytime": [
+        {
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Justice",
+              "increase": 1,
+              "rank": 1
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isCallPerson": true,
+          "callPerson": {
+            "person": "Kawakami",
+            "location": "Payphone in Leblanc",
+            "isPersonaEquipped": true,
+            "equippedPersonas": [
+              "Temperance"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "date": 11,
+      "name": "Saturday",
+      "daytime": [
+        {
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Fool",
+              "rank": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 12,
+      "name": "Sunday",
+      "daytime": [
+        {
+          "notes": [
+            "Receive Mementos mission. (Automatic)"
+          ]
+        },
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Vitality Aojiru (¥5,000)",
+              "location": "Drink stand in Underground Walkway in Shibuya"
+            },
+            {
+              "name": "Imported Protein (¥8,000)",
+              "location": "Sports Store in Underground Mall in Shibuya"
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Proficiency",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Ann",
+              "location": "Underground Mall",
+              "personaEquipped": "Lovers"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Give it up.",
+              "specific": true
+            },
+            {
+              "answer": "She's amazing, huh...",
+              "specific": true
+            },
+            {
+              "answer": "It had grace.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Uh, what the hell?",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Lovers",
+              "increase": 1,
+              "rank": 5
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Head to the Velvet Room and fuse Ame-no-Uzume if you don't have one (Jack Frost + Bicorn recommended).",
+            "Use the Frei card on Ame-no-Uzume to fulfill the twins' request."
+          ]
+        },
+        {
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Strength",
+              "rank": 2
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Next request: Flauros with Tarukaja (Fuse Eligor + Berith + Orobas, inherit Tarukaja).",
+            "Efficient Executioner trophy unlocked for group execution.",
+            "Speak to the twins again to register Flauros."
+          ]
+        },
+        {
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Strength",
+              "rank": 3
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Unlocks Lockdown.",
+            "Next request: Phoenix with Counter.",
+            "WARNING: Re-summon Berith/Eligor if you need them for Hierophant/Emperor.",
+            "Pop a Persona into Lockdown for incense and Intensive Training trophy.",
+            "Travel to Kichijoji and trade Foreign Protein for Decorative Whip for Ann (equip it).",
+            "Speak to men in western alley in Kichijoji for Mementos target name."
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Yoshida",
+              "location": "Station Square"
+            }
+          ],
+          "notes": [
+            "Answers do not matter."
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Sun",
+              "increase": 1,
+              "rank": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 13,
+      "name": "Monday",
+      "daytime": [
+        {
+          "isClass": true,
+          "classAnswers": [
+            "Green."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Akechi",
+              "location": "Kichijoji",
+              "personaEquipped": "Justice"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "You always seem so busy.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Shoot very carefully.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "I see a lot of things.",
+              "specific": true
+            },
+            {
+              "answer": "As rivals?",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Justice",
+              "increase": 1,
+              "rank": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 14,
+      "name": "Tuesday",
+      "evening": [
+        {
+          "isVisitBathhouse": true,
+          "location": "Yongen-Jaya",
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 3
+            },
+            {
+              "name": "Guts",
+              "increase": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 15,
+      "name": "Wednesday",
+      "daytime": [
+        {
+          "isReadBook": true,
+          "readBooks": [
+            {
+              "name": "Gallant Rogue",
+              "location": "Train",
+              "isSkillUp": true,
+              "skills": [
+                {
+                  "name": "Guts",
+                  "increase": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "isClass": true,
+          "classAnswers": [
+            "Coins."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isCallPerson": true,
+          "callPerson": {
+            "person": "Kawakami",
+            "location": "Payphone in Leblanc",
+            "isPersonaEquipped": true,
+            "equippedPersonas": [
+              "Temperance"
+            ]
+          },
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "How rude.",
+              "specific": true
+            },
+            {
+              "answer": "You need to love yourself.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Temperance",
+              "increase": 1,
+              "rank": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 16,
+      "name": "Thursday",
+      "evening": [
+        {
+          "isCrosswordSolve": true,
+          "crosswordAnswers": [
+            "Wardrobe"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2,
+              "rank": 4,
+              "rankUp": true
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Save your game."
+          ]
+        },
+        {
+          "isVisitDartsAndBilliards": true,
+          "dartsAndBilliardsActions": [
+            "Darts"
+          ]
+        },
+        {
+          "isTrophyEarned": true,
+          "trophies": [
+            {
+              "name": "Dartslinger",
+              "unlockMode": "Play darts at Darts & Billiards"
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Reload your save file."
+          ]
+        },
+        {
+          "isVisitDartsAndBilliards": true,
+          "dartsAndBilliardsActions": [
+            "Billiards"
+          ]
+        },
+        {
+          "isTrophyEarned": true,
+          "trophies": [
+            {
+              "name": "A Hustler's Journey",
+              "unlockMode": "Play billiards at Darts & Billiards"
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Random",
+              "increase": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 17,
+      "name": "Friday",
+      "evening": [
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Expert Billiards (¥3,500)",
+              "location": "Sports Store, Underground Mall"
+            }
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Lottery booth",
+              "location": "Station Square"
+            }
+          ]
+        },
+        {
+          "isTrophyEarned": true,
+          "trophies": [
+            {
+              "name": "Easy Money",
+              "unlockMode": "Win the lottery"
+            }
+          ]
+        },
+        {
+          "notes": [
+            "If you didn't win, buy another ticket and wait another 7 days."
+          ]
+        },
+        {
+          "isCallPerson": true,
+          "callPerson": {
+            "person": "Kawakami",
+            "location": "Payphone in Leblanc",
+            "isPersonaEquipped": true,
+            "equippedPersonas": [
+              "Temperance"
+            ]
+          },
+          "confidantAnswers": [
+            {
+              "answer": "It's fun.",
+              "specific": true
+            },
+            {
+              "answer": "How terrible...",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "You want some?",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Temperance",
+              "increase": 1,
+              "rank": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 18,
+      "name": "Saturday",
+      "daytime": [
+        {
+          "notes": [
+            "Receive Mementos mission. (Automatic)"
+          ]
+        },
+        {
+          "isVisitLibrary": true,
+          "isReturnBook": true,
+          "returnBooks": [
+            "The Gallant Rogue"
+          ],
+          "isBorrowBook": true,
+          "borrowBooks": [
+            "Zorro, the Outlaw"
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Yusuke",
+              "location": "Underground Walkway, Shibuya",
+              "personaEquipped": "Emperor"
+            }
+          ],
+          "notes": [
+            "Answers do not matter."
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Emperor",
+              "increase": 1,
+              "rank": 1
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Automatic (This unlocks Shinjuku)"
+          ]
+        },
+        {
+          "isStudyInLeblanc": true,
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 19,
+      "name": "Sunday",
+      "daytime": [
+        {
+          "isHomeShopping": true,
+          "homeShoppingPurchases": [
+            "Optional"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Make sure you have a Lovers persona on hand for the automatic class event with Ann tomorrow."
+          ]
+        },
+        {
+          "isStudyInLeblanc": true,
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 20,
+      "name": "Monday",
+      "daytime": [
+        {
+          "isClass": true,
+          "classAnswers": [
+            "Smartphone"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Automatic infiltration of Kaneshiro's Palace."
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "IMPORTANT: Save your game."
+          ]
+        },
+        {
+          "isCraftItem": true,
+          "itemCraft": [
+            "Infiltration tools"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Proficiency",
+              "increase": 3
+            }
+          ]
+        },
+        {
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Magician",
+              "increase": 1,
+              "rank": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 21,
+      "name": "Tuesday",
+      "daytime": [
+        {
+          "notes": [
+            "The teacher will throw a chalk at you and you have a 66% chance of successfully dodging it. If you do not dodge it, reload your save file. Make sure to dodge."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 3
+            }
+          ]
+        },
+        {
+          "isVisitDVDRental": true,
+          "isReturnDVD": true,
+          "returnDVDs": [
+            "Bubbly Hills, 90210"
+          ],
+          "isBorrowDVD": true,
+          "borrowDVDs": [
+            "ICU"
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Maruki",
+              "location": "Practice Building",
+              "personaEquipped": "Councillor"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "This looks great!",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "You know, you're right.",
+              "specific": true
+            },
+            {
+              "answer": "Hey, as long as it tastes good.",
+              "specific": true
+            },
+            {
+              "answer": "I guess so.",
+              "specific": true
+            },
+            {
+              "answer": "I really don't mind.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Councillor",
+              "increase": 1,
+              "rank": 5
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "All books (4)",
+              "location": "Bookstore, Shinjuku"
+            }
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Justine and Caroline",
+              "location": "Near Velvet Room door, Shinjuku"
+            }
+          ],
+          "notes": [
+            "Take the twins to the Gym."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 22,
+      "name": "Wednesday",
+      "daytime": [
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Bio Nutrients (¥1,200)",
+              "location": "Underground Mall at Shibuya"
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Ann",
+              "location": "Underground Mall",
+              "personaEquipped": "Lovers"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Yeah.",
+              "specific": true
+            }
+          ],
+          "notes": [
+            "Harajuku date. Idol Poster Obtained."
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Choose 'Respond later' to Ryuji's message."
+          ]
+        },
+        {
+          "isExamineBedroomPlant": true,
+          "isUseItem": true,
+          "useItems": [
+            "Bio Nutrients"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Kindness",
+              "increase": 3,
+              "rank": 3,
+              "rankUp": true
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Hang up your Idol Poster by interacting with the shelves in your room."
+          ]
+        },
+        {
+          "isCrosswordSolve": true,
+          "crosswordAnswers": [
+            "Currency"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Ryuji",
+              "personaEquipped": "Chariot"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Let's talk to Takeishi.",
+              "specific": true
+            },
+            {
+              "answer": "I think it's cool, Ryuji.",
+              "specific": true
+            },
+            {
+              "answer": "Never know until you try.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Chariot",
+              "increase": 1,
+              "rank": 7
+            }
+          ],
+          "notes": [
+            "This unlocks Tsukishima."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 23,
+      "name": "Thursday",
+      "daytime": [
+        {
+          "isReadBook": true,
+          "readBooks": [
+            {
+              "name": "The Craft of Cinema",
+              "location": "Train"
+            }
+          ]
+        },
+        {
+          "isClass": true,
+          "classAnswers": [
+            "A pope."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Yusuke",
+              "location": "Underground Walkway, Shibuya",
+              "personaEquipped": "Emperor"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "It's novel.",
+              "specific": true
+            },
+            {
+              "answer": "I can't wait.",
+              "specific": true
+            },
+            {
+              "answer": "You're already doing enough.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Emperor",
+              "increase": 1,
+              "rank": 2
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isExamineTV": true,
+          "tvAnswers": [
+            "Ordering food without money."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Ohya",
+              "location": "Crossroads bar, Shinjuku"
+            }
+          ],
+          "notes": [
+            "Answers do not matter."
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Devil",
+              "increase": 1,
+              "rank": 1
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "confidants": [
+      {
+        "name": "Fool",
+        "rank": 4
+      },
+      {
+        "name": "Magician",
+        "rank": 3
+      },
+      {
+        "name": "Hierophant",
+        "rank": 3
+      },
+      {
+        "name": "Lovers",
+        "rank": 4
+      },
+      {
+        "name": "Chariot",
+        "rank": 5
+      },
+      {
+        "name": "Strength",
+        "rank": 1
+      },
+      {
+        "name": "Death",
+        "rank": 5
+      },
+      {
+        "name": "Temperance",
+        "rank": 1
+      },
+      {
+        "name": "Moon",
+        "rank": 2
+      },
+      {
+        "name": "Sun",
+        "rank": 1
+      },
+      {
+        "name": "Faith",
+        "rank": 1
+      },
+      {
+        "name": "Councillor",
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "name": "Knowledge",
+        "rank": 3
+      },
+      {
+        "name": "Guts",
+        "rank": 3
+      },
+      {
+        "name": "Proficiency",
+        "rank": 3
+      },
+      {
+        "name": "Kindness",
+        "rank": 2
+      },
+      {
+        "name": "Charm",
+        "rank": 2
+      }
+    ]
+  }
+}

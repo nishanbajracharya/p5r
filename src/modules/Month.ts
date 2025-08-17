@@ -92,6 +92,8 @@ export type CallPerson = {
   person?: string;
   location?: string;
   requirement?: string;
+  isPersonaEquipped?: boolean;
+  equippedPersonas?: string[];
 }
 
 export type Event = {
@@ -205,6 +207,12 @@ export type Event = {
 
   isVisitMementos?: boolean;
   mementosActions?: string[];
+
+  isVisitDartsAndBilliards?: boolean;
+  dartsAndBilliardsActions?: string[];
+  dartsAndBilliardsParticipants?: string[];
+
+  isVisitBattingCenter?: boolean;
 }
 
 export type Stats = {

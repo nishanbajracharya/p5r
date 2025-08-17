@@ -50,6 +50,9 @@ export function EventView(props: { data?: Event[] }) {
           event?.isVisitBathhouse && <div className="event"><div className="event-content"><p>Visit Bathhouse in <strong>Yongen-Jaya</strong></p></div></div>
         }
         {
+          event?.isVisitBattingCenter && <div className="event"><div className="event-content"><p>Visit Batting Center in <strong>Yongen-Jaya</strong></p></div></div>
+        }
+        {
           event?.isVisitDVDRental && <div className="event">
             <p className="event-header">Visit DVD Rental in <strong>Shibuya Central Steet</strong></p>
             <ul className="event-content">
@@ -278,9 +281,19 @@ export function EventView(props: { data?: Event[] }) {
           </div>
         }
         {
+          event.isVisitDartsAndBilliards && <div className="event">
+            <p className="event-header">Visit Darts and Billiards {event.dartsAndBilliardsParticipants ? <strong>with {event.dartsAndBilliardsParticipants.join(', ')}</strong> : null}</p>
+            <ul className="event-content">
+              {
+                event.dartsAndBilliardsActions?.map((action, index) => <li key={`${action}-${index}`}><strong>{action}</strong></li>)
+              }
+            </ul>
+          </div>
+        }
+        {
           event.isCallPerson && <div className="event">
             <div className="event-content">
-              <p>Call <strong>{event.callPerson?.person}</strong> at <strong>{event.callPerson?.location}</strong> (Requirement: <strong>{event.callPerson?.requirement}</strong>)</p>
+              <p>Call <strong>{event.callPerson?.person}</strong> at <strong>{event.callPerson?.location}</strong> {event.callPerson?.requirement && `(Requirement: ${event.callPerson.requirement})`}{event.callPerson?.isPersonaEquipped && `(Equipped Persona: ${event.callPerson.equippedPersonas?.join(', ')})`}</p>
             </div>
           </div>
         }
