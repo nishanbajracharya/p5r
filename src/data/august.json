@@ -2095,31 +2095,35 @@
     "confidants": [
       {
         "name": "Fool",
-        "rank": 6
+        "rank": 8
       },
       {
         "name": "Magician",
-        "rank": 6
+        "rank": 7
       },
       {
         "name": "Emperor",
-        "rank": 4
+        "rank": 7
+      },
+      {
+        "name": "High Priestess",
+        "rank": 7
       },
       {
         "name": "Hierophant",
-        "rank": 3
+        "rank": 4
       },
       {
         "name": "Lovers",
-        "rank": 8
+        "rank": 10
       },
       {
         "name": "Chariot",
-        "rank": 8
+        "rank": 10
       },
       {
         "name": "Justice",
-        "rank": 3
+        "rank": 5
       },
       {
         "name": "Strength",
@@ -2135,19 +2139,19 @@
       },
       {
         "name": "Devil",
-        "rank": 1
+        "rank": 4
       },
       {
         "name": "Moon",
-        "rank": 4
+        "rank": 5
       },
       {
         "name": "Sun",
-        "rank": 4
+        "rank": 7
       },
       {
         "name": "Faith",
-        "rank": 4
+        "rank": 5
       },
       {
         "name": "Councillor",
@@ -2155,41 +2159,45 @@
       },
       {
         "name": "Fortune",
-        "rank": 4
+        "rank": 7
       },
       {
         "name": "Hanged Man",
-        "rank": 1
+        "rank": 4
       },
       {
         "name": "Star",
-        "rank": 2
+        "rank": 7
       },
       {
         "name": "Judgement",
-        "rank": 2
+        "rank": 3
+      },
+      {
+        "name": "Hermit",
+        "rank": 1
       }
     ],
     "skills": [
       {
         "name": "Knowledge",
-        "rank": 4
+        "rank": 5
       },
       {
         "name": "Guts",
-        "rank": 4
+        "rank": 5
       },
       {
         "name": "Proficiency",
-        "rank": 4
+        "rank": 5
       },
       {
         "name": "Kindness",
-        "rank": 3
+        "rank": 4
       },
       {
         "name": "Charm",
-        "rank": 4
+        "rank": 5
       }
     ]
   }
