@@ -31,7 +31,12 @@ export enum ConfidantNames {
   EMPEROR = 'Emperor',
   JUSTICE = 'Justice',
   STRENGTH = 'Strength',
-  DEVIL = 'Devil'
+  DEVIL = 'Devil',
+  HIGH_PRIESTESS = 'High Priestess',
+  FORTUNE = 'Fortune',
+  HANGED_MAN = 'Hanged Man',
+  STAR = 'Star',
+  JUDGEMENT = 'Judgement',
 };
 
 export type Item = {
@@ -98,6 +103,7 @@ export type CallPerson = {
   requirement?: string;
   isPersonaEquipped?: boolean;
   equippedPersonas?: string[];
+  action?: string;
 }
 
 export type SellItem = {
@@ -225,6 +231,8 @@ export type Event = {
 
   isSellItems?: boolean;
   sellItems?: SellItem[];
+
+  isCleanLeblanc?: boolean;
 }
 
 export type Stats = {

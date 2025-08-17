@@ -35,6 +35,7 @@ h1 {
   max-height: calc(100vh - 110px);
   overflow-y: auto; 
   transition: .25s;
+  padding-right: 1em;
 }
 
 header {

@@ -38,6 +38,9 @@ export function EventView(props: { data?: Event[] }) {
           </div>
         }
         {
+          event?.isCleanLeblanc && <div className="event"><div className="event-content"><p>Clean <strong>Leblanc</strong> by investigating the restroom</p></div></div>
+        }
+        {
           event?.isStudyInLeblanc && <div className="event"><div className="event-content"><p>Study in <strong>Leblanc</strong></p></div></div>
         }
         {
@@ -304,9 +307,10 @@ export function EventView(props: { data?: Event[] }) {
         }
         {
           event.isCallPerson && <div className="event">
-            <div className="event-content">
-              <p>Call <strong>{event.callPerson?.person}</strong> at <strong>{event.callPerson?.location}</strong> {event.callPerson?.requirement && `(Requirement: ${event.callPerson.requirement})`}{event.callPerson?.isPersonaEquipped && `(Equipped Persona: ${event.callPerson.equippedPersonas?.join(', ')})`}</p>
-            </div>
+            <p className="event-header">Call <strong>{event.callPerson?.person}</strong> at <strong>{event.callPerson?.location}</strong> {event.callPerson?.requirement && `(Requirement: ${event.callPerson.requirement})`}{event.callPerson?.isPersonaEquipped && `(Equipped Persona: ${event.callPerson.equippedPersonas?.join(', ')})`}</p>
+            <ul className="event-content">
+              {event.callPerson?.action && <li><strong>{event.callPerson.action}</strong></li>}
+            </ul>
           </div>
         }
         {
