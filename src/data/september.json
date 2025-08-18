@@ -1,0 +1,1076 @@
+{
+  "name": "September",
+  "month": 9,
+  "days": [
+    {
+      "date": 1,
+      "name": "Thursday",
+      "evening": [
+        {
+          "notes": [
+            "Get an Affinity Fortune Reading (¥5,000) from Chihaya in Shinjuku and choose 'Ohya' with a Devil persona equipped."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Chihaya",
+              "location": "Shinjuku",
+              "personaEquipped": "Fortune"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            "'Debunking the Psychic!' Mementos Mission automatically obtained."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 2,
+      "name": "Friday",
+      "daytime": [
+        {
+          "notes": [
+            "The teacher will throw a chalk at you and you have a 66% chance of successfully dodging it. If you do not dodge it, reload your save file. Make sure to dodge."
+          ]
+        },
+        {
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 3
+            }
+          ]
+        },
+        {
+          "isSellItem": true,
+          "sellItems": [
+            {
+              "name": "All treasure",
+              "location": "Iwai, Airsoft Shop, Shibuya"
+            },
+            {
+              "name": "Sooty Armor",
+              "location": "Secondhand Clothes Shop, Kichijoji"
+            }
+          ]
+        },
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "All new books",
+              "location": "Shibuya"
+            },
+            {
+              "name": "Broken Laptop",
+              "location": "Secondhand Shop, Yongen-Jaya",
+              "price": 500
+            },
+            {
+              "name": "Phantom Wafers",
+              "location": "Discount Store, Shibuya",
+              "price": 500
+            },
+            {
+              "name": "Calling Postcard",
+              "location": "Discount Store, Shibuya",
+              "price": 500
+            },
+            {
+              "name": "PC Tool Set",
+              "location": "Old Machines Parts Store, Akihabara",
+              "price": 8000
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Futaba",
+              "location": "Outside Leblanc",
+              "personaEquipped": "Hermit"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "That's a great idea.",
+              "specific": true
+            },
+            {
+              "answer": "If we work together.",
+              "specific": true
+            },
+            {
+              "answer": "Sounds good to me.",
+              "specific": true
+            },
+            {
+              "answer": "I bet it will.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Hermit",
+              "increase": 1,
+              "rank": 2
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isCrosswordSolve": true,
+          "crosswordAnswers": [
+            "Typoon"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Mishima",
+              "location": "Akihabara"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Just tell me already.",
+              "specific": true
+            },
+            {
+              "answer": "Rumors are wrong all the time...",
+              "specific": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Moon",
+              "increase": 1,
+              "rank": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 3,
+      "name": "Saturday",
+      "daytime": [
+        {
+          "isClass": true,
+          "classAnswers": [
+            "Prosperity."
+          ]
+        },
+        {
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Hifumi",
+              "location": "Kanda",
+              "personaEquipped": "Star"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "That won't work.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": true
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Star",
+              "increase": 1,
+              "rank": 8
+            }
+          ],
+          "notes": [
+            "'Upstaging the Stage Mother' Mementos Mission automatically obtained."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 4,
+      "name": "Sunday",
+      "daytime": [
+        {
+          "notes": [
+            "'Winners Don't Use Cheats' Mementos Mission automatically obtained.",
+            "Trade Phantom Wafers for Strength Up Ofuda with Trader Sakai, Kichijoji.",
+            "Win Jack Frost Doll from Akihabara Game Center (left machine).",
+            "Talk to people in Shibuya Arcade for Mementos target name."
+          ]
+        },
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Seafood Aojiru (¥5,000)",
+              "location": "Underground Walkway, Shibuya"
+            }
+          ]
+        },
+        {
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Futaba",
+              "location": "Outside Leblanc",
+              "personaEquipped": "Hermit"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "I was about to come find you.",
+              "specific": true
+            },
+            {
+              "answer": "Good to see you again.",
+              "specific": true
+            },
+            {
+              "answer": "We'll both do our best.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Hermit",
+              "increase": 1,
+              "rank": 3
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Iwai",
+              "location": "Airsoft Shop, Shibuya",
+              "personaEquipped": "Hanged Man"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "I want to work.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "You're pathetic.",
+              "specific": true
+            },
+            {
+              "answer": "I'll stick around for the guns.",
+              "specific": true
+            },
+            {
+              "answer": "You're right.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Proficiency",
+              "increase": 3
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Hanged Man",
+              "increase": 1,
+              "rank": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 5,
+      "name": "Monday",
+      "daytime": [
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Mega Fertilizer (¥3,000)",
+              "location": "Shinjuku (Optional)"
+            }
+          ]
+        },
+        {
+          "isWorkJob": true,
+          "jobs": [
+            {
+              "name": "Convenience Store",
+              "location": "Shibuya"
+            }
+          ],
+          "notes": [
+            "Work to discover 'Calling for Justice for Cats' target"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 3
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Get an Affinity Fortune Reading (¥5,000) from Chihaya in Shinjuku and choose 'Iwai' with a Hanged Man persona equipped."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Ohya",
+              "location": "Crossroads Bar, Shinjuku",
+              "personaEquipped": "Devil"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "That's unforgivable.",
+              "specific": true
+            },
+            {
+              "answer": "I don't mind it.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Devil",
+              "increase": 1,
+              "rank": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 6,
+      "name": "Tuesday",
+      "daytime": [
+        {
+          "isClass": true,
+          "classAnswers": [
+            "Chronostasis."
+          ]
+        },
+        {
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Takemi",
+              "location": "Clinic",
+              "personaEquipped": "Death"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "I'm your ally.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Death",
+              "increase": 1,
+              "rank": 8
+            }
+          ],
+          "notes": [
+            "'Bad Medicine' Mementos Mission automatically obtained."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 7,
+      "name": "Wednesday"
+    },
+    {
+      "date": 8,
+      "name": "Thursday"
+    },
+    {
+      "date": 9,
+      "name": "Friday",
+      "daytime": [
+        {
+          "notes": [
+            "Save your game during the 'Get information from the locals' section."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 10,
+      "name": "Saturday"
+    },
+    {
+      "date": 11,
+      "name": "Sunday"
+    },
+    {
+      "date": 12,
+      "name": "Monday"
+    },
+    {
+      "date": 13,
+      "name": "Tuesday"
+    },
+    {
+      "date": 14,
+      "name": "Wednesday",
+      "daytime": [
+        {
+          "isClass": true,
+          "classAnswers": [
+            "Money loans for collateral."
+          ]
+        },
+        {
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isExamineBedroomPlant": true,
+          "isUseItem": true,
+          "useItems": [
+            "Mega Fertilizer"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Kindness",
+              "increase": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 15,
+      "name": "Thursday",
+      "daytime": [
+        {
+          "isPalaceInfiltration": true
+        }
+      ]
+    },
+    {
+      "date": 16,
+      "name": "Friday"
+    },
+    {
+      "date": 17,
+      "name": "Saturday",
+      "daytime": [
+        {
+          "isClass": true,
+          "classAnswers": [
+            "Cats eating human tongues."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 18,
+      "name": "Sunday",
+      "evening": [
+        {
+          "isFixItem": true,
+          "fixItems": [
+            {
+              "name": "Broken Laptop",
+              "location": "Worktop in your room"
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Proficiency",
+              "increase": 5
+            }
+          ],
+          "notes": [
+            "You can now purchase items via Shady Commodities from the laptop at any time without a time-lapse."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 19,
+      "name": "Monday",
+      "daytime": [
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Thief Mask (¥5,000)",
+              "location": "Discount Store in Shibuya"
+            }
+          ],
+          "notes": [
+            "Travel to Kichijoji and speak to Trader Sakai in the western alley to trade the Thief Mask for a Magic Up Ofuda.",
+            "Visit the Velvet Room as Public Executions have become available."
+          ]
+        },
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "(Optional) SP recovery items",
+              "location": "Vending machines near the Bathhouse"
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Go to the hideout and go to Mementos and clear all requests."
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isCallPerson": true,
+          "callPerson": {
+            "person": "Kawakami",
+            "location": "Leblanc",
+            "action": "Ask for a massage."
+          }
+        },
+        {
+          "isCrosswordSolve": true,
+          "crosswordAnswers": [
+            "Festival"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Hifumi",
+              "location": "Kanda"
+            }
+          ]
+        },
+        {
+          "confidantAnswers": [
+            {
+              "answer": "I'm glad her heart changed.",
+              "specific": true
+            },
+            {
+              "answer": "Any option",
+              "specific": false
+            },
+            {
+              "answer": "I support it.",
+              "specific": true,
+              "isPhone": true
+            }
+          ]
+        },
+        {
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 20,
+      "name": "Monday",
+      "daytime": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Makoto",
+              "personaEquipped": "High Priestess"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "That's how he ropes you in.",
+              "specific": true
+            },
+            {
+              "answer": "Absolutely.",
+              "specific": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "High Priestess",
+              "increase": 1,
+              "rank": 8
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Ohya",
+              "personaEquipped": "Devil"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Yeah, totally!",
+              "specific": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Devil",
+              "increase": 1,
+              "rank": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 21,
+      "name": "Wednesday",
+      "daytime": [
+        {
+          "isClass": true,
+          "classAnswers": [
+            "Central Europe."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Go to Akihabara arcade and ask the kid to teach you some tricks.",
+            "Speak to Futaba outside of Cafe Leblanc about convincing him.",
+            "Return to the arcade in Akihabara and speak to Shinya with a Tower persona equipped.",
+            "Confirm with Futaba via DM when prompted."
+          ]
+        },
+        {
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Tower",
+              "increase": 1,
+              "rank": 1
+            },
+            {
+              "name": "Hermit",
+              "increase": 1,
+              "rank": 5
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Call me when it's game time.",
+              "specific": true
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Kindness",
+              "increase": 5
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "confidantAnswers": [
+            {
+              "answer": "My bad, I guess.",
+              "specific": true,
+              "isPhone": true
+            },
+            {
+              "answer": "Commit to the DM message.",
+              "specific": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 22,
+      "name": "Thursday",
+      "daytime": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Hifumi",
+              "location": "Akihabara"
+            }
+          ]
+        },
+        {
+          "confidantAnswers": [
+            {
+              "answer": "Take your time.",
+              "specific": true
+            },
+            {
+              "answer": "Good thinking.",
+              "specific": true
+            },
+            {
+              "answer": "That's good, right?",
+              "specific": true
+            },
+            {
+              "answer": "She knows everything.",
+              "specific": true
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isExamineTV": true,
+          "tvAnswers": [
+            "Ten years in prison."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Sojiro",
+              "personaEquipped": "Hierophant"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "I think I'm addicted!",
+              "specific": true
+            },
+            {
+              "answer": "She wasn't normal, huh?",
+              "specific": true
+            },
+            {
+              "answer": "It really paid off in the end.",
+              "specific": true
+            },
+            {
+              "answer": "Kindness +3",
+              "specific": true
+            },
+            {
+              "answer": "She needs a balanced diet.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Kindness",
+              "increase": 3
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Hierophant",
+              "increase": 1,
+              "rank": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "confidants": [
+      {
+        "name": "Fool",
+        "rank": 8
+      },
+      {
+        "name": "Magician",
+        "rank": 9
+      },
+      {
+        "name": "Emperor",
+        "rank": 7
+      },
+      {
+        "name": "High Priestess",
+        "rank": 8
+      },
+      {
+        "name": "Hierophant",
+        "rank": 6
+      },
+      {
+        "name": "Lovers",
+        "rank": 10
+      },
+      {
+        "name": "Chariot",
+        "rank": 10
+      },
+      {
+        "name": "Justice",
+        "rank": 6
+      },
+      {
+        "name": "Strength",
+        "rank": 6
+      },
+      {
+        "name": "Death",
+        "rank": 7
+      },
+      {
+        "name": "Temperance",
+        "rank": 10
+      },
+      {
+        "name": "Devil",
+        "rank": 5
+      },
+      {
+        "name": "Moon",
+        "rank": 6
+      },
+      {
+        "name": "Sun",
+        "rank": 8
+      },
+      {
+        "name": "Faith",
+        "rank": 5
+      },
+      {
+        "name": "Councillor",
+        "rank": 7
+      },
+      {
+        "name": "Fortune",
+        "rank": 7
+      },
+      {
+        "name": "Hanged Man",
+        "rank": 5
+      },
+      {
+        "name": "Star",
+        "rank": 9
+      },
+      {
+        "name": "Judgement",
+        "rank": 4
+      },
+      {
+        "name": "Hermit",
+        "rank": 4
+      },
+      {
+        "name": "Tower",
+        "rank": 2
+      }
+    ],
+    "skills": [
+      {
+        "name": "Knowledge",
+        "rank": 5
+      },
+      {
+        "name": "Guts",
+        "rank": 5
+      },
+      {
+        "name": "Proficiency",
+        "rank": 5
+      },
+      {
+        "name": "Kindness",
+        "rank": 5
+      },
+      {
+        "name": "Charm",
+        "rank": 5
+      }
+    ]
+  }
+}

@@ -37,6 +37,8 @@ export enum ConfidantNames {
   HANGED_MAN = 'Hanged Man',
   STAR = 'Star',
   JUDGEMENT = 'Judgement',
+  HERMIT = 'Hermit',
+  TOWER = 'Tower',
 };
 
 export type Item = {
@@ -107,6 +109,11 @@ export type CallPerson = {
 }
 
 export type SellItem = {
+  name?: string;
+  location?: string;
+}
+
+export type FixItem = {
   name?: string;
   location?: string;
 }
@@ -231,6 +238,9 @@ export type Event = {
 
   isSellItems?: boolean;
   sellItems?: SellItem[];
+
+  isFixItem?: boolean;
+  fixItems?: FixItem[];
 
   isCleanLeblanc?: boolean;
 }
