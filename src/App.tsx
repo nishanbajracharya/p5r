@@ -5,6 +5,7 @@ import { months } from './data/months';
 import { Day, Month } from './modules/Month';
 import { MonthView } from './components/MonthView';
 import NavigationBar from './components/NavigationBar';
+import { ColorSchemeSwitcher } from './components/ColorSchemeSwitcher';
 
 
 function App() {
@@ -12,7 +13,13 @@ function App() {
 
   return (
     <>
-      <header><h1><button className="menu-toggle" onClick={() => setOpen(open => !open)}>☰</button>Persona 5 Royal</h1></header>
+      <header>
+        <h1>
+          <button className="menu-toggle" onClick={() => setOpen(open => !open)}>☰</button>
+          <span className="title">Persona 5 Royal</span>
+          <ColorSchemeSwitcher />
+        </h1>
+      </header>
       <main className="wrapper">
         <NavigationBar open={open} setOpen={() => setOpen(false)} />
         <div className="main-content">

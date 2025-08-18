@@ -33,7 +33,7 @@ h1 {
   top: 110px;
   align-self: start;
   max-height: calc(100vh - 110px);
-  overflow-y: auto; 
+  overflow-y: auto;
   transition: .25s;
   padding-right: 1em;
 }
@@ -46,7 +46,7 @@ header {
   background-color: var(--pico-background-color);
   line-height: 42px;
   height: 74px;
-  width: calc(100vw - 2em);
+  width: calc(1280px - 4em);
 }
 
 header button {
@@ -98,7 +98,8 @@ header button {
   color: var(--pico-accordion-open-summary-color);
 }
 
-.day .day-daytime, .day .day-evening {
+.day .day-daytime,
+.day .day-evening {
   font-weight: bold;
 }
 
@@ -110,9 +111,17 @@ header button {
   margin: 0;
 }
 
-.event-header + .event-content {
+.event-header+.event-content {
   margin-left: 1em;
   margin-bottom: 0;
+}
+
+header h1 {
+  display: flex;
+}
+
+header h1 .title {
+  flex: 1;
 }
 
 /* Responsive behavior */
@@ -151,7 +160,15 @@ header button {
     padding: 0 1rem;
   }
 
-  header h1 {
-    display: flex;
+  header {
+    max-width: calc(100vw - 2em);
+  }
+}
+
+
+
+:root:not([data-theme="dark"]), [data-theme="light"] {
+  button {
+    color: var(--pico-primary);
   }
 }
