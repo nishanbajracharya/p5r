@@ -537,6 +537,923 @@
           ]
         }
       ]
+    },
+    {
+      "date": 8,
+      "name": "Saturday",
+      "daytime": [
+        {
+          "notes": [
+            "Go on the trip with Shinya and choose 'Sometimes it's good.'"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Ensure you have a Hermit and Hanged Man persona equipped and take Hifumi on a date to the Odaiba ferris wheel.",
+            "Agree to spend the next day with Futaba via DM."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 9,
+      "name": "Sunday",
+      "daytime": [
+        {
+          "notes": [
+            "Automatic date with Futaba (providing you responded yes to the DM). (Nakano Unlocked.)"
+          ]
+        },
+        {
+          "confidantAnswers": [
+            {
+              "answer": "Do you work part time?",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Yoshida",
+              "location": "Shibuya Station Square"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Do your best.",
+              "specific": true
+            },
+            {
+              "answer": "You had a change of heart.",
+              "specific": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Sun",
+              "increase": 1,
+              "rank": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 10,
+      "name": "Monday",
+      "daytime": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Shinya",
+              "location": "Akihabara Arcade",
+              "personaEquipped": "Tower"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "It was pretty weird.",
+              "specific": true
+            },
+            {
+              "answer": "I'm sure you can do it.",
+              "specific": true
+            },
+            {
+              "answer": "You need a new strategy.",
+              "specific": true
+            },
+            {
+              "answer": "I'll be cheering you on.",
+              "specific": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Tower",
+              "increase": 1,
+              "rank": 5
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isCrosswordSolve": true,
+          "crosswordAnswers": [
+            "Halloween"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Take Hifumi on a date to Destinyland and choose 'Why don't you try it?'",
+            "In the coming weeks, there will be many points at which you’ll be confined to Leblanc for the night: pick up protein for training, books for reading, games for playing, etc. to fill up your time. If you haven’t bought it out of curiosity already, buy the broken laptop from the secondhand shop as well as PC repair tools from Akihabara so you can fix it during one of these nights."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 11,
+      "name": "Tuesday",
+      "daytime": [
+        {
+          "notes": [
+            "Spaceport of Greed: Obliterated"
+          ]
+        },
+        {
+          "isClass": true,
+          "classAnswers": [
+            "Bouba."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Automatic story events"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Rank 9"
+          ]
+        }
+      ]
+    },
+    {
+      "date": 12,
+      "name": "Wednesday",
+      "daytime": [
+        {
+          "notes": [
+            "Automatic story events"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Train in your room using the protein.",
+            "Rank 5"
+          ]
+        }
+      ]
+    },
+    {
+      "date": 13,
+      "name": "Thursday",
+      "daytime": [
+        {
+          "notes": [
+            "Automatic story events"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Train in your room using the protein."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 14,
+      "name": "Friday",
+      "daytime": [
+        {
+          "notes": [
+            "'The Killer Who Cleans Up Trash' Mementos Mission automatically obtained."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Yusuke",
+              "location": "Underground Walkway, Shibuya",
+              "personaEquipped": "Emperor"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Emperor",
+              "increase": 1,
+              "rank": 10
+            }
+          ],
+          "notes": [
+            "On the phone, choose any option."
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Sojiro",
+              "location": "Leblanc",
+              "personaEquipped": "Hierophant"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "You might be right.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Feel like a real dad now?",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Hierophant",
+              "increase": 1,
+              "rank": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 15,
+      "name": "Saturday",
+      "daytime": [
+        {
+          "notes": [
+            "Chalk will be thrown at you in class, and you have a 66 percent chance of successfully dodging it. You need to dodge it for the stat increase, but your Charm should be maxed out by now anyway.",
+            "Travel to the Akihabara Game Center and win a Wanna-kun Doll from the machine on the left.",
+            "If you are short on money, you can save beforehand and then reload your save if you find yourself spending too much money trying to win the doll."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Shinya",
+              "location": "Akihabara Arcade",
+              "personaEquipped": "Tower"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "That’s good.",
+              "specific": true
+            },
+            {
+              "answer": "I’m worried about you.",
+              "specific": true
+            },
+            {
+              "answer": "That’s up to you.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Kindness",
+              "increase": 3
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Tower",
+              "increase": 1,
+              "rank": 6
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Iwai",
+              "location": "Airsoft Shop, Shibuya",
+              "personaEquipped": "Hanged Man"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "I want to work.",
+              "specific": true
+            },
+            {
+              "answer": "Absolutely.",
+              "specific": true
+            },
+            {
+              "answer": "He's clever.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Bring it on.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Hanged Man",
+              "increase": 1,
+              "rank": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 16,
+      "name": "Sunday",
+      "daytime": [
+        {
+          "notes": [
+            "(Optional) Purchase any items you want from the priest in Kanda.",
+            "(Optional:) Your social stats should all be Max Rank, but if not, you can purchase Aojiru (¥5,000) from the drink stand in the Underground Walkway for stat increases.",
+            "Go to the Akihabara and use the Capsule Machine repeatedly until you get a Gear Girimehkala. If you run out of money or use too much money, you can reload your save and try again.",
+            "Travel to Kichijoji and speak to Trader Sakai in the western alley to trade the Gear Girimehkala for Hot-Blooded Sword."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Futaba",
+              "location": "Outside Leblanc",
+              "personaEquipped": "Hermit"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "That must have been a shock?",
+              "specific": true
+            },
+            {
+              "answer": "You didn't know any better.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Are you running away again?",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Hermit",
+              "increase": 1,
+              "rank": 6
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Iwai",
+              "location": "Airsoft Shop, Shibuya",
+              "personaEquipped": "Hanged Man"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "I want to work.",
+              "specific": true
+            },
+            {
+              "answer": "I did it all for Iwai.",
+              "specific": true
+            },
+            {
+              "answer": "I will.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ],
+          "notes": [
+            "'Shady Deals in the Shadows' Mementos Mission obtained."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 17,
+      "name": "Monday",
+      "daytime": [
+        {
+          "isExamDay": true,
+          "examAnswers": [
+            "32 surfaces.",
+            "It used to be one color, Black and white picture."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 18,
+      "name": "Tuesday",
+      "daytime": [
+        {
+          "isExamDay": true,
+          "examAnswers": [
+            "Charles-Henri Sanson.",
+            "It's a hereditary profession."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 19,
+      "name": "Wednesday",
+      "daytime": [
+        {
+          "isExamDay": true,
+          "examAnswers": [
+            "Slave labour.",
+            "3 bees in all of Europe."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 20,
+      "name": "Thursday",
+      "daytime": [
+        {
+          "notes": [
+            "Automatic story events"
+          ]
+        },
+        {
+          "notes": [
+            "Train in your room using the protein."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 21,
+      "name": "Friday",
+      "daytime": [
+        {
+          "notes": [
+            "Automatic story events"
+          ]
+        },
+        {
+          "notes": [
+            "Craft infiltration tools. (Proficiency +3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": 22,
+      "name": "Saturday",
+      "daytime": [
+        {
+          "isClass": true,
+          "classAnswers": [
+            "15."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Automatic story events"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Ohya",
+              "location": "Crossroads Bar, Shinjuku",
+              "personaEquipped": "Devil"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Don't let him provoke you.",
+              "specific": true
+            },
+            {
+              "answer": "You're charming as you are.",
+              "specific": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Devil",
+              "increase": 1,
+              "rank": 7
+            }
+          ],
+          "notes": [
+            "On the phone, choose 'That's the spirit.'"
+          ]
+        }
+      ]
+    },
+    {
+      "date": 23,
+      "name": "Sunday",
+      "daytime": [
+        {
+          "notes": [
+            "Automatic story events"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "(Optional) Purchase any items you want from the priest in Kanda."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Mishima",
+              "location": "Akihabara"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Maybe the Phan-Site?",
+              "specific": true
+            },
+            {
+              "answer": "It's your time to shine.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Moon",
+              "increase": 1,
+              "rank": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 24,
+      "name": "Monday",
+      "daytime": [
+        {
+          "isClass": true,
+          "classAnswers": [
+            "Memory bias."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Automatic story events"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Speak to Sojiro who will give you the Leblanc Charm as a reward for doing your exams."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Ohya",
+              "location": "Crossroads Bar, Shinjuku",
+              "personaEquipped": "Devil"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "You seem tired.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ],
+          "notes": [
+            "'Fighting the Truth in Journalism' Mementos Mission obtained."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 25,
+      "name": "Tuesday",
+      "daytime": [
+        {
+          "notes": [
+            "Automatic story events"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Be sure to save your game here."
+          ]
+        },
+        {
+          "notes": [
+            "Train in your room using the protein."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 26,
+      "name": "Wednesday",
+      "daytime": [
+        {
+          "notes": [
+            "Automatic story events"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Automatic story events",
+            "You can reload your save file to view the festival choosing different characters if you wish to."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 27,
+      "name": "Thursday",
+      "daytime": [
+        {
+          "notes": [
+            "Automatic story events"
+          ]
+        },
+        {
+          "notes": [
+            "Train in your room using the protein."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 28,
+      "name": "Friday",
+      "daytime": [
+        {
+          "notes": [
+            "Automatic story events"
+          ]
+        }
+      ]
+    },
+    {
+      "date": 29,
+      "name": "Saturday",
+      "daytime": [
+        {
+          "notes": [
+            "Forced Palace entry"
+          ]
+        },
+        {
+          "notes": [
+            "Craft infiltration tools. (Proficiency +3)"
+          ]
+        }
+      ]
+    },
+    {
+      "date": 30,
+      "name": "Sunday",
+      "daytime": [
+        {
+          "notes": [
+            "(Optional) Purchase any items you want from the priest in Kanda.",
+            "(Optional:) Your social stats should all be Max Rank, but if not, you can purchase Aojiru (¥5,000) from the drink stand in the Underground Walkway for stat increases.",
+            "Purchase Mystery Stew (¥600) from the Vending Machine close to the Maid Cafe in Akihabara.",
+            "Travel to Kichijoji and speak to Trader Sakai in the western alley to trade the Mystery Stew for the Angelic Grace.",
+            "Go with Shinya to Destinyland and choose 'Not everyone is bad.' This should unlock the Balloons decoration."
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Go to the Velvet room and aim to fulfil the next two requests of the twins - they'll want a Lachesis with Tetraja, followed by a Hecatoncheires with Masukunda. You can read our full guide on the requests here.",
+            "Visit the twins near the door to the Velvet Room and take them on their next date."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 31,
+      "name": "Monday",
+      "daytime": [
+        {
+          "notes": [
+            "In class: read a book of your choice. We recommend something that opens up locations or additional benefits.",
+            "Draw a mark on the blackboard in class for a skill up if needed. (Courage +2)"
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Haru",
+              "personaEquipped": "Empress"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "That was our deal.",
+              "specific": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Empress",
+              "increase": 1,
+              "rank": 1
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isCrosswordSolve": true,
+          "crosswordAnswers": [
+            "Stalls"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Sojiro",
+              "location": "Leblanc",
+              "personaEquipped": "Hierophant"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Something with curry.",
+              "specific": true
+            },
+            {
+              "answer": "I was just protecting Futaba.",
+              "specific": true
+            }
+          ],
+          "notes": [
+            "'The Money-Grubbing Uncle' Mementos Mission obtained."
+          ]
+        }
+      ]
     }
   ],
   "stats": {
