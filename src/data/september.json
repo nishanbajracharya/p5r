@@ -957,6 +957,96 @@
           ]
         }
       ]
+    },
+    {
+      "date": 23,
+      "name": "Friday",
+      "daytime": [
+        {
+          "isReadBook": true,
+          "readBooks": [
+            {
+              "name": "Night Skies.",
+              "location": "Class"
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Maruki",
+              "location": "Practice Building",
+              "personaEquipped": "Councillor"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Another cup?",
+              "specific": true
+            },
+            {
+              "answer": "I can do that.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "So give up.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Calm Down",
+              "specific": false,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Councillor",
+              "increase": 1,
+              "rank": 6
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Travel to the Akihabara Game Center and win a Burger-kun Doll from the machine on the left."
+          ]
+        },
+        {
+          "isVisitPerson": true,
+          "visitedPeople": [
+            {
+              "name": "Maid Cafe",
+              "location": "Akihabara"
+            }
+          ],
+          "notes": [
+            "Order the most expensive meal."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 3
+            }
+          ]
+        }
+      ]
     }
   ],
   "stats": {
