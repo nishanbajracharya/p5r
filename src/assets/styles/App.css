@@ -138,6 +138,7 @@ header h1 .title {
     max-height: none;
     width: 100%;
     padding: 1em;
+    padding-bottom: 4em;
     background-color: var(--pico-background-color);
     transform: translateX(-100%);
   }

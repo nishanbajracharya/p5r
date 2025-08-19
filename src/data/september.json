@@ -1047,6 +1047,171 @@
           ]
         }
       ]
+    },
+    {
+      "date": 24,
+      "name": "Saturday",
+      "daytime": [
+        {
+          "notes": ["On the train: read 'Musty Pages.'"]
+        },
+        {
+          "isClass": true,
+          "classAnswers": ["20 white, 12 black."],
+          "isSkillUp": true,
+          "skills": [{"name": "Knowledge", "increase": 2}]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [{"name": "Futaba", "location": "Outside Leblanc", "personaEquipped": "Hermit"}],
+          "confidantAnswers": [
+            {"answer": "Let's do this together.", "specific": true},
+            {"answer": "Any option.", "specific": false},
+            {"answer": "I think it's cute.", "specific": true}
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [{"name": "Hermit", "increase": 1, "rank": 4}],
+          "notes": ["On the phone, choose 'We'll take it slow.'"]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [{"name": "Hifumi", "location": "Kanda", "personaEquipped": "Star"}],
+          "confidantAnswers": [
+            {"answer": "Give it all you got.", "specific": true},
+            {"answer": "A very queenly decision.", "specific": true},
+            {"answer": "I want to stay by your side.", "specific": true},
+            {"answer": "I want us to date.", "specific": true},
+            {"answer": "Any option.", "specific": false}
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [{"name": "Star", "increase": 1, "rank": 9}]
+        }
+      ]
+    },
+    {
+      "date": 25,
+      "name": "Sunday",
+      "daytime": [
+        {
+          "notes": [
+            "(Optional) Interact with the TV in Leblanc for the Home Shopping Channel — Phantom Thief Set (¥8,980) is our recommended purchase.",
+            "(Optional) Purchase any items you want from the priest in Kanda.",
+            "(Optional) If Knowledge is not max, purchase Seafood Aojiru (¥5,000) from the drink stand in the Underground Walkway in Shibuya. (Knowledge +2).",
+            "Visit the twins near the door to the Velvet Room on Central Street and then take them to beach."
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [{"name": "Yoshida", "location": "Shibuya Station Square"}],
+          "confidantAnswers": [
+            {"answer": "That's a difficult decision.", "specific": true},
+            {"answer": "Stick to your beliefs.", "specific": true},
+            {"answer": "Any option.", "specific": false},
+            {"answer": "It's tougher than it seems.", "specific": true}
+          ],
+          "isSkillUp": true,
+          "skills": [{"name": "Charm", "increase": 5}],
+          "isConfidantUp": true,
+          "confidantRanks": [{"name": "Sun", "increase": 1, "rank": 8}]
+        }
+      ]
+    },
+    {
+      "date": 26,
+      "name": "Monday",
+      "daytime": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [{"name": "Shinya", "location": "Akihabara Arcade", "personaEquipped": "Tower"}],
+          "confidantAnswers": [
+            {"answer": "Don't compare me to you.", "specific": true},
+            {"answer": "What a rude employee.", "specific": true},
+            {"answer": "Do you admire them?", "specific": true},
+            {"answer": "So do I.", "specific": true},
+            {"answer": "I'll work hard.", "specific": true}
+          ],
+          "isSkillUp": true,
+          "skills": [{"name": "Kindness", "increase": 5}],
+          "isConfidantUp": true,
+          "confidantRanks": [{"name": "Tower", "increase": 1, "rank": 2}]
+        }
+      ],
+      "evening": [
+        {"notes": ["Free evening to catch up on anything you need to."]}
+      ]
+    },
+    {
+      "date": 27,
+      "name": "Tuesday",
+      "daytime": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [{"name": "Maruki", "location": "Practice Building", "personaEquipped": "Councillor"}],
+          "confidantAnswers": [
+            {"answer": "Any option.", "specific": false},
+            {"answer": "Any option.", "specific": false},
+            {"answer": "Any option.", "specific": false}
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [{"name": "Councillor", "increase": 1, "rank": 7}]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [{"name": "Sojiro", "location": "Leblanc", "personaEquipped": "Hierophant"}],
+          "confidantAnswers": [
+            {"answer": "To each his own.", "specific": true},
+            {"answer": "Shut your mouth.", "specific": true},
+            {"answer": "Saving Futaba was no mistake.", "specific": true},
+            {"answer": "If I can help somehow...", "specific": true}
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [{"name": "Hierophant", "increase": 1, "rank": 6}]
+        }
+      ]
+    },
+    {
+      "date": 28,
+      "name": "Wednesday",
+      "daytime": [
+        {"notes": ["Train reading: read whatever you want."]},
+        {"isClass": true, "classAnswers": ["Phantom, Vibration, Syndrome."], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 2}]},
+        {"notes": ["(Optional) Buy SP recovery items from the vending machines near the Bathhouse, medicine, or equipment.", "(Optional) Get Celestial and Money Readings from Chihaya to increase the chance of Fusion Alarms and money earned.", "Secure the infiltration route to the treasure in Okumura's Palace.", "Get all the ingredients you need to make a Perma Lockpick.", "You can read our full palace walkthrough here, as well as our guide on where to find all Will Seeds."]}
+      ],
+      "evening": [
+        {"isCallPerson": true, "callPerson": {"person": "Kawakami", "location": "Leblanc", "action": "Ask for a massage."}},
+        {"isCrosswordSolve": true, "crosswordAnswers": ["Ranking"], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 2}]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Hifumi", "location": "Kanda", "personaEquipped": "Star"}]}
+      ]
+    },
+    {
+      "date": 29,
+      "name": "Thursday",
+      "daytime": [
+        {"isClass": true, "classAnswers": ["Imperial Household Agency."], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 2}]},
+        {"notes": ["Go to the hangout and send the calling card."]}
+      ],
+      "evening": [
+        {"notes": ["Create infiltration tools — make a Perma Lockpick. (Proficiency +3)"], "isSkillUp": true, "skills": [{"name": "Proficiency", "increase": 3}]}
+      ]
+    },
+    {
+      "date": 30,
+      "name": "Friday",
+      "daytime": [
+        {"notes": ["Class reading: read any book you want."]},
+        {"notes": ["Clear Okumura's Palace.", "We can have a guide on how to beat Shadow Okumura right here."]}
+      ],
+      "evening": [
+        {"isExamineBedroomPlant": true, "isUseItem": true, "useItems": ["Mega Fertilizer"], "isSkillUp": true, "skills": [{"name": "Kindness", "increase": 5}]},
+        {"isCallPerson": true, "callPerson": {"person": "Kawakami", "location": "Leblanc", "action": "Ask for a massage."}},
+        {"notes": ["Visit the twins near the door to the Velvet Room on Central Street and then take them to Akihabara maid cafe."]}
+      ]
     }
   ],
   "stats": {
