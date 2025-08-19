@@ -1,0 +1,123 @@
+{
+  "name": "October",
+  "month": 10,
+  "days": [],
+  "stats": {
+    "confidants": [
+      {
+        "name": "Fool",
+        "rank": 9
+      },
+      {
+        "name": "Magician",
+        "rank": 9
+      },
+      {
+        "name": "Emperor",
+        "rank": 10
+      },
+      {
+        "name": "High Priestess",
+        "rank": 9
+      },
+      {
+        "name": "Hierophant",
+        "rank": 8
+      },
+      {
+        "name": "Lovers",
+        "rank": 10
+      },
+      {
+        "name": "Chariot",
+        "rank": 10
+      },
+      {
+        "name": "Justice",
+        "rank": 6
+      },
+      {
+        "name": "Strength",
+        "rank": 8
+      },
+      {
+        "name": "Death",
+        "rank": 7
+      },
+      {
+        "name": "Temperance",
+        "rank": 10
+      },
+      {
+        "name": "Devil",
+        "rank": 5
+      },
+      {
+        "name": "Moon",
+        "rank": 7
+      },
+      {
+        "name": "Sun",
+        "rank": 9
+      },
+      {
+        "name": "Faith",
+        "rank": 5
+      },
+      {
+        "name": "Councillor",
+        "rank": 7
+      },
+      {
+        "name": "Fortune",
+        "rank": 7
+      },
+      {
+        "name": "Hanged Man",
+        "rank": 7
+      },
+      {
+        "name": "Star",
+        "rank": 9
+      },
+      {
+        "name": "Judgement",
+        "rank": 6
+      },
+      {
+        "name": "Hermit",
+        "rank": 6
+      },
+      {
+        "name": "Tower",
+        "rank": 6
+      },
+      {
+        "name": "Empress",
+        "rank": 1
+      }
+    ],
+    "skills": [
+      {
+        "name": "Knowledge",
+        "rank": 5
+      },
+      {
+        "name": "Guts",
+        "rank": 5
+      },
+      {
+        "name": "Proficiency",
+        "rank": 5
+      },
+      {
+        "name": "Kindness",
+        "rank": 5
+      },
+      {
+        "name": "Charm",
+        "rank": 5
+      }
+    ]
+  }
+}

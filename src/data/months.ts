@@ -4,5 +4,6 @@ import June from './june.json';
 import July from './july.json';
 import August from './august.json';
 import September from './september.json';
+import October from './october.json';
 
-export const months = [April, May, June, July, August, September];
+export const months = [April, May, June, July, August, September, October];

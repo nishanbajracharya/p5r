@@ -39,6 +39,7 @@ export enum ConfidantNames {
   JUDGEMENT = 'Judgement',
   HERMIT = 'Hermit',
   TOWER = 'Tower',
+  EMPRESS = 'Empress',
 };
 
 export type Item = {
