@@ -460,9 +460,6 @@
         {
           "notes": [
             "'Man of Many Faces and Debts' Mementos Mission automatically obtained via DM.",
-            "(Optional) Purchase any items you want from the priest in Kanda.",
-            "(Optional) Interact with the TV in Leblanc for the Home Shopping Channel.",
-            "(Optional:) Your social stats should all be Max Rank, but if not, you can purchase Aojiru (¥5,000) from the drink stand in the Underground Walkway for stat increases.",
             "Choose to spend today how you like, if you are behind on either the Hermit or Tower confidants and you're missing Mementos missions, use this time to catch up with those."
           ]
         }
@@ -500,19 +497,19 @@
       "daytime": [
         {
           "notes": [
-            "(Optional) Buy SP recovery items from the vending machines near the Bathhouse, medicine, or equipment.",
-            "(Optional) We recommend getting Celestial and Money Readings from Chihaya to increase the chance of Fusion Alarms and money earned.",
             "Travel to the Akihabara Game Center and win a Lexy Doll from the machine on the left.",
-            "If you are short on money, you can save beforehand and then reload your save if you find yourself spending too much money trying to win the doll.",
             "Infiltrate Mementos and complete all requests."
           ]
         }
       ],
       "evening": [
         {
-          "notes": [
-            "Call Kawakami from Leblanc and ask for a massage."
-          ]
+          "isCallPerson": true,
+          "callPerson": {
+            "person": "Kawakami",
+            "location": "Leblanc",
+            "action": "Ask for a massage."
+          }
         },
         {
           "isConfidantHangout": true,
@@ -591,6 +588,11 @@
             {
               "answer": "It's for you.",
               "specific": true
+            },
+            {
+              "answer": "I'll be cheering you on.",
+              "specific": true,
+              "isPhone": true
             }
           ],
           "isConfidantUp": true,
@@ -600,9 +602,6 @@
               "increase": 1,
               "rank": 8
             }
-          ],
-          "notes": [
-            "On the phone, choose 'I'll be cheering you on.'"
           ]
         }
       ],
@@ -651,19 +650,19 @@
       "name": "Wednesday",
       "daytime": [
         {
-          "notes": [
-            "(Optional) Buy SP recovery items from the vending machines near the Bathhouse, medicine, or equipment.",
-            "(Optional) We recommend getting Celestial and Money Readings from Chihaya to increase the chance of Fusion Alarms and money earned.",
-            "Secure the route in Niijima's palace as far as you can go. You'll realise that you need Niijima to recognize you in court in the real world.",
-            "You can read our full palace walkthrough here, as well as our guide on where to find all Will Seeds."
-          ]
+          "isPalaceInfiltration": true,
+          "bossName": "Niijima",
+          "isFindWillSeeds": true
         }
       ],
       "evening": [
         {
-          "notes": [
-            "Call Kawakami from Leblanc and ask for a massage."
-          ]
+          "isCallPerson": true,
+          "callPerson": {
+            "person": "Kawakami",
+            "location": "Leblanc",
+            "action": "Ask for a massage."
+          }
         },
         {
           "isConfidantHangout": true,
@@ -713,11 +712,6 @@
       "name": "Thursday",
       "daytime": [
         {
-          "notes": [
-            "On the train: read a book of your choice. We recommend something that opens up locations or additional benefits."
-          ]
-        },
-        {
           "isClass": true,
           "classAnswers": [
             "Crow eyes are hard to see."
@@ -731,18 +725,18 @@
           ]
         },
         {
-          "notes": [
-            "Infiltrate Niijima's Palace again after the court scene and secure the infiltration route.",
-            "You can read our full palace walkthrough here, as well as our guide on where to find all Will Seeds."
-          ]
+          "bossName": "Niijima",
+          "isSecureInfiltrationRoute": true
         }
       ],
       "evening": [
         {
-          "notes": [
-            "Call Kawakami from Leblanc and ask for a massage.",
-            "Interact with the TV in Leblanc and choose 'Me in front of my TV.' (Knowledge +2)"
-          ]
+          "isCallPerson": true,
+          "callPerson": {
+            "person": "Kawakami",
+            "location": "Leblanc",
+            "action": "Ask for a massage."
+          }
         },
         {
           "isConfidantHangout": true,
@@ -803,6 +797,11 @@
             {
               "answer": "Any option.",
               "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false,
+              "isPhone": true
             }
           ],
           "isConfidantUp": true,
@@ -812,9 +811,6 @@
               "increase": 1,
               "rank": 2
             }
-          ],
-          "notes": [
-            "On the phone, choose any option."
           ]
         }
       ],
@@ -846,15 +842,11 @@
               "specific": false
             },
             {
-              "answer": "I took it seriously.",
+              "answer": "I took it seriously. or I didn't take it seriously.",
               "specific": true
             },
             {
-              "answer": "I love you, Ichiko.",
-              "specific": true
-            },
-            {
-              "answer": "I'm just kidding.",
+              "answer": "I love you, Ichiko. or I'm just kidding.",
               "specific": true
             },
             {
@@ -893,7 +885,7 @@
         },
         {
           "notes": [
-            "Get an Affinity Fortune Reading (¥5,000) from Chihaya in Shinjuku and choose 'Ohya' with a Devil persona equipped. (It's possible to get a rank up, but don't panic if you don't get this.)"
+            "Get an Affinity Fortune Reading (¥5,000) from Chihaya in Shinjuku and choose 'Ohya' with a Devil persona equipped."
           ]
         },
         {
@@ -994,11 +986,16 @@
       "name": "Sunday",
       "daytime": [
         {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Moon Dango (¥800)",
+              "location": "Supermarket, Yongen-Jaya"
+            }
+          ]
+        },
+        {
           "notes": [
-            "(Optional) Purchase any items you want from the priest in Kanda.",
-            "(Optional) Interact with the TV in Leblanc for the Home Shopping Channel - we recommend the Meditative Set (¥29,800).",
-            "(Optional:) Your social stats should all be Max Rank, but if not, you can purchase Aojiru (¥5,000) from the drink stand in the Underground Walkway for stat increases.",
-            "Buy Moon Dango (¥800) from the supermarket in Yongen-Jaya.",
             "Travel to Kichijoji and speak to Trader Sakai in the western alley to trade the Moon Dango for the Kintaro Axe."
           ]
         }
@@ -1023,27 +1020,15 @@
               "specific": false
             },
             {
-              "answer": "I wanted to see you.",
+              "answer": "I wanted to see you. or It was for my exams.",
               "specific": true
             },
             {
-              "answer": "It was for my exams.",
+              "answer": "I love you. or What do you think?",
               "specific": true
             },
             {
-              "answer": "I love you.",
-              "specific": true
-            },
-            {
-              "answer": "What do you think?",
-              "specific": true
-            },
-            {
-              "answer": "It isn't a joke.",
-              "specific": true
-            },
-            {
-              "answer": "That sounds good.",
+              "answer": "It isn't a joke. or That sounds good.",
               "specific": true
             },
             {
@@ -1068,9 +1053,20 @@
       "name": "Monday",
       "daytime": [
         {
+          "isClass": true,
+          "classAnswers": [
+            "The high altitude."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
           "notes": [
-            "On the train: read a book of your choice. We recommend something that opens up locations or additional benefits.",
-            "Class answer: 'Because of high altitude.' (Knowledge +2)",
             "Save your game here. If you don't get the Councillor rank-up needed on November 16, reload this save and choose to visit him today instead."
           ]
         },
@@ -1094,6 +1090,11 @@
             {
               "answer": "Any option.",
               "specific": false
+            },
+            {
+              "answer": "Smart response.",
+              "specific": true,
+              "isPhone": true
             }
           ],
           "isConfidantUp": true,
@@ -1103,9 +1104,6 @@
               "increase": 1,
               "rank": 3
             }
-          ],
-          "notes": [
-            "On the phone, choose 'Smart response.'"
           ]
         }
       ],
@@ -1207,6 +1205,11 @@
             {
               "answer": "I'm not really sure.",
               "specific": true
+            },
+            {
+              "answer": "Let's get coffee again sometime.",
+              "specific": true,
+              "isPhone": true
             }
           ],
           "isConfidantUp": true,
@@ -1216,9 +1219,6 @@
               "increase": 1,
               "rank": 4
             }
-          ],
-          "notes": [
-            "On the phone, choose 'Let's get coffee again sometime.'"
           ]
         }
       ],
@@ -1242,11 +1242,7 @@
               "specific": true
             },
             {
-              "answer": "So I can be with you.",
-              "specific": true
-            },
-            {
-              "answer": "I like having my fortune read.",
+              "answer": "So I can be with you. or I like having my fortune read.",
               "specific": true
             },
             {
@@ -1331,8 +1327,12 @@
       ],
       "evening": [
         {
-          "notes": [
-            "Go to the Sports Shop in the Underground Mall of Shibuya and buy the Moist Protein (¥4,500)."
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Moist Protein (¥4,500)",
+              "location": "Sports Shop, Underground Mall, Shibuya"
+            }
           ]
         },
         {
@@ -1378,10 +1378,16 @@
       "name": "Thursday",
       "daytime": [
         {
-          "notes": [
-            "On the train: read a book of your choice. We recommend something that opens up locations or additional benefits.",
-            "Class answer: 'Cochleoid.' (Knowledge +2)",
-            "Create a save file here in case you wish to pursue a different ending at a later date."
+          "isClass": true,
+          "classAnswers": [
+            "A cochleoid."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
           ]
         },
         {
@@ -1453,9 +1459,13 @@
       "name": "Friday",
       "daytime": [
         {
-          "notes": [
-            "Councillor Confidant Rank 10",
-            "Automatic story events."
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Councillor",
+              "increase": 1,
+              "rank": 10
+            }
           ]
         }
       ],
@@ -1472,17 +1482,10 @@
       "name": "Saturday",
       "daytime": [
         {
-          "notes": [
-            "Clear Niijima's Palace.",
-            "We can have a guide on how to beat Shadow Niijima right here."
-          ]
-        }
-      ],
-      "evening": [
-        {
-          "notes": [
-            "Automatic story events."
-          ]
+          "isPalaceInfiltration": true,
+          "bossName": "Niijima",
+          "isFinishPalace": true,
+          "isFindWillSeeds": true
         }
       ]
     },
@@ -1492,18 +1495,11 @@
       "daytime": [
         {
           "notes": [
-            "Automatic story events.",
-            "If you want to watch one of the alternate endings, cooperate and hand over your teammates’ identities. Otherwise, choose to refuse to proceed with the rest of the game."
+            "Choose to refuse to proceed with the rest of the game. Or reveal identities and go with alternate ending."
           ]
         },
         {
-          "isConfidantHangout": true,
-          "visitedPeople": [
-            {
-              "name": "Joker",
-              "personaEquipped": "Judgement"
-            }
-          ],
+          "isConfidantUp": true,
           "confidantRanks": [
             {
               "name": "Judgement",
@@ -1516,150 +1512,15 @@
     },
     {
       "date": 21,
-      "name": "Monday",
-      "daytime": [
-        {
-          "notes": [
-            "Automatic story events."
-          ]
-        }
-      ]
+      "name": "Monday"
     },
     {
       "date": 22,
-      "name": "Tuesday",
-      "daytime": [
-        {
-          "notes": [
-            "Automatic story events."
-          ]
-        },
-        {
-          "isConfidantHangout": true,
-          "visitedPeople": [
-            {
-              "name": "Haru",
-              "personaEquipped": "Empress"
-            }
-          ],
-          "confidantAnswers": [
-            {
-              "answer": "Trust no one.",
-              "specific": true
-            },
-            {
-              "answer": "There has to be another way.",
-              "specific": true
-            },
-            {
-              "answer": "I don't think so.",
-              "specific": true
-            }
-          ],
-          "isConfidantUp": true,
-          "confidantRanks": [
-            {
-              "name": "Empress",
-              "increase": 1,
-              "rank": 5
-            }
-          ],
-          "notes": [
-            "On the phone, choose 'Pinch yourself.'"
-          ]
-        }
-      ],
-      "evening": [
-        {
-          "notes": [
-            "Go to the Velvet room and aim to fulfill the rest of the requests of the twins to get max rank. You can read our full guide on the requests here."
-          ]
-        },
-        {
-          "isConfidantHangout": true,
-          "visitedPeople": [
-            {
-              "name": "Caroline & Justine",
-              "personaEquipped": "Strength"
-            }
-          ],
-          "confidantRanks": [
-            {
-              "name": "Strength",
-              "increase": 1,
-              "rank": 10
-            }
-          ]
-        }
-      ]
+      "name": "Tuesday"
     },
     {
       "date": 23,
-      "name": "Wednesday",
-      "daytime": [
-        {
-          "notes": [
-            "Automatic story events."
-          ]
-        },
-        {
-          "isConfidantHangout": true,
-          "visitedPeople": [
-            {
-              "name": "Haru",
-              "personaEquipped": "Empress"
-            }
-          ],
-          "confidantAnswers": [
-            {
-              "answer": "Trust no one.",
-              "specific": true
-            },
-            {
-              "answer": "There has to be another way.",
-              "specific": true
-            },
-            {
-              "answer": "I don't think so.",
-              "specific": true
-            }
-          ],
-          "isConfidantUp": true,
-          "confidantRanks": [
-            {
-              "name": "Empress",
-              "increase": 1,
-              "rank": 6
-            }
-          ],
-          "notes": [
-            "On the phone, choose 'Pinch yourself.'"
-          ]
-        }
-      ],
-      "evening": [
-        {
-          "notes": [
-            "Go to the Velvet room and aim to fulfill the rest of the requests of the twins to get max rank. You can read our full guide on the requests here."
-          ]
-        },
-        {
-          "isConfidantHangout": true,
-          "visitedPeople": [
-            {
-              "name": "Caroline & Justine",
-              "personaEquipped": "Strength"
-            }
-          ],
-          "confidantRanks": [
-            {
-              "name": "Strength",
-              "increase": 1,
-              "rank": 10
-            }
-          ]
-        }
-      ]
+      "name": "Wednesday"
     },
     {
       "date": 24,
@@ -1667,48 +1528,14 @@
       "daytime": [
         {
           "notes": [
-            "Automatic palace infiltration."
-          ]
-        },
-        {
-          "isClass": true,
-          "classAnswers": [
-            "Speaker of the House decides."
-          ],
-          "isSkillUp": true,
-          "skills": [
-            {
-              "name": "Knowledge",
-              "increase": 2
-            }
-          ]
-        },
-        {
-          "notes": [
-            "Craft infiltration tools. (Proficiency +3)"
+            "Automatic palace infiltration. "
           ]
         }
       ],
       "evening": [
         {
           "notes": [
-            "Go to the Velvet room and aim to fulfill the rest of the requests of the twins to get max rank. You can read our full guide on the requests here."
-          ]
-        },
-        {
-          "isConfidantHangout": true,
-          "visitedPeople": [
-            {
-              "name": "Caroline & Justine",
-              "personaEquipped": "Strength"
-            }
-          ],
-          "confidantRanks": [
-            {
-              "name": "Strength",
-              "increase": 1,
-              "rank": 10
-            }
+            " Interact with the TV in Leblanc and choose 'Speaker of the House decides.'"
           ]
         }
       ]
@@ -1742,6 +1569,11 @@
             {
               "answer": "I don't think so.",
               "specific": true
+            },
+            {
+              "answer": "Pinch yourself.",
+              "specific": true,
+              "isPhone": true
             }
           ],
           "isConfidantUp": true,
@@ -1751,16 +1583,13 @@
               "increase": 1,
               "rank": 5
             }
-          ],
-          "notes": [
-            "On the phone, choose 'Pinch yourself.'"
           ]
         }
       ],
       "evening": [
         {
           "notes": [
-            "Go to the Velvet room and aim to fulfill the rest of the requests of the twins to get max rank. You can read our full guide on the requests here."
+            "Go to the Velvet room and aim to fulfill the rest of the requests of the twins to get max rank."
           ]
         },
         {
@@ -1771,6 +1600,7 @@
               "personaEquipped": "Strength"
             }
           ],
+          "isConfidantUp": true,
           "confidantRanks": [
             {
               "name": "Strength",
@@ -1806,6 +1636,11 @@
             {
               "answer": "Any option.",
               "specific": false
+            },
+            {
+              "answer": "Congrats.",
+              "specific": true,
+              "isPhone": true
             }
           ],
           "isConfidantUp": true,
@@ -1815,9 +1650,6 @@
               "increase": 1,
               "rank": 8
             }
-          ],
-          "notes": [
-            "On the phone, choose 'Congrats.'"
           ]
         }
       ],
@@ -1865,16 +1697,19 @@
       "name": "Sunday",
       "daytime": [
         {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Legendary Yaki-Imo (¥1,800)",
+              "location": "Truck vendor in Yongen-Jaya"
+            }
+          ]
+        },
+        {
           "notes": [
-            "(Optional) Purchase any items you want from the priest in Kanda.",
-            "(Optional) Interact with the TV in Leblanc for the Home Shopping Channel.",
-            "(Optional:) Your social stats should all be Max Rank, but if not, you can purchase Aojiru (¥5,000) from the drink stand in the Underground Walkway for stat increases.",
-            "Buy Legendary Yaki-Imo (¥1,800) from the truck vendor in Yongen-Jaya.",
             "Travel to Kichijoji and speak to Trader Sakai in the western alley to trade the Legendary Yaki-Imo for the Empowering Ofuda x3."
           ]
-        }
-      ],
-      "evening": [
+        },
         {
           "isConfidantHangout": true,
           "visitedPeople": [
@@ -1898,11 +1733,7 @@
               "specific": true
             },
             {
-              "answer": "Because I love you.",
-              "specific": true
-            },
-            {
-              "answer": "Because we're teammates.",
+              "answer": "Because I love you. or Because we're teammates.",
               "specific": true
             },
             {
@@ -2008,6 +1839,11 @@
             {
               "answer": "Be strong, Haru.",
               "specific": true
+            },
+            {
+              "answer": "Let him say what he wants.",
+              "specific": true,
+              "isPhone": true
             }
           ],
           "isConfidantUp": true,
@@ -2017,9 +1853,6 @@
               "increase": 1,
               "rank": 6
             }
-          ],
-          "notes": [
-            "On the phone, choose 'Let him say what he wants.'"
           ]
         }
       ],
@@ -2072,6 +1905,11 @@
             {
               "answer": "Any option.",
               "specific": false
+            },
+            {
+              "answer": "I'll always have your back.",
+              "specific": true,
+              "isPhone": true
             }
           ],
           "isConfidantUp": true,
@@ -2081,9 +1919,6 @@
               "increase": 1,
               "rank": 7
             }
-          ],
-          "notes": [
-            "On the phone, choose 'I'll always have your back.'"
           ]
         }
       ],
