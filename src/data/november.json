@@ -452,6 +452,1717 @@
           ]
         }
       ]
+    },
+    {
+      "date": 6,
+      "name": "Sunday",
+      "daytime": [
+        {
+          "notes": [
+            "'Man of Many Faces and Debts' Mementos Mission automatically obtained via DM.",
+            "(Optional) Purchase any items you want from the priest in Kanda.",
+            "(Optional) Interact with the TV in Leblanc for the Home Shopping Channel.",
+            "(Optional:) Your social stats should all be Max Rank, but if not, you can purchase Aojiru (¥5,000) from the drink stand in the Underground Walkway for stat increases.",
+            "Choose to spend today how you like, if you are behind on either the Hermit or Tower confidants and you're missing Mementos missions, use this time to catch up with those."
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Yoshida",
+              "location": "Shibuya Station Square",
+              "personaEquipped": "Sun"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Your true self was revealed.",
+              "specific": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Sun",
+              "increase": 1,
+              "rank": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 7,
+      "name": "Monday",
+      "daytime": [
+        {
+          "notes": [
+            "(Optional) Buy SP recovery items from the vending machines near the Bathhouse, medicine, or equipment.",
+            "(Optional) We recommend getting Celestial and Money Readings from Chihaya to increase the chance of Fusion Alarms and money earned.",
+            "Travel to the Akihabara Game Center and win a Lexy Doll from the machine on the left.",
+            "If you are short on money, you can save beforehand and then reload your save if you find yourself spending too much money trying to win the doll.",
+            "Infiltrate Mementos and complete all requests."
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Call Kawakami from Leblanc and ask for a massage."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Ohya",
+              "location": "Crossroads Bar, Shinjuku",
+              "personaEquipped": "Devil"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Good luck.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Devil",
+              "increase": 1,
+              "rank": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 8,
+      "name": "Tuesday",
+      "daytime": [
+        {
+          "isClass": true,
+          "classAnswers": [
+            "Any age."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Takemi",
+              "location": "Clinic",
+              "personaEquipped": "Death"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "It's not over it.",
+              "specific": true
+            },
+            {
+              "answer": "It's for you.",
+              "specific": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Death",
+              "increase": 1,
+              "rank": 8
+            }
+          ],
+          "notes": [
+            "On the phone, choose 'I'll be cheering you on.'"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Iwai",
+              "location": "Airsoft Shop, Shibuya",
+              "personaEquipped": "Hanged Man"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "I want to work.",
+              "specific": true
+            },
+            {
+              "answer": "I dunno.",
+              "specific": true
+            },
+            {
+              "answer": "If you pay me well.",
+              "specific": true
+            },
+            {
+              "answer": "Understood.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Hanged Man",
+              "increase": 1,
+              "rank": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 9,
+      "name": "Wednesday",
+      "daytime": [
+        {
+          "notes": [
+            "(Optional) Buy SP recovery items from the vending machines near the Bathhouse, medicine, or equipment.",
+            "(Optional) We recommend getting Celestial and Money Readings from Chihaya to increase the chance of Fusion Alarms and money earned.",
+            "Secure the route in Niijima's palace as far as you can go. You'll realise that you need Niijima to recognize you in court in the real world.",
+            "You can read our full palace walkthrough here, as well as our guide on where to find all Will Seeds."
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Call Kawakami from Leblanc and ask for a massage."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Mishima",
+              "location": "Akihabara",
+              "personaEquipped": "Moon"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "You showed some real courage.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "The sparkle in your eye.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Moon",
+              "increase": 1,
+              "rank": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 10,
+      "name": "Thursday",
+      "daytime": [
+        {
+          "notes": [
+            "On the train: read a book of your choice. We recommend something that opens up locations or additional benefits."
+          ]
+        },
+        {
+          "isClass": true,
+          "classAnswers": [
+            "Crow eyes are hard to see."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Infiltrate Niijima's Palace again after the court scene and secure the infiltration route.",
+            "You can read our full palace walkthrough here, as well as our guide on where to find all Will Seeds."
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Call Kawakami from Leblanc and ask for a massage.",
+            "Interact with the TV in Leblanc and choose 'Me in front of my TV.' (Knowledge +2)"
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Sojiro",
+              "location": "Leblanc",
+              "personaEquipped": "Hierophant"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Hierophant",
+              "increase": 1,
+              "rank": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 11,
+      "name": "Friday",
+      "daytime": [
+        {
+          "notes": [
+            "Spend your time in class however you wish."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Haru",
+              "personaEquipped": "Empress"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "He sounds suspicious.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Empress",
+              "increase": 1,
+              "rank": 2
+            }
+          ],
+          "notes": [
+            "On the phone, choose any option."
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Ohya",
+              "location": "Crossroads Bar, Shinjuku",
+              "personaEquipped": "Devil"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "You're not giving up, are you?",
+              "specific": true
+            },
+            {
+              "answer": "I can't leave you.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "I took it seriously.",
+              "specific": true
+            },
+            {
+              "answer": "I love you, Ichiko.",
+              "specific": true
+            },
+            {
+              "answer": "I'm just kidding.",
+              "specific": true
+            },
+            {
+              "answer": "I wanted to hear your voice.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Devil",
+              "increase": 1,
+              "rank": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 12,
+      "name": "Saturday",
+      "daytime": [
+        {
+          "isClass": true,
+          "classAnswers": [
+            "Because the voice is synthetic."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Get an Affinity Fortune Reading (¥5,000) from Chihaya in Shinjuku and choose 'Ohya' with a Devil persona equipped. (It's possible to get a rank up, but don't panic if you don't get this.)"
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Shinya",
+              "location": "Akihabara Arcade",
+              "personaEquipped": "Tower"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "I'm glad to hear that.",
+              "specific": true
+            },
+            {
+              "answer": "It means you've matured.",
+              "specific": true
+            },
+            {
+              "answer": "He wants to win at all costs.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Tower",
+              "increase": 1,
+              "rank": 9
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Iwai",
+              "location": "Airsoft Shop, Shibuya",
+              "personaEquipped": "Hanged Man"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "I want to work.",
+              "specific": true
+            },
+            {
+              "answer": "Are you sure he's alive?",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "He's a cool kid, huh?",
+              "specific": true
+            },
+            {
+              "answer": "Like father, like son.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Hanged Man",
+              "increase": 1,
+              "rank": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 13,
+      "name": "Sunday",
+      "daytime": [
+        {
+          "notes": [
+            "(Optional) Purchase any items you want from the priest in Kanda.",
+            "(Optional) Interact with the TV in Leblanc for the Home Shopping Channel - we recommend the Meditative Set (¥29,800).",
+            "(Optional:) Your social stats should all be Max Rank, but if not, you can purchase Aojiru (¥5,000) from the drink stand in the Underground Walkway for stat increases.",
+            "Buy Moon Dango (¥800) from the supermarket in Yongen-Jaya.",
+            "Travel to Kichijoji and speak to Trader Sakai in the western alley to trade the Moon Dango for the Kintaro Axe."
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Takemi",
+              "location": "Clinic",
+              "personaEquipped": "Death"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "It was rough.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "I wanted to see you.",
+              "specific": true
+            },
+            {
+              "answer": "It was for my exams.",
+              "specific": true
+            },
+            {
+              "answer": "I love you.",
+              "specific": true
+            },
+            {
+              "answer": "What do you think?",
+              "specific": true
+            },
+            {
+              "answer": "It isn't a joke.",
+              "specific": true
+            },
+            {
+              "answer": "That sounds good.",
+              "specific": true
+            },
+            {
+              "answer": "So did you.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Death",
+              "increase": 1,
+              "rank": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 14,
+      "name": "Monday",
+      "daytime": [
+        {
+          "notes": [
+            "On the train: read a book of your choice. We recommend something that opens up locations or additional benefits.",
+            "Class answer: 'Because of high altitude.' (Knowledge +2)",
+            "Save your game here. If you don't get the Councillor rank-up needed on November 16, reload this save and choose to visit him today instead."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Haru",
+              "personaEquipped": "Empress"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "It'll be ok, I promise.",
+              "specific": true
+            },
+            {
+              "answer": "I don't want to go with you.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Empress",
+              "increase": 1,
+              "rank": 3
+            }
+          ],
+          "notes": [
+            "On the phone, choose 'Smart response.'"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isCrosswordSolve": true,
+          "crosswordAnswers": [
+            "Bashing"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Ohya",
+              "location": "Crossroads Bar, Shinjuku",
+              "personaEquipped": "Devil"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Is that entertainment?",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Devil",
+              "increase": 1,
+              "rank": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 15,
+      "name": "Tuesday",
+      "daytime": [
+        {
+          "isClass": true,
+          "classAnswers": [
+            "His head was put on display."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Haru",
+              "personaEquipped": "Empress"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "That's pricey.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Let's ask him.",
+              "specific": true
+            },
+            {
+              "answer": "I'm not really sure.",
+              "specific": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Empress",
+              "increase": 1,
+              "rank": 4
+            }
+          ],
+          "notes": [
+            "On the phone, choose 'Let's get coffee again sometime.'"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Chihaya",
+              "location": "Shinjuku",
+              "personaEquipped": "Fortune"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Well, fate can't be changed.",
+              "specific": true
+            },
+            {
+              "answer": "So I can be with you.",
+              "specific": true
+            },
+            {
+              "answer": "I like having my fortune read.",
+              "specific": true
+            },
+            {
+              "answer": "I wanted to hear your voice, too.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Fortune",
+              "increase": 1,
+              "rank": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 16,
+      "name": "Wednesday",
+      "daytime": [
+        {
+          "notes": [
+            "Spend your time in class however you wish."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Maruki",
+              "location": "Practice Building",
+              "personaEquipped": "Councillor"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "What do you mean?",
+              "specific": true
+            },
+            {
+              "answer": "Ooh, really?",
+              "specific": true
+            },
+            {
+              "answer": "Thanks for the food!",
+              "specific": true
+            },
+            {
+              "answer": "We've made a deal.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "He's a good friend.",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Councillor",
+              "increase": 1,
+              "rank": 8
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Go to the Sports Shop in the Underground Mall of Shibuya and buy the Moist Protein (¥4,500)."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Mishima",
+              "location": "Akihabara",
+              "personaEquipped": "Moon"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "That was courageous.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Moon",
+              "increase": 1,
+              "rank": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 17,
+      "name": "Thursday",
+      "daytime": [
+        {
+          "notes": [
+            "On the train: read a book of your choice. We recommend something that opens up locations or additional benefits.",
+            "Class answer: 'Cochleoid.' (Knowledge +2)",
+            "Create a save file here in case you wish to pursue a different ending at a later date."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Maruki",
+              "location": "Practice Building",
+              "personaEquipped": "Councillor"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Kind of sad...",
+              "specific": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Councillor",
+              "increase": 1,
+              "rank": 9
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Takemi",
+              "location": "Clinic",
+              "personaEquipped": "Death"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "I wonder...",
+              "specific": true
+            },
+            {
+              "answer": "Yes please.",
+              "specific": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Death",
+              "increase": 1,
+              "rank": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 18,
+      "name": "Friday",
+      "daytime": [
+        {
+          "notes": [
+            "Councillor Confidant Rank 10",
+            "Automatic story events."
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Train in your room using the protein."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 19,
+      "name": "Saturday",
+      "daytime": [
+        {
+          "notes": [
+            "Clear Niijima's Palace.",
+            "We can have a guide on how to beat Shadow Niijima right here."
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Automatic story events."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 20,
+      "name": "Sunday",
+      "daytime": [
+        {
+          "notes": [
+            "Automatic story events.",
+            "If you want to watch one of the alternate endings, cooperate and hand over your teammates’ identities. Otherwise, choose to refuse to proceed with the rest of the game."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Joker",
+              "personaEquipped": "Judgement"
+            }
+          ],
+          "confidantRanks": [
+            {
+              "name": "Judgement",
+              "increase": 1,
+              "rank": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 21,
+      "name": "Monday",
+      "daytime": [
+        {
+          "notes": [
+            "Automatic story events."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 22,
+      "name": "Tuesday",
+      "daytime": [
+        {
+          "notes": [
+            "Automatic story events."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Haru",
+              "personaEquipped": "Empress"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Trust no one.",
+              "specific": true
+            },
+            {
+              "answer": "There has to be another way.",
+              "specific": true
+            },
+            {
+              "answer": "I don't think so.",
+              "specific": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Empress",
+              "increase": 1,
+              "rank": 5
+            }
+          ],
+          "notes": [
+            "On the phone, choose 'Pinch yourself.'"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Go to the Velvet room and aim to fulfill the rest of the requests of the twins to get max rank. You can read our full guide on the requests here."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Caroline & Justine",
+              "personaEquipped": "Strength"
+            }
+          ],
+          "confidantRanks": [
+            {
+              "name": "Strength",
+              "increase": 1,
+              "rank": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 23,
+      "name": "Wednesday",
+      "daytime": [
+        {
+          "notes": [
+            "Automatic story events."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Haru",
+              "personaEquipped": "Empress"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Trust no one.",
+              "specific": true
+            },
+            {
+              "answer": "There has to be another way.",
+              "specific": true
+            },
+            {
+              "answer": "I don't think so.",
+              "specific": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Empress",
+              "increase": 1,
+              "rank": 6
+            }
+          ],
+          "notes": [
+            "On the phone, choose 'Pinch yourself.'"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Go to the Velvet room and aim to fulfill the rest of the requests of the twins to get max rank. You can read our full guide on the requests here."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Caroline & Justine",
+              "personaEquipped": "Strength"
+            }
+          ],
+          "confidantRanks": [
+            {
+              "name": "Strength",
+              "increase": 1,
+              "rank": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 24,
+      "name": "Thursday",
+      "daytime": [
+        {
+          "notes": [
+            "Automatic palace infiltration."
+          ]
+        },
+        {
+          "isClass": true,
+          "classAnswers": [
+            "Speaker of the House decides."
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Craft infiltration tools. (Proficiency +3)"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Go to the Velvet room and aim to fulfill the rest of the requests of the twins to get max rank. You can read our full guide on the requests here."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Caroline & Justine",
+              "personaEquipped": "Strength"
+            }
+          ],
+          "confidantRanks": [
+            {
+              "name": "Strength",
+              "increase": 1,
+              "rank": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 25,
+      "name": "Friday",
+      "daytime": [
+        {
+          "notes": [
+            "'Swindling Old Folk is Pretty Low' Mementos Mission automatically obtained."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Haru",
+              "personaEquipped": "Empress"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Trust no one.",
+              "specific": true
+            },
+            {
+              "answer": "There has to be another way.",
+              "specific": true
+            },
+            {
+              "answer": "I don't think so.",
+              "specific": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Empress",
+              "increase": 1,
+              "rank": 5
+            }
+          ],
+          "notes": [
+            "On the phone, choose 'Pinch yourself.'"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Go to the Velvet room and aim to fulfill the rest of the requests of the twins to get max rank. You can read our full guide on the requests here."
+          ]
+        },
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Caroline & Justine",
+              "personaEquipped": "Strength"
+            }
+          ],
+          "confidantRanks": [
+            {
+              "name": "Strength",
+              "increase": 1,
+              "rank": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 26,
+      "name": "Saturday",
+      "daytime": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Futaba",
+              "location": "Cafe Leblanc",
+              "personaEquipped": "Hermit"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "That's incredible.",
+              "specific": true
+            },
+            {
+              "answer": "You worked really hard too.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Hermit",
+              "increase": 1,
+              "rank": 8
+            }
+          ],
+          "notes": [
+            "On the phone, choose 'Congrats.'"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Iwai",
+              "location": "Airsoft Shop, Shibuya",
+              "personaEquipped": "Hanged Man"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "I want to work.",
+              "specific": true
+            },
+            {
+              "answer": "It's up to you now, Iwai.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "What if you're right?",
+              "specific": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Hanged Man",
+              "increase": 1,
+              "rank": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 27,
+      "name": "Sunday",
+      "daytime": [
+        {
+          "notes": [
+            "(Optional) Purchase any items you want from the priest in Kanda.",
+            "(Optional) Interact with the TV in Leblanc for the Home Shopping Channel.",
+            "(Optional:) Your social stats should all be Max Rank, but if not, you can purchase Aojiru (¥5,000) from the drink stand in the Underground Walkway for stat increases.",
+            "Buy Legendary Yaki-Imo (¥1,800) from the truck vendor in Yongen-Jaya.",
+            "Travel to Kichijoji and speak to Trader Sakai in the western alley to trade the Legendary Yaki-Imo for the Empowering Ofuda x3."
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Futaba",
+              "location": "Cafe Leblanc",
+              "personaEquipped": "Hermit"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "You've really matured.",
+              "specific": true
+            },
+            {
+              "answer": "Are you ok, Futaba?",
+              "specific": true
+            },
+            {
+              "answer": "If you want.",
+              "specific": true
+            },
+            {
+              "answer": "Because I love you.",
+              "specific": true
+            },
+            {
+              "answer": "Because we're teammates.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Do I really have to say it?",
+              "specific": true,
+              "isPhone": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Hermit",
+              "increase": 1,
+              "rank": 9
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Chihaya",
+              "location": "Shinjuku",
+              "personaEquipped": "Fortune"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "It's actually pretty cute.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Fortune",
+              "increase": 1,
+              "rank": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": 28,
+      "name": "Monday",
+      "daytime": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Haru",
+              "personaEquipped": "Empress"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "I had no idea.",
+              "specific": true
+            },
+            {
+              "answer": "That would be bad.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Be strong, Haru.",
+              "specific": true
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Empress",
+              "increase": 1,
+              "rank": 6
+            }
+          ],
+          "notes": [
+            "On the phone, choose 'Let him say what he wants.'"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "isCrosswordSolve": true,
+          "crosswordAnswers": [
+            "Charisma"
+          ],
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Take Ohya on a date to Ginza."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 29,
+      "name": "Tuesday",
+      "daytime": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Haru",
+              "personaEquipped": "Empress"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "What do you want to do?",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Empress",
+              "increase": 1,
+              "rank": 7
+            }
+          ],
+          "notes": [
+            "On the phone, choose 'I'll always have your back.'"
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Take Chihaya on a date to Jimbocho."
+          ]
+        }
+      ]
+    },
+    {
+      "date": 30,
+      "name": "Wednesday",
+      "daytime": [
+        {
+          "isConfidantHangout": true,
+          "visitedPeople": [
+            {
+              "name": "Futaba",
+              "location": "Cafe Leblanc",
+              "personaEquipped": "Hermit"
+            }
+          ],
+          "confidantAnswers": [
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "You can't lose to her.",
+              "specific": true
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            },
+            {
+              "answer": "Any option.",
+              "specific": false
+            }
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Hermit",
+              "increase": 1,
+              "rank": 10
+            }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "notes": [
+            "Take Takemi on a date to Odaiba Ferris Wheel."
+          ]
+        }
+      ]
     }
   ],
   "stats": {
