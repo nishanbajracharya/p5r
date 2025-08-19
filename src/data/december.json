@@ -30,6 +30,11 @@
             {
               "answer": "Any option.",
               "specific": false
+            },
+            {
+              "answer": "I'll always have your back.",
+              "specific": false,
+              "isPhone": true
             }
           ],
           "isConfidantUp": true,
@@ -39,9 +44,6 @@
               "increase": 1,
               "rank": 8
             }
-          ],
-          "notes": [
-            "On the phone, choose 'I'll always have your back.'"
           ]
         }
       ],
@@ -77,6 +79,11 @@
             {
               "answer": "Any option.",
               "specific": false
+            },
+            {
+              "answer": "I want some too.",
+              "specific": false,
+              "isPhone": true
             }
           ],
           "isConfidantUp": true,
@@ -86,9 +93,6 @@
               "increase": 1,
               "rank": 9
             }
-          ],
-          "notes": [
-            "On the phone, choose 'I want some too.'"
           ]
         }
       ],
@@ -168,8 +172,20 @@
       ],
       "evening": [
         {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Moist Protein (¥4,500)",
+              "location": "Sports Shop, Underground Mall, Shibuya"
+            },
+            {
+              "name": "Imported Protein (¥8,000)",
+              "location": "Sports Shop, Underground Mall, Shibuya"
+            }
+          ]
+        },
+        {
           "notes": [
-            "Go to the Sports Shop in the Underground Mall of Shibuya and buy the Moist Protein (¥4,500) and the Imported Protein (¥8,000).",
             "Invite Iwai to the Planetarium."
           ]
         }
@@ -226,6 +242,11 @@
             {
               "answer": "He saw us as good friends.",
               "specific": true
+            },
+            {
+              "answer": "I wanted to hear your voice.",
+              "specific": true,
+              "isPhone": true
             }
           ],
           "isConfidantUp": true,
@@ -235,9 +256,6 @@
               "increase": 1,
               "rank": 10
             }
-          ],
-          "notes": [
-            "On the phone, choose 'I wanted to hear your voice.'"
           ]
         }
       ],
@@ -335,16 +353,34 @@
       "daytime": [
         {
           "notes": [
-            "(Optional) Buy SP recovery items from the vending machines near the Bathhouse, medicine, or equipment.",
-            "(Optional) We recommend getting Celestial and Money Readings from Chihaya to increase the chance of Fusion Alarms and money earned.",
-            "Secure the route in Shido's palace."
+            "(Optional) We recommend getting Celestial and Money Readings from Chihaya to increase the chance of Fusion Alarms and money earned."
           ]
+        },
+        {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "(Optional) SP recovery items",
+              "location": "Vending machines near the Bathhouse"
+            }
+          ]
+        },
+        {
+          "isSecureInfiltrationRoute": true,
+          "bossName": "Shido"
         }
       ],
       "evening": [
         {
+          "isCallPerson": true,
+          "callPerson": {
+            "person": "Kawakami",
+            "location": "Leblanc",
+            "action": "Ask for a massage."
+          }
+        },
+        {
           "notes": [
-            "Call Kawakami from Leblanc and ask for a massage.",
             "Invite Kawakami to the Odaiba Ferris Wheel if you are in a romantic relationship, and get the Night Pennant decoration. Otherwise, use this free time however you wish."
           ]
         },
@@ -356,6 +392,7 @@
               "personaEquipped": "Justice"
             }
           ],
+          "isConfidantUp": true,
           "confidantRanks": [
             {
               "name": "Justice",
@@ -371,16 +408,27 @@
       "name": "Saturday",
       "daytime": [
         {
-          "notes": [
-            "Go to the hangout and send the calling card."
-          ]
+          "goToHideout": true,
+          "hideoutLocation": "TBD",
+          "isSendCallingCard": true
         }
       ],
       "evening": [
         {
+          "isPalaceInfiltration": true,
+          "bossName": "Shido",
+          "isFinishPalace": true
+        },
+        {
+          "isCallPerson": true,
+          "callPerson": {
+            "person": "Kawakami",
+            "location": "Leblanc",
+            "action": "Ask for a massage."
+          }
+        },
+        {
           "notes": [
-            "Clear Shido's Palace.",
-            "Call Kawakami from Leblanc and ask for a massage.",
             "Spend time with Hifumi in her room if you have romanced her. Otherwise, consider this a free evening."
           ]
         }
@@ -399,12 +447,28 @@
       ],
       "evening": [
         {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Angel Tart (¥1,800)",
+              "location": "Supermarket, Shibuya Underground Mall"
+            }
+          ]
+        },
+        {
           "notes": [
-            "Buy the Angel Tart (¥1,800) from the supermarket in the Shibuya Underground Mall.",
             "Travel to Kichijoji and speak to Trader Sakai in the western alley to trade the Angel Tart for the Feverish Bat.",
             "Invite Ohya to the Odaiba Ferris Wheel.",
-            "Go to the Jazz Club and let your teammates learn some skills.",
-            "Trophy/Achievement Unlocked: A Night in Kichijoji."
+            "Go to the Jazz Club and let your teammates learn some skills."
+          ]
+        },
+        {
+          "isTrophyEarned": true,
+          "trophies": [
+            {
+              "name": "A Night in Kichijoji",
+              "unlockMode": "Automatic"
+            }
           ]
         }
       ]
@@ -484,10 +548,26 @@
       ],
       "evening": [
         {
+          "isCallPerson": true,
+          "callPerson": {
+            "person": "Kawakami",
+            "location": "Leblanc",
+            "action": "Ask for a massage."
+          }
+        },
+        {
           "notes": [
-            "Call Kawakami from Leblanc and ask for a massage.",
-            "Interact with the TV in Leblanc and choose 'A wanted burglar cannot be free.' (Knowledge +2)",
+            "Interact with the TV in Leblanc and choose 'A wanted burglar cannot be free.'",
             "Invite Iwai to the Ginza Sushi Restaurant."
+          ]
+        },
+        {
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 2
+            }
           ]
         }
       ]
@@ -524,7 +604,16 @@
         {
           "notes": [
             "Travel to the Akihabara Game Center and win a Jack Frost Doll from the machine on the left.",
-            "Go to the maid cafe in Akihabara. Order the most expensive meal. (Charm +3)"
+            "Go to the maid cafe in Akihabara. Order the most expensive meal."
+          ]
+        },
+        {
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Charm",
+              "increase": 3
+            }
           ]
         }
       ]
@@ -534,9 +623,12 @@
       "name": "Sunday",
       "daytime": [
         {
-          "notes": [
-            "Automatic story events.",
-            "Trophy/Achievement Unlocked: Cruiser of Pride: Capsized."
+          "isTrophyEarned": true,
+          "trophies": [
+            {
+              "name": "Cruiser of Pride: Capsized",
+              "unlockMode": "Automatic"
+            }
           ]
         }
       ],
@@ -554,7 +646,16 @@
       "daytime": [
         {
           "notes": [
-            "Study group event. (Knowledge +5)"
+            "Study group event."
+          ]
+        },
+        {
+          "isSkillUp": true,
+          "skills": [
+            {
+              "name": "Knowledge",
+              "increase": 5
+            }
           ]
         }
       ],
@@ -628,7 +729,6 @@
         {
           "notes": [
             "Talk to Sojiro for a reward.",
-            "(Optional) Buy SP recovery items from the vending machines near the Bathhouse, medicine, or equipment.",
             "Go to Shinjuku Bookstore and buy The Essence of Fishing (¥2,800).",
             "Go to the Jazz Club and let your teammates learn some skills."
           ]
@@ -638,13 +738,6 @@
     {
       "date": 23,
       "name": "Friday",
-      "daytime": [
-        {
-          "notes": [
-            "Automatic story events."
-          ]
-        }
-      ],
       "evening": [
         {
           "notes": [
@@ -659,6 +752,7 @@
               "personaEquipped": "Magician"
             }
           ],
+          "isConfidantUp": true,
           "confidantRanks": [
             {
               "name": "Magician",
@@ -679,13 +773,7 @@
           ]
         },
         {
-          "isConfidantHangout": true,
-          "visitedPeople": [
-            {
-              "name": "Joker",
-              "personaEquipped": "Fool"
-            }
-          ],
+          "isConfidantUp": true,
           "confidantRanks": [
             {
               "name": "Fool",
@@ -701,11 +789,11 @@
     "confidants": [
       {
         "name": "Fool",
-        "rank": 9
+        "rank": 10
       },
       {
         "name": "Magician",
-        "rank": 9
+        "rank": 10
       },
       {
         "name": "Emperor",
@@ -785,11 +873,11 @@
       },
       {
         "name": "Tower",
-        "rank": 9
+        "rank": 10
       },
       {
         "name": "Empress",
-        "rank": 7
+        "rank": 10
       }
     ],
     "skills": [
