@@ -678,8 +678,7 @@
         },
         {
           "notes": [
-            "Take Hifumi on a date to Destinyland and choose 'Why don't you try it?'",
-            "In the coming weeks, there will be many points at which you’ll be confined to Leblanc for the night: pick up protein for training, books for reading, games for playing, etc. to fill up your time. If you haven’t bought it out of curiosity already, buy the broken laptop from the secondhand shop as well as PC repair tools from Akihabara so you can fix it during one of these nights."
+            "Take Hifumi on a date to Destinyland and choose 'Why don't you try it?'"
           ]
         }
       ]
@@ -705,36 +704,16 @@
               "increase": 2
             }
           ]
-        },
-        {
-          "notes": [
-            "Automatic story events"
-          ]
-        }
-      ],
-      "evening": [
-        {
-          "notes": [
-            "Rank 9"
-          ]
         }
       ]
     },
     {
       "date": 12,
       "name": "Wednesday",
-      "daytime": [
-        {
-          "notes": [
-            "Automatic story events"
-          ]
-        }
-      ],
       "evening": [
         {
           "notes": [
-            "Train in your room using the protein.",
-            "Rank 5"
+            "Train in your room using the protein."
           ]
         }
       ]
@@ -742,13 +721,6 @@
     {
       "date": 13,
       "name": "Thursday",
-      "daytime": [
-        {
-          "notes": [
-            "Automatic story events"
-          ]
-        }
-      ],
       "evening": [
         {
           "notes": [
@@ -852,9 +824,8 @@
       "daytime": [
         {
           "notes": [
-            "Chalk will be thrown at you in class, and you have a 66 percent chance of successfully dodging it. You need to dodge it for the stat increase, but your Charm should be maxed out by now anyway.",
-            "Travel to the Akihabara Game Center and win a Wanna-kun Doll from the machine on the left.",
-            "If you are short on money, you can save beforehand and then reload your save if you find yourself spending too much money trying to win the doll."
+            "Chalk event in class. Make sure to dodge.",
+            "Travel to the Akihabara Game Center and win a Wanna-kun Doll from the machine on the left."
           ]
         },
         {
@@ -956,9 +927,7 @@
       "daytime": [
         {
           "notes": [
-            "(Optional) Purchase any items you want from the priest in Kanda.",
-            "(Optional:) Your social stats should all be Max Rank, but if not, you can purchase Aojiru (¥5,000) from the drink stand in the Underground Walkway for stat increases.",
-            "Go to the Akihabara and use the Capsule Machine repeatedly until you get a Gear Girimehkala. If you run out of money or use too much money, you can reload your save and try again.",
+            "Go to the Akihabara and use the Capsule Machine repeatedly until you get a Gear Girimehkala.",
             "Travel to Kichijoji and speak to Trader Sakai in the western alley to trade the Gear Girimehkala for Hot-Blooded Sword."
           ]
         },
@@ -1076,12 +1045,7 @@
     {
       "date": 20,
       "name": "Thursday",
-      "daytime": [
-        {
-          "notes": [
-            "Automatic story events"
-          ]
-        },
+      "evening": [
         {
           "notes": [
             "Train in your room using the protein."
@@ -1092,15 +1056,10 @@
     {
       "date": 21,
       "name": "Friday",
-      "daytime": [
+      "evening": [
         {
           "notes": [
-            "Automatic story events"
-          ]
-        },
-        {
-          "notes": [
-            "Craft infiltration tools. (Proficiency +3)"
+            "Craft infiltration tools."
           ]
         }
       ]
@@ -1120,11 +1079,6 @@
               "name": "Knowledge",
               "increase": 2
             }
-          ]
-        },
-        {
-          "notes": [
-            "Automatic story events"
           ]
         }
       ],
@@ -1150,6 +1104,11 @@
             {
               "answer": "You're charming as you are.",
               "specific": true
+            },
+            {
+              "answer": "That's the spirit.",
+              "specific": true,
+              "isPhone": true
             }
           ],
           "isConfidantUp": true,
@@ -1159,9 +1118,6 @@
               "increase": 1,
               "rank": 7
             }
-          ],
-          "notes": [
-            "On the phone, choose 'That's the spirit.'"
           ]
         }
       ]
@@ -1169,19 +1125,7 @@
     {
       "date": 23,
       "name": "Sunday",
-      "daytime": [
-        {
-          "notes": [
-            "Automatic story events"
-          ]
-        }
-      ],
       "evening": [
-        {
-          "notes": [
-            "(Optional) Purchase any items you want from the priest in Kanda."
-          ]
-        },
         {
           "isConfidantHangout": true,
           "visitedPeople": [
@@ -1236,11 +1180,6 @@
               "increase": 2
             }
           ]
-        },
-        {
-          "notes": [
-            "Automatic story events"
-          ]
         }
       ],
       "evening": [
@@ -1277,21 +1216,10 @@
     {
       "date": 25,
       "name": "Tuesday",
-      "daytime": [
-        {
-          "notes": [
-            "Automatic story events"
-          ]
-        }
-      ],
       "evening": [
         {
           "notes": [
-            "Be sure to save your game here."
-          ]
-        },
-        {
-          "notes": [
+            "Be sure to save your game here.",
             "Train in your room using the protein."
           ]
         }
@@ -1299,32 +1227,12 @@
     },
     {
       "date": 26,
-      "name": "Wednesday",
-      "daytime": [
-        {
-          "notes": [
-            "Automatic story events"
-          ]
-        }
-      ],
-      "evening": [
-        {
-          "notes": [
-            "Automatic story events",
-            "You can reload your save file to view the festival choosing different characters if you wish to."
-          ]
-        }
-      ]
+      "name": "Wednesday"
     },
     {
       "date": 27,
       "name": "Thursday",
-      "daytime": [
-        {
-          "notes": [
-            "Automatic story events"
-          ]
-        },
+      "evening": [
         {
           "notes": [
             "Train in your room using the protein."
@@ -1334,14 +1242,7 @@
     },
     {
       "date": 28,
-      "name": "Friday",
-      "daytime": [
-        {
-          "notes": [
-            "Automatic story events"
-          ]
-        }
-      ]
+      "name": "Friday"
     },
     {
       "date": 29,
@@ -1351,11 +1252,6 @@
           "notes": [
             "Forced Palace entry"
           ]
-        },
-        {
-          "notes": [
-            "Craft infiltration tools. (Proficiency +3)"
-          ]
         }
       ]
     },
@@ -1364,10 +1260,16 @@
       "name": "Sunday",
       "daytime": [
         {
+          "isBuyItem": true,
+          "buyItems": [
+            {
+              "name": "Mystery Stew (¥600)",
+              "location": "Vending Machine close to the Maid Cafe in Akihabara."
+            }
+          ]
+        },
+        {
           "notes": [
-            "(Optional) Purchase any items you want from the priest in Kanda.",
-            "(Optional:) Your social stats should all be Max Rank, but if not, you can purchase Aojiru (¥5,000) from the drink stand in the Underground Walkway for stat increases.",
-            "Purchase Mystery Stew (¥600) from the Vending Machine close to the Maid Cafe in Akihabara.",
             "Travel to Kichijoji and speak to Trader Sakai in the western alley to trade the Mystery Stew for the Angelic Grace.",
             "Go with Shinya to Destinyland and choose 'Not everyone is bad.' This should unlock the Balloons decoration."
           ]
@@ -1376,7 +1278,7 @@
       "evening": [
         {
           "notes": [
-            "Go to the Velvet room and aim to fulfil the next two requests of the twins - they'll want a Lachesis with Tetraja, followed by a Hecatoncheires with Masukunda. You can read our full guide on the requests here.",
+            "Go to the Velvet room and aim to fulfil the next two requests of the twins - they'll want a Lachesis with Tetraja, followed by a Hecatoncheires with Masukunda.",
             "Visit the twins near the door to the Velvet Room and take them on their next date."
           ]
         }
@@ -1386,12 +1288,6 @@
       "date": 31,
       "name": "Monday",
       "daytime": [
-        {
-          "notes": [
-            "In class: read a book of your choice. We recommend something that opens up locations or additional benefits.",
-            "Draw a mark on the blackboard in class for a skill up if needed. (Courage +2)"
-          ]
-        },
         {
           "isConfidantHangout": true,
           "visitedPeople": [
@@ -1451,6 +1347,13 @@
           ],
           "notes": [
             "'The Money-Grubbing Uncle' Mementos Mission obtained."
+          ],
+          "isConfidantUp": true,
+          "confidantRanks": [
+            {
+              "name": "Hierophant",
+              "rank": 8
+            }
           ]
         }
       ]
