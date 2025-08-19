@@ -1,7 +1,268 @@
 {
     "name": "December",
     "month": 12,
-    "days": [],
+    "days": [
+      {
+        "date": 1,
+        "name": "Thursday",
+        "daytime": [
+          {"isConfidantHangout": true, "visitedPeople": [{"name": "Haru", "personaEquipped": "Empress"}], "confidantAnswers": [
+            {"answer": "Any option.", "specific": false},
+            {"answer": "What do you want to do?", "specific": true},
+            {"answer": "You should him that.", "specific": true},
+            {"answer": "Any option.", "specific": false}
+          ], "isConfidantUp": true, "confidantRanks": [{"name": "Empress", "increase": 1, "rank": 8}], "notes": ["On the phone, choose 'I'll always have your back.'"]}
+        ],
+        "evening": [
+          {"notes": ["Invite Iwai to Inokashira Park and get the Swan Boat decoration."]}
+        ]
+      },
+      {
+        "date": 2,
+        "name": "Friday",
+        "daytime": [
+          {"isConfidantHangout": true, "visitedPeople": [{"name": "Haru", "personaEquipped": "Empress"}], "confidantAnswers": [
+            {"answer": "The soil?", "specific": true},
+            {"answer": "Any option.", "specific": false},
+            {"answer": "Any option.", "specific": false}
+          ], "isConfidantUp": true, "confidantRanks": [{"name": "Empress", "increase": 1, "rank": 9}], "notes": ["On the phone, choose 'I want some too.'"]}
+        ],
+        "evening": [
+          {"isCrosswordSolve": true, "crosswordAnswers": ["Influenza"], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 2}]},
+          {"notes": ["Free evening for catch-up or optional activities, such as taking the Twins to different destinations."]}
+        ]
+      },
+      {
+        "date": 3,
+        "name": "Saturday",
+        "daytime": [
+          {"notes": ["Travel to the Akihabara Game Center and win a Sheep Man Doll from the machine on the left."]},
+          {"isConfidantHangout": true, "visitedPeople": [{"name": "Shinya", "location": "Akihabara Arcade", "personaEquipped": "Tower"}], "confidantAnswers": [
+            {"answer": "I'm glad to hear that.", "specific": true},
+            {"answer": "It means you've matured.", "specific": true},
+            {"answer": "He wants to win at all costs.", "specific": true},
+            {"answer": "Any option.", "specific": false}
+          ], "isConfidantUp": true, "confidantRanks": [{"name": "Tower", "increase": 1, "rank": 10}], "isSkillUp": true, "skills": [{"name": "Kindness", "increase": 9}]}
+        ],
+        "evening": [
+          {"notes": ["Go to the Sports Shop in the Underground Mall of Shibuya and buy the Moist Protein (¥4,500) and the Imported Protein (¥8,000).", "Invite Iwai to the Planetarium."]}
+        ]
+      },
+      {
+        "date": 4,
+        "name": "Sunday",
+        "daytime": [
+          {"notes": ["Invite Makoto to Chinatown and get the Shumai Cushion decoration."]}
+        ],
+        "evening": [
+          {"notes": ["Invite Chihaya to Asakusa and get the Sky Tower Lamp decoration.", "Go to the Jazz Club and let your teammates learn some skills."]}
+        ]
+      },
+      {
+        "date": 5,
+        "name": "Monday",
+        "daytime": [
+          {"isConfidantHangout": true, "visitedPeople": [{"name": "Haru", "personaEquipped": "Empress"}], "confidantAnswers": [
+            {"answer": "Any option.", "specific": false},
+            {"answer": "Any option.", "specific": false},
+            {"answer": "You did amazing.", "specific": true},
+            {"answer": "I like you too, Haru", "specific": true},
+            {"answer": "He saw us as good friends.", "specific": true}
+          ], "isConfidantUp": true, "confidantRanks": [{"name": "Empress", "increase": 1, "rank": 10}], "notes": ["On the phone, choose 'I wanted to hear your voice.'"]}
+        ],
+        "evening": [
+          {"notes": ["Spend time with Takemi in her room if you have romanced her. Otherwise, consider this a free evening."]}
+        ]
+      },
+      {
+        "date": 6,
+        "name": "Tuesday",
+        "daytime": [
+          {"notes": ["Invite Ryuji to Ogikubo and get the Ramen Bowl decoration."]}
+        ],
+        "evening": [
+          {"notes": ["Spend time with Chihaya in her room if you have romanced her. Otherwise, consider this a free evening."]}
+        ]
+      },
+      {
+        "date": 7,
+        "name": "Wednesday",
+        "daytime": [
+          {"notes": ["Invite Sumire to Shinagawa and get the Sea Slug Doll room decoration."]}
+        ],
+        "evening": [
+          {"isCrosswordSolve": true, "crosswordAnswers": ["Illuminate"], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 2}]},
+          {"notes": ["Invite Kawakami to the Ueno Art Museum."]}
+        ]
+      },
+      {
+        "date": 8,
+        "name": "Thursday",
+        "daytime": [
+          {"notes": ["Invite Futaba to Asakusa and get the I Love Tokyo Shirt decoration."]}
+        ],
+        "evening": [
+          {"isClass": true, "classAnswers": ["Attempted Murder."], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 2}]},
+          {"notes": ["Invite Iwai to the Shibuya buffet."]}
+        ]
+      },
+      {
+        "date": 9,
+        "name": "Friday",
+        "daytime": [
+          {"notes": ["(Optional) Buy SP recovery items from the vending machines near the Bathhouse, medicine, or equipment.", "(Optional) We recommend getting Celestial and Money Readings from Chihaya to increase the chance of Fusion Alarms and money earned.", "Secure the route in Shido's palace."]}
+        ],
+        "evening": [
+          {"notes": ["Call Kawakami from Leblanc and ask for a massage.", "Invite Kawakami to the Odaiba Ferris Wheel if you are in a romantic relationship, and get the Night Pennant decoration. Otherwise, use this free time however you wish."]},
+          {"isConfidantHangout": true, "visitedPeople": [{"name": "Akechi", "personaEquipped": "Justice"}], "confidantRanks": [{"name": "Justice", "increase": 1, "rank": 9}]}
+        ]
+      },
+      {
+        "date": 10,
+        "name": "Saturday",
+        "daytime": [
+          {"notes": ["Go to the hangout and send the calling card."]}
+        ],
+        "evening": [
+          {"notes": ["Clear Shido's Palace.", "Call Kawakami from Leblanc and ask for a massage.", "Spend time with Hifumi in her room if you have romanced her. Otherwise, consider this a free evening."]}
+        ]
+      },
+      {
+        "date": 11,
+        "name": "Sunday",
+        "daytime": [
+          {"notes": ["'The Head Honcho in Showbiz' and 'Lady-Killer's Ballad' Mementos Requests unlocked.", "Invite Haru to Destiny Land."]}
+        ],
+        "evening": [
+          {"notes": ["Buy the Angel Tart (¥1,800) from the supermarket in the Shibuya Underground Mall.", "Travel to Kichijoji and speak to Trader Sakai in the western alley to trade the Angel Tart for the Feverish Bat.", "Invite Ohya to the Odaiba Ferris Wheel.", "Go to the Jazz Club and let your teammates learn some skills.", "Trophy/Achievement Unlocked: A Night in Kichijoji."]}
+        ]
+      },
+      {
+        "date": 12,
+        "name": "Monday",
+        "daytime": [
+          {"notes": ["Invite Yusuke to Ikebukuro and get the Star Stickers decoration."]}
+        ],
+        "evening": [
+          {"isCrosswordSolve": true, "crosswordAnswers": ["Approval"], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 2}]}
+        ]
+      },
+      {
+        "date": 13,
+        "name": "Tuesday",
+        "daytime": [
+          {"notes": ["Invite Ann to the Shibuya buffet and get the Choco Fountain decoration."]}
+        ],
+        "evening": [
+          {"notes": ["Invite Chihaya to the Odaiba Ferris Wheel if you are in a romantic relationship, and get the Night Pennant decoration. Otherwise, use this free time however you wish."]}
+        ]
+      },
+      {
+        "date": 14,
+        "name": "Wednesday",
+        "daytime": [
+          {"notes": ["Invite Ryuji to Nakano and get the Featherman Dolls decoration."]}
+        ],
+        "evening": [
+          {"notes": ["Spend time with Kawakami in her room if you have romanced her. Otherwise, consider this a free evening."]}
+        ]
+      },
+      {
+        "date": 15,
+        "name": "Thursday",
+        "daytime": [
+          {"notes": ["(Optional) We recommend getting a Money Reading from Chihaya to increase money earned.", "Infiltrate Mementos and complete all requests."]}
+        ],
+        "evening": [
+          {"notes": ["Call Kawakami from Leblanc and ask for a massage.", "Interact with the TV in Leblanc and choose 'A wanted burglar cannot be free.' (Knowledge +2)", "Invite Iwai to the Ginza Sushi Restaurant."]}
+        ]
+      },
+      {
+        "date": 16,
+        "name": "Friday",
+        "daytime": [
+          {"notes": ["Invite Yusuke to the Meiji Shrine to get the Hamaya decoration."]}
+        ],
+        "evening": [
+          {"notes": ["Free evening for catch-up or optional activities, such as taking the Twins to different destinations. If you missed the event with Ohya earlier in the month, you can do it today."]}
+        ]
+      },
+      {
+        "date": 17,
+        "name": "Saturday",
+        "daytime": [
+          {"notes": ["Invite Makoto to Suidobashi and get the Gi-Nyant Doll."]}
+        ],
+        "evening": [
+          {"notes": ["Travel to the Akihabara Game Center and win a Jack Frost Doll from the machine on the left.", "Go to the maid cafe in Akihabara. Order the most expensive meal. (Charm +3)"]}
+        ]
+      },
+      {
+        "date": 18,
+        "name": "Sunday",
+        "daytime": [
+          {"notes": ["Automatic story events.", "Trophy/Achievement Unlocked: Cruiser of Pride: Capsized."]}
+        ],
+        "evening": [
+          {"notes": ["Train in your room using the protein."]}
+        ]
+      },
+      {
+        "date": 19,
+        "name": "Monday",
+        "daytime": [
+          {"notes": ["Study group event. (Knowledge +5)"]}
+        ],
+        "evening": [
+          {"isCrosswordSolve": true, "crosswordAnswers": ["Christmas"], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 2}]},
+          {"notes": ["Go fishing. Work towards catching the Ichigaya Guardian for the achievement/trophy."]}
+        ]
+      },
+      {
+        "date": 20,
+        "name": "Tuesday",
+        "daytime": [
+          {"isExamDay": true, "examAnswers": ["D.", "One billion yen.", "Having his head displayed.", "Public Performance."]}
+        ]
+      },
+      {
+        "date": 21,
+        "name": "Wednesday",
+        "daytime": [
+          {"isExamDay": true, "examAnswers": ["Hearts.", "Attend."]}
+        ]
+      },
+      {
+        "date": 22,
+        "name": "Thursday",
+        "daytime": [
+          {"isExamDay": true, "examAnswers": ["Japan.", "Dreadnought."]},
+          {"notes": ["Invite Yusuke to the Ueno Art Museum and get the Nude Statue decoration."]}
+        ],
+        "evening": [
+          {"notes": ["Talk to Sojiro for a reward.", "(Optional) Buy SP recovery items from the vending machines near the Bathhouse, medicine, or equipment.", "Go to Shinjuku Bookstore and buy The Essence of Fishing (¥2,800).", "Go to the Jazz Club and let your teammates learn some skills."]}
+        ]
+      },
+      {
+        "date": 23,
+        "name": "Friday",
+        "daytime": [
+          {"notes": ["Automatic story events."]}
+        ],
+        "evening": [
+          {"notes": ["Train in your room using the protein."]},
+          {"isConfidantHangout": true, "visitedPeople": [{"name": "Morgana", "personaEquipped": "Magician"}], "confidantRanks": [{"name": "Magician", "increase": 1, "rank": 10}]}
+        ]
+      },
+      {
+        "date": 24,
+        "name": "Saturday",
+        "daytime": [
+          {"notes": ["You'll be thrown into the Depths of Mementos."]},
+          {"isConfidantHangout": true, "visitedPeople": [{"name": "Joker", "personaEquipped": "Fool"}], "confidantRanks": [{"name": "Fool", "increase": 1, "rank": 10}]}
+        ]
+      }
+    ],
     "stats": {
       "confidants": [
         {

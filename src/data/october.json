@@ -1,7 +1,558 @@
 {
   "name": "October",
   "month": 10,
-  "days": [],
+  "days": [
+    {
+      "date": 1,
+      "name": "Saturday",
+      "daytime": [
+        {"isBuyItem": true, "buyItems": [{"name": "Seeker’s Tools", "location": "Akihabara Electronics store", "price": 2000}]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Shinya", "location": "Akihabara Arcade", "personaEquipped": "Tower"}], "isSkillUp": true, "skills": [{"name": "Kindness", "increase": 3}]}
+      ],
+      "evening": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Iwai", "location": "Airsoft Shop, Shibuya", "personaEquipped": "Hanged Man"}], "confidantAnswers": [
+          {"answer": "I want to work.", "specific": true},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Girls. or That's a secret.", "specific": true},
+          {"answer": "You should buy us something.", "specific": true},
+          {"answer": "All I did was listen to him.", "specific": true, "isPhone": true}
+        ], "isSkillUp": true, "skills": [{"name": "Proficiency", "increase": 3}], "isConfidantUp": true, "confidantRanks": [{"name": "Hanged Man", "increase": 1, "rank": 6}]}
+      ]
+    },
+    {
+      "date": 2,
+      "name": "Sunday",
+      "daytime": [
+        {"notes": ["(Optional) Interact with the TV in Leblanc for the Home Shopping Channel — Pumpkin Ghost Set (¥14,800) is our recommended purchase.", "(Optional) Purchase any items you want from the priest in Kanda.", "(Optional) If social stats are not max, purchase Aojiru (¥5,000) from the drink stand in the Underground Walkway for stat increases.", "Travel to Kichijoji and speak to Trader Sakai in the western alley to trade the Calling Postcard for Strawberry Daifuku x2."]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Yusuke", "location": "Underground Walkway, Shibuya", "personaEquipped": "Emperor"}], "confidantAnswers": [
+          {"answer": "It has to be Ann.", "specific": true},
+          {"answer": "You've really grown, Yusuke.", "specific": true}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Emperor", "increase": 1, "rank": 8}]}
+      ],
+      "evening": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Futaba", "location": "Movies", "personaEquipped": "Hermit"}], "confidantAnswers": [
+          {"answer": "Somehow...", "specific": true}
+        ], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 7}]}
+      ]
+    },
+    {
+      "date": 3,
+      "name": "Monday",
+      "daytime": [
+        {"isClass": true, "classAnswers": ["Stars."], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 2}]},
+        {"notes": ["Forced Palace entry"]}
+      ]
+    },
+    {
+      "date": 4,
+      "name": "Tuesday",
+      "daytime": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Makoto", "location": "School gates", "personaEquipped": "High Priestess"}], "confidantAnswers": [
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "That was the right move.", "specific": true},
+          {"answer": "I'm a regular here.", "specific": true},
+          {"answer": "I'll be your study partner. or You'll find someone someday.", "specific": true},
+          {"answer": "I do. or That's not what I meant.", "specific": true}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "High Priestess", "increase": 1, "rank": 9}], "notes": ["On the phone, choose 'I'd do anything for you.' or 'No big deal.'"]}
+      ],
+      "evening": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Ohya", "location": "Crossroads Bar, Shinjuku", "personaEquipped": "Devil"}], "confidantAnswers": [
+          {"answer": "Any option.", "specific": false},
+          {"answer": "He must not like you.", "specific": true},
+          {"answer": "You should trust in her.", "specific": true},
+          {"answer": "That's the spirit.", "specific": true},
+          {"answer": "I'll dig some more up for you.", "specific": true, "isPhone": true}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Devil", "increase": 1, "rank": 6}]}
+      ]
+    },
+    {
+      "date": 5,
+      "name": "Wednesday",
+      "daytime": [
+        {"notes": ["In class: read a book of your choice. We recommend something that opens up locations or additional benefits."]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Futaba", "location": "Outside Leblanc", "personaEquipped": "Hermit"}], "confidantAnswers": [
+          {"answer": "Any option.", "specific": false},
+          {"answer": "I think you're right.", "specific": true},
+          {"answer": "He's the protagonist.", "specific": true},
+          {"answer": "You did great.", "specific": true, "isPhone": true}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Hermit", "increase": 1, "rank": 5}]}
+      ],
+      "evening": [
+        {"isBuyItem": true, "buyItems": [{"name": "Moist Protein", "location": "Sports Shop, Underground Mall, Shibuya", "price": 4500}]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Hifumi", "location": "Kanda", "personaEquipped": "Star"}], "confidantAnswers": [
+          {"answer": "Just don't lose.", "specific": true},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Star", "increase": 1, "rank": 10}]}
+      ]
+    },
+    {
+      "date": 6,
+      "name": "Thursday",
+      "daytime": [
+        {"notes": ["On the train: read a book of your choice. We recommend something that opens up locations or additional benefits."]},
+        {"isClass": true, "classAnswers": ["Joseph-Ignace Guillotine."], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 2}]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Shinya", "location": "Akihabara Arcade", "personaEquipped": "Tower"}], "confidantAnswers": [
+          {"answer": "Yeah, you tell him!", "specific": true},
+          {"answer": "Get your revenge.", "specific": true}
+        ], "isSkillUp": true, "skills": [{"name": "Kindness", "increase": 5}], "isConfidantUp": true, "confidantRanks": [{"name": "Tower", "increase": 1, "rank": 4}]}
+      ],
+      "evening": [
+        {"isCrosswordSolve": true, "crosswordAnswers": ["Black"], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 2}]},
+        {"notes": ["Visit the twins near the door to the Velvet Room and take them on their next date."]}
+      ]
+    },
+    {
+      "date": 7,
+      "name": "Friday",
+      "daytime": [
+        {"notes": ["Buy all the books available in Jinbocho Bookstore if you haven't already."]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Yusuke", "location": "Underground Walkway, Shibuya", "personaEquipped": "Emperor"}], "confidantAnswers": [
+          {"answer": "Her love for her son. or The pain of separation.", "specific": true},
+          {"answer": "You've really changed, Yusuke.", "specific": true}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Emperor", "increase": 1, "rank": 9}]}
+      ],
+      "evening": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Mishima", "location": "Akihabara", "personaEquipped": "Tower"}], "confidantAnswers": [
+          {"answer": "You're so reliable.", "specific": true},
+          {"answer": "Sounds pretty twisted.", "specific": true},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false}
+        ]}
+      ]
+    },
+    {
+      "date": 8,
+      "name": "Saturday",
+      "daytime": [
+        {"notes": ["Infiltrate the Palace and reach the Treasure Room."]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Hifumi", "location": "Kanda", "personaEquipped": "Star"}], "confidantAnswers": [
+          {"answer": "Just don't lose.", "specific": true},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Star", "increase": 1, "rank": 10}]}
+      ],
+      "evening": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Futaba", "location": "Leblanc", "personaEquipped": "Hermit"}], "confidantAnswers": [
+          {"answer": "Somehow...", "specific": true}
+        ], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 7}]}
+      ]
+    },
+    {
+      "date": 9,
+      "name": "Sunday",
+      "daytime": [
+        {"notes": ["(Optional) Interact with the TV in Leblanc for the Home Shopping Channel — Pumpkin Ghost Set (¥14,800) is our recommended purchase.", "(Optional) Purchase any items you want from the priest in Kanda.", "(Optional) If social stats are not max, purchase Aojiru (¥5,000) from the drink stand in the Underground Walkway for stat increases.", "Travel to Kichijoji and speak to Trader Sakai in the western alley to trade the Calling Postcard for Strawberry Daifuku x2."]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Yusuke", "location": "Underground Walkway, Shibuya", "personaEquipped": "Emperor"}], "confidantAnswers": [
+          {"answer": "It has to be Ann.", "specific": true},
+          {"answer": "You've really grown, Yusuke.", "specific": true}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Emperor", "increase": 1, "rank": 8}]}
+      ],
+      "evening": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Futaba", "location": "Movies", "personaEquipped": "Hermit"}], "confidantAnswers": [
+          {"answer": "Somehow...", "specific": true}
+        ], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 7}]}
+      ]
+    },
+    {
+      "date": 10,
+      "name": "Monday",
+      "daytime": [
+        {"isClass": true, "classAnswers": ["Stars."], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 2}]},
+        {"notes": ["Forced Palace entry"]}
+      ]
+    },
+    {
+      "date": 11,
+      "name": "Tuesday",
+      "daytime": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Makoto", "location": "School gates", "personaEquipped": "High Priestess"}], "confidantAnswers": [
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "That was the right move.", "specific": true},
+          {"answer": "I'm a regular here.", "specific": true},
+          {"answer": "I'll be your study partner. or You'll find someone someday.", "specific": true},
+          {"answer": "I do. or That's not what I meant.", "specific": true}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "High Priestess", "increase": 1, "rank": 9}], "notes": ["On the phone, choose 'I'd do anything for you.' or 'No big deal.'"]}
+      ],
+      "evening": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Ohya", "location": "Crossroads Bar, Shinjuku", "personaEquipped": "Devil"}], "confidantAnswers": [
+          {"answer": "Any option.", "specific": false},
+          {"answer": "He must not like you.", "specific": true},
+          {"answer": "You should trust in her.", "specific": true},
+          {"answer": "That's the spirit.", "specific": true},
+          {"answer": "I'll dig some more up for you.", "specific": true, "isPhone": true}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Devil", "increase": 1, "rank": 6}]}
+      ]
+    },
+    {
+      "date": 12,
+      "name": "Wednesday",
+      "daytime": [
+        {"notes": ["In class: read a book of your choice. We recommend something that opens up locations or additional benefits."]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Futaba", "location": "Outside Leblanc", "personaEquipped": "Hermit"}], "confidantAnswers": [
+          {"answer": "Any option.", "specific": false},
+          {"answer": "I think you're right.", "specific": true},
+          {"answer": "He's the protagonist.", "specific": true},
+          {"answer": "You did great.", "specific": true, "isPhone": true}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Hermit", "increase": 1, "rank": 5}]}
+      ],
+      "evening": [
+        {"isBuyItem": true, "buyItems": [{"name": "Moist Protein", "location": "Sports Shop, Underground Mall, Shibuya", "price": 4500}]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Hifumi", "location": "Kanda", "personaEquipped": "Star"}], "confidantAnswers": [
+          {"answer": "Just don't lose.", "specific": true},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Star", "increase": 1, "rank": 10}]}
+      ]
+    },
+    {
+      "date": 13,
+      "name": "Thursday",
+      "daytime": [
+        {"notes": ["On the train: read a book of your choice. We recommend something that opens up locations or additional benefits."]},
+        {"isClass": true, "classAnswers": ["Joseph-Ignace Guillotine."], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 2}]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Shinya", "location": "Akihabara Arcade", "personaEquipped": "Tower"}], "confidantAnswers": [
+          {"answer": "Yeah, you tell him!", "specific": true},
+          {"answer": "Get your revenge.", "specific": true}
+        ], "isSkillUp": true, "skills": [{"name": "Kindness", "increase": 5}], "isConfidantUp": true, "confidantRanks": [{"name": "Tower", "increase": 1, "rank": 4}]}
+      ],
+      "evening": [
+        {"isCrosswordSolve": true, "crosswordAnswers": ["Black"], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 2}]},
+        {"notes": ["Visit the twins near the door to the Velvet Room and take them on their next date."]}
+      ]
+    },
+    {
+      "date": 14,
+      "name": "Friday",
+      "daytime": [
+        {"notes": ["Buy all the books available in Jinbocho Bookstore if you haven't already."]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Yusuke", "location": "Underground Walkway, Shibuya", "personaEquipped": "Emperor"}], "confidantAnswers": [
+          {"answer": "Her love for her son. or The pain of separation.", "specific": true},
+          {"answer": "You've really changed, Yusuke.", "specific": true}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Emperor", "increase": 1, "rank": 9}]}
+      ],
+      "evening": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Mishima", "location": "Akihabara", "personaEquipped": "Tower"}], "confidantAnswers": [
+          {"answer": "You're so reliable.", "specific": true},
+          {"answer": "Sounds pretty twisted.", "specific": true},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false}
+        ]}
+      ]
+    },
+    {
+      "date": 15,
+      "name": "Saturday",
+      "daytime": [
+        {"notes": ["Infiltrate the Palace and reach the Treasure Room."]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Hifumi", "location": "Kanda", "personaEquipped": "Star"}], "confidantAnswers": [
+          {"answer": "Just don't lose.", "specific": true},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Star", "increase": 1, "rank": 10}]}
+      ],
+      "evening": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Futaba", "location": "Leblanc", "personaEquipped": "Hermit"}], "confidantAnswers": [
+          {"answer": "Somehow...", "specific": true}
+        ], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 7}]}
+      ]
+    },
+    {
+      "date": 16,
+      "name": "Sunday",
+      "daytime": [
+        {"notes": ["(Optional) Interact with the TV in Leblanc for the Home Shopping Channel — Pumpkin Ghost Set (¥14,800) is our recommended purchase.", "(Optional) Purchase any items you want from the priest in Kanda.", "(Optional) If social stats are not max, purchase Aojiru (¥5,000) from the drink stand in the Underground Walkway for stat increases.", "Travel to Kichijoji and speak to Trader Sakai in the western alley to trade the Calling Postcard for Strawberry Daifuku x2."]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Yusuke", "location": "Underground Walkway, Shibuya", "personaEquipped": "Emperor"}], "confidantAnswers": [
+          {"answer": "It has to be Ann.", "specific": true},
+          {"answer": "You've really grown, Yusuke.", "specific": true}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Emperor", "increase": 1, "rank": 8}]}
+      ],
+      "evening": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Futaba", "location": "Movies", "personaEquipped": "Hermit"}], "confidantAnswers": [
+          {"answer": "Somehow...", "specific": true}
+        ], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 7}]}
+      ]
+    },
+    {
+      "date": 17,
+      "name": "Monday",
+      "daytime": [
+        {"isClass": true, "classAnswers": ["Stars."], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 2}]},
+        {"notes": ["Forced Palace entry"]}
+      ]
+    },
+    {
+      "date": 18,
+      "name": "Tuesday",
+      "daytime": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Makoto", "location": "School gates", "personaEquipped": "High Priestess"}], "confidantAnswers": [
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "That was the right move.", "specific": true},
+          {"answer": "I'm a regular here.", "specific": true},
+          {"answer": "I'll be your study partner. or You'll find someone someday.", "specific": true},
+          {"answer": "I do. or That's not what I meant.", "specific": true}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "High Priestess", "increase": 1, "rank": 9}], "notes": ["On the phone, choose 'I'd do anything for you.' or 'No big deal.'"]}
+      ],
+      "evening": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Ohya", "location": "Crossroads Bar, Shinjuku", "personaEquipped": "Devil"}], "confidantAnswers": [
+          {"answer": "Any option.", "specific": false},
+          {"answer": "He must not like you.", "specific": true},
+          {"answer": "You should trust in her.", "specific": true},
+          {"answer": "That's the spirit.", "specific": true},
+          {"answer": "I'll dig some more up for you.", "specific": true, "isPhone": true}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Devil", "increase": 1, "rank": 6}]}
+      ]
+    },
+    {
+      "date": 19,
+      "name": "Wednesday",
+      "daytime": [
+        {"notes": ["In class: read a book of your choice. We recommend something that opens up locations or additional benefits."]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Futaba", "location": "Outside Leblanc", "personaEquipped": "Hermit"}], "confidantAnswers": [
+          {"answer": "Any option.", "specific": false},
+          {"answer": "I think you're right.", "specific": true},
+          {"answer": "He's the protagonist.", "specific": true},
+          {"answer": "You did great.", "specific": true, "isPhone": true}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Hermit", "increase": 1, "rank": 5}]}
+      ],
+      "evening": [
+        {"isBuyItem": true, "buyItems": [{"name": "Moist Protein", "location": "Sports Shop, Underground Mall, Shibuya", "price": 4500}]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Hifumi", "location": "Kanda", "personaEquipped": "Star"}], "confidantAnswers": [
+          {"answer": "Just don't lose.", "specific": true},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Star", "increase": 1, "rank": 10}]}
+      ]
+    },
+    {
+      "date": 20,
+      "name": "Thursday",
+      "daytime": [
+        {"notes": ["On the train: read a book of your choice. We recommend something that opens up locations or additional benefits."]},
+        {"isClass": true, "classAnswers": ["Joseph-Ignace Guillotine."], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 2}]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Shinya", "location": "Akihabara Arcade", "personaEquipped": "Tower"}], "confidantAnswers": [
+          {"answer": "Yeah, you tell him!", "specific": true},
+          {"answer": "Get your revenge.", "specific": true}
+        ], "isSkillUp": true, "skills": [{"name": "Kindness", "increase": 5}], "isConfidantUp": true, "confidantRanks": [{"name": "Tower", "increase": 1, "rank": 4}]}
+      ],
+      "evening": [
+        {"isCrosswordSolve": true, "crosswordAnswers": ["Black"], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 2}]},
+        {"notes": ["Visit the twins near the door to the Velvet Room and take them on their next date."]}
+      ]
+    },
+    {
+      "date": 21,
+      "name": "Friday",
+      "daytime": [
+        {"notes": ["Buy all the books available in Jinbocho Bookstore if you haven't already."]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Yusuke", "location": "Underground Walkway, Shibuya", "personaEquipped": "Emperor"}], "confidantAnswers": [
+          {"answer": "Her love for her son. or The pain of separation.", "specific": true},
+          {"answer": "You've really changed, Yusuke.", "specific": true}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Emperor", "increase": 1, "rank": 9}]}
+      ],
+      "evening": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Mishima", "location": "Akihabara", "personaEquipped": "Tower"}], "confidantAnswers": [
+          {"answer": "You're so reliable.", "specific": true},
+          {"answer": "Sounds pretty twisted.", "specific": true},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false}
+        ]}
+      ]
+    },
+    {
+      "date": 22,
+      "name": "Saturday",
+      "daytime": [
+        {"notes": ["Infiltrate the Palace and reach the Treasure Room."]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Hifumi", "location": "Kanda", "personaEquipped": "Star"}], "confidantAnswers": [
+          {"answer": "Just don't lose.", "specific": true},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Star", "increase": 1, "rank": 10}]}
+      ],
+      "evening": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Futaba", "location": "Leblanc", "personaEquipped": "Hermit"}], "confidantAnswers": [
+          {"answer": "Somehow...", "specific": true}
+        ], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 7}]}
+      ]
+    },
+    {
+      "date": 23,
+      "name": "Sunday",
+      "daytime": [
+        {"notes": ["(Optional) Interact with the TV in Leblanc for the Home Shopping Channel — Pumpkin Ghost Set (¥14,800) is our recommended purchase.", "(Optional) Purchase any items you want from the priest in Kanda.", "(Optional) If social stats are not max, purchase Aojiru (¥5,000) from the drink stand in the Underground Walkway for stat increases.", "Travel to Kichijoji and speak to Trader Sakai in the western alley to trade the Calling Postcard for Strawberry Daifuku x2."]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Yusuke", "location": "Underground Walkway, Shibuya", "personaEquipped": "Emperor"}], "confidantAnswers": [
+          {"answer": "It has to be Ann.", "specific": true},
+          {"answer": "You've really grown, Yusuke.", "specific": true}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Emperor", "increase": 1, "rank": 8}]}
+      ],
+      "evening": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Futaba", "location": "Movies", "personaEquipped": "Hermit"}], "confidantAnswers": [
+          {"answer": "Somehow...", "specific": true}
+        ], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 7}]}
+      ]
+    },
+    {
+      "date": 24,
+      "name": "Monday",
+      "daytime": [
+        {"isClass": true, "classAnswers": ["Stars."], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 2}]},
+        {"notes": ["Forced Palace entry"]}
+      ]
+    },
+    {
+      "date": 25,
+      "name": "Tuesday",
+      "daytime": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Makoto", "location": "School gates", "personaEquipped": "High Priestess"}], "confidantAnswers": [
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "That was the right move.", "specific": true},
+          {"answer": "I'm a regular here.", "specific": true},
+          {"answer": "I'll be your study partner. or You'll find someone someday.", "specific": true},
+          {"answer": "I do. or That's not what I meant.", "specific": true}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "High Priestess", "increase": 1, "rank": 9}], "notes": ["On the phone, choose 'I'd do anything for you.' or 'No big deal.'"]}
+      ],
+      "evening": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Ohya", "location": "Crossroads Bar, Shinjuku", "personaEquipped": "Devil"}], "confidantAnswers": [
+          {"answer": "Any option.", "specific": false},
+          {"answer": "He must not like you.", "specific": true},
+          {"answer": "You should trust in her.", "specific": true},
+          {"answer": "That's the spirit.", "specific": true},
+          {"answer": "I'll dig some more up for you.", "specific": true, "isPhone": true}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Devil", "increase": 1, "rank": 6}]}
+      ]
+    },
+    {
+      "date": 26,
+      "name": "Wednesday",
+      "daytime": [
+        {"notes": ["In class: read a book of your choice. We recommend something that opens up locations or additional benefits."]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Futaba", "location": "Outside Leblanc", "personaEquipped": "Hermit"}], "confidantAnswers": [
+          {"answer": "Any option.", "specific": false},
+          {"answer": "I think you're right.", "specific": true},
+          {"answer": "He's the protagonist.", "specific": true},
+          {"answer": "You did great.", "specific": true, "isPhone": true}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Hermit", "increase": 1, "rank": 5}]}
+      ],
+      "evening": [
+        {"isBuyItem": true, "buyItems": [{"name": "Moist Protein", "location": "Sports Shop, Underground Mall, Shibuya", "price": 4500}]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Hifumi", "location": "Kanda", "personaEquipped": "Star"}], "confidantAnswers": [
+          {"answer": "Just don't lose.", "specific": true},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Star", "increase": 1, "rank": 10}]}
+      ]
+    },
+    {
+      "date": 27,
+      "name": "Thursday",
+      "daytime": [
+        {"notes": ["On the train: read a book of your choice. We recommend something that opens up locations or additional benefits."]},
+        {"isClass": true, "classAnswers": ["Joseph-Ignace Guillotine."], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 2}]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Shinya", "location": "Akihabara Arcade", "personaEquipped": "Tower"}], "confidantAnswers": [
+          {"answer": "Yeah, you tell him!", "specific": true},
+          {"answer": "Get your revenge.", "specific": true}
+        ], "isSkillUp": true, "skills": [{"name": "Kindness", "increase": 5}], "isConfidantUp": true, "confidantRanks": [{"name": "Tower", "increase": 1, "rank": 4}]}
+      ],
+      "evening": [
+        {"isCrosswordSolve": true, "crosswordAnswers": ["Black"], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 2}]},
+        {"notes": ["Visit the twins near the door to the Velvet Room and take them on their next date."]}
+      ]
+    },
+    {
+      "date": 28,
+      "name": "Friday",
+      "daytime": [
+        {"notes": ["Buy all the books available in Jinbocho Bookstore if you haven't already."]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Yusuke", "location": "Underground Walkway, Shibuya", "personaEquipped": "Emperor"}], "confidantAnswers": [
+          {"answer": "Her love for her son. or The pain of separation.", "specific": true},
+          {"answer": "You've really changed, Yusuke.", "specific": true}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Emperor", "increase": 1, "rank": 9}]}
+      ],
+      "evening": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Mishima", "location": "Akihabara", "personaEquipped": "Tower"}], "confidantAnswers": [
+          {"answer": "You're so reliable.", "specific": true},
+          {"answer": "Sounds pretty twisted.", "specific": true},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false}
+        ]}
+      ]
+    },
+    {
+      "date": 29,
+      "name": "Saturday",
+      "daytime": [
+        {"notes": ["Infiltrate the Palace and reach the Treasure Room."]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Hifumi", "location": "Kanda", "personaEquipped": "Star"}], "confidantAnswers": [
+          {"answer": "Just don't lose.", "specific": true},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false},
+          {"answer": "Any option.", "specific": false}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Star", "increase": 1, "rank": 10}]}
+      ],
+      "evening": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Futaba", "location": "Leblanc", "personaEquipped": "Hermit"}], "confidantAnswers": [
+          {"answer": "Somehow...", "specific": true}
+        ], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 7}]}
+      ]
+    },
+    {
+      "date": 30,
+      "name": "Sunday",
+      "daytime": [
+        {"notes": ["(Optional) Interact with the TV in Leblanc for the Home Shopping Channel — Pumpkin Ghost Set (¥14,800) is our recommended purchase.", "(Optional) Purchase any items you want from the priest in Kanda.", "(Optional) If social stats are not max, purchase Aojiru (¥5,000) from the drink stand in the Underground Walkway for stat increases.", "Travel to Kichijoji and speak to Trader Sakai in the western alley to trade the Calling Postcard for Strawberry Daifuku x2."]},
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Yusuke", "location": "Underground Walkway, Shibuya", "personaEquipped": "Emperor"}], "confidantAnswers": [
+          {"answer": "It has to be Ann.", "specific": true},
+          {"answer": "You've really grown, Yusuke.", "specific": true}
+        ], "isConfidantUp": true, "confidantRanks": [{"name": "Emperor", "increase": 1, "rank": 8}]}
+      ],
+      "evening": [
+        {"isConfidantHangout": true, "visitedPeople": [{"name": "Futaba", "location": "Movies", "personaEquipped": "Hermit"}], "confidantAnswers": [
+          {"answer": "Somehow...", "specific": true}
+        ], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 7}]}
+      ]
+    },
+    {
+      "date": 31,
+      "name": "Monday",
+      "daytime": [
+        {"isClass": true, "classAnswers": ["Stars."], "isSkillUp": true, "skills": [{"name": "Knowledge", "increase": 2}]},
+        {"notes": ["Forced Palace entry"]}
+      ]
+    }
+  ],
   "stats": {
     "confidants": [
       {
