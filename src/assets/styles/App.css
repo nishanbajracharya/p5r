@@ -166,7 +166,18 @@ header h1 .title {
   }
 }
 
-
+.go-to-top {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  background-color: var(--pico-primary);
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
 
 :root:not([data-theme="dark"]), [data-theme="light"] {
   button {

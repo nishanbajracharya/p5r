@@ -28,6 +28,7 @@ function App() {
           }
         </div>
       </main>
+      <button className="go-to-top" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} title="Scroll to top">↑</button>
     </>
   );
 }
