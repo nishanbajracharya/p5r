@@ -172,14 +172,13 @@ header h1 .title {
   right: 1em;
   background-color: var(--pico-primary);
   border: none;
-  padding: 0.5em 1em;
-  border-radius: 4px;
   cursor: pointer;
   background: none;
   border: none;
 }
 
-:root:not([data-theme="dark"]), [data-theme="light"] {
+:root:not([data-theme="dark"]),
+[data-theme="light"] {
   button {
     color: var(--pico-primary);
   }

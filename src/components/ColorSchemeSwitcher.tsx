@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
+import { IoSunny, IoMoon } from 'react-icons/io5';
 
 export function ColorSchemeSwitcher() {
   const [theme, setTheme] = useState<'normal' | 'light' | 'dark'>('dark');
@@ -12,8 +13,8 @@ export function ColorSchemeSwitcher() {
   return (
     <div className="color-scheme-switcher">
       {theme === 'dark' ?
-        <button onClick={() => setTheme('light')}><span>&#9788;</span></button> :
-        <button onClick={() => setTheme('dark')}><span>&#9790;</span> </button>
+        <button onClick={() => setTheme('light')}><IoSunny /></button> :
+        <button onClick={() => setTheme('dark')}><IoMoon /></button>
       }
     </div>
   );

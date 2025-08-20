@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
-import { Month } from '../modules/Month';
+
 import { DayView } from './DayView';
+import { Month } from '../modules/Month';
 
 export function MonthView(props: { data: Month }) {
   const [month, setMonth] = useState<Month>();

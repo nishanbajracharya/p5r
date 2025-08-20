@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { IoMenu,IoChevronUp } from 'react-icons/io5';
 
 import './assets/styles/App.css';
 import { months } from './data/months';
@@ -35,7 +36,7 @@ function App() {
     <>
       <header>
         <h1>
-          <button className="menu-toggle" onClick={() => setOpen(open => !open)}>☰</button>
+          <button className="menu-toggle" onClick={() => setOpen(open => !open)}><IoMenu /></button>
           <span className="title">Persona 5 Royal</span>
           <ColorSchemeSwitcher />
         </h1>
@@ -48,7 +49,7 @@ function App() {
           }
         </div>
       </main>
-      <button className="go-to-top" onClick={scrollToTop} title="Scroll to top">↑</button>
+      <button className="go-to-top" onClick={scrollToTop} title="Scroll to top"><IoChevronUp /></button>
     </>
   );
 }
