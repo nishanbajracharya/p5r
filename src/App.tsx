@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import './assets/styles/App.css';
 import { months } from './data/months';
@@ -10,6 +10,26 @@ import { ColorSchemeSwitcher } from './components/ColorSchemeSwitcher';
 
 function App() {
   const [open, setOpen] = useState(false);
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setTimeout(() => window.location.hash = '', 100);
+  }
+
+  useEffect(() => {
+    // Scroll to the element with the ID matching the hash
+    const hash = window.location.hash;
+    if (hash) {
+
+      setTimeout(() => {
+        const element = document.getElementById(hash.slice(1));
+        // If the element exists, scroll to it
+        if (element) {
+          element.scrollIntoView();
+        }
+      }, 100);
+    }
+  }, []);
 
   return (
     <>
@@ -28,7 +48,7 @@ function App() {
           }
         </div>
       </main>
-      <button className="go-to-top" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} title="Scroll to top">↑</button>
+      <button className="go-to-top" onClick={scrollToTop} title="Scroll to top">↑</button>
     </>
   );
 }
